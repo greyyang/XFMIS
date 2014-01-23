@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="CodeGenerator">
+</Property><Property Name="解决方案文件" Value="E:\MyProject\CodeGenerator\CodeGenerator.sln">
+</Property><Property Name="用户选项文件" Value="E:\MyProject\CodeGenerator\CodeGenerator.suo">
+</Property><Property Name="Date" Value="2013年6月24日">
+</Property><Property Name="Time" Value="15:10">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="CodeGenerator.sln" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGenerator.sln">
+</Event><Event ErrorLevel="0" Project="" Source="CodeGenerator.suo" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGenerator.suo">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorWin" Source="CodeGeneratorWin\CodeGeneratorWin.csproj" Description="项目文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorWin\CodeGeneratorWin.csproj">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorWin" Source="CodeGeneratorWin\frmAbout.cs" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorWin\frmAbout.cs">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorWin" Source="CodeGeneratorWin\frmAbout.Designer.cs" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorWin\frmAbout.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorWin" Source="CodeGeneratorWin\frmIBatisGeneratorMain.cs" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorWin\frmIBatisGeneratorMain.cs">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorWin" Source="CodeGeneratorWin\frmIBatisGeneratorMain.Designer.cs" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorWin\frmIBatisGeneratorMain.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorWin" Source="CodeGeneratorWin\MainForm.cs" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorWin\MainForm.cs">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorWin" Source="CodeGeneratorWin\MainForm.Designer.cs" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorWin\MainForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorWin" Source="CodeGeneratorWin\Program.cs" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorWin\Program.cs">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorWin" Source="CodeGeneratorWin\Properties\AssemblyInfo.cs" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorWin\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorWin" Source="CodeGeneratorWin\Properties\Resources.Designer.cs" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorWin\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorWin" Source="CodeGeneratorWin\Properties\Settings.Designer.cs" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorWin\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorWin" Source="CodeGeneratorWin\CustomProperty\PropertyEntity.cs" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorWin\CustomProperty\PropertyEntity.cs">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorWin" Source="CodeGeneratorWin\CustomProperty\PropertyGridFolderItem.cs" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorWin\CustomProperty\PropertyGridFolderItem.cs">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorWin" Source="CodeGeneratorWin\CustomProperty\PropertyGridComboBoxItem.cs" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorWin\CustomProperty\PropertyGridComboBoxItem.cs">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorWin" Source="CodeGeneratorWin\App.config" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorWin\App.config">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorWin" Source="CodeGeneratorWin\Properties\Settings.settings" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorWin\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorWin" Source="CodeGeneratorWin\frmAbout.resx" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorWin\frmAbout.resx">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorWin" Source="CodeGeneratorWin\frmIBatisGeneratorMain.resx" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorWin\frmIBatisGeneratorMain.resx">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorWin" Source="CodeGeneratorWin\MainForm.resx" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorWin\MainForm.resx">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorWin" Source="CodeGeneratorWin\Properties\Resources.resx" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorWin\Properties\Resources.resx">
+</Event><Event ErrorLevel="1" Project="CodeGeneratorWin" Source="CodeGeneratorWin\CodeGeneratorWin.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorWin" Source="CodeGeneratorWin\CodeGeneratorWin.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="CodeGeneratorWin" Source="CodeGeneratorWin\CodeGeneratorWin.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorLib" Source="CodeGeneratorLib\CodeGeneratorLib.csproj" Description="项目文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorLib\CodeGeneratorLib.csproj">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorLib" Source="CodeGeneratorLib\AbastractGenerator.cs" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorLib\AbastractGenerator.cs">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorLib" Source="CodeGeneratorLib\ComponentGenerator.cs" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorLib\ComponentGenerator.cs">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorLib" Source="CodeGeneratorLib\EntityGenerator.cs" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorLib\EntityGenerator.cs">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorLib" Source="CodeGeneratorLib\LogicGenerator.cs" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorLib\LogicGenerator.cs">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorLib" Source="CodeGeneratorLib\Properties\AssemblyInfo.cs" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorLib\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorLib" Source="CodeGeneratorLib\Resx\resource.Designer.cs" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorLib\Resx\resource.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorLib" Source="CodeGeneratorLib\WebGenerator.cs" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorLib\WebGenerator.cs">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorLib" Source="CodeGeneratorLib\ZipOperator.cs" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorLib\ZipOperator.cs">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorLib" Source="CodeGeneratorLib\Resources\SharedLib.zip" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorLib\Resources\SharedLib.zip">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorLib" Source="CodeGeneratorLib\Resources\Web.zip" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorLib\Resources\Web.zip">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorLib" Source="CodeGeneratorLib\Resx\resource.resx" Description="文件已成功备份为 E:\MyProject\CodeGenerator\Backup\CodeGeneratorLib\Resx\resource.resx">
+</Event><Event ErrorLevel="1" Project="CodeGeneratorLib" Source="CodeGeneratorLib\CodeGeneratorLib.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorLib" Source="CodeGeneratorLib\CodeGeneratorLib.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="CodeGeneratorLib" Source="CodeGeneratorLib\CodeGeneratorLib.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="CodeGenerator.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="CodeGenerator.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorWin" Source="CodeGeneratorWin\CodeGeneratorWin.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="CodeGeneratorLib" Source="CodeGeneratorLib\CodeGeneratorLib.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

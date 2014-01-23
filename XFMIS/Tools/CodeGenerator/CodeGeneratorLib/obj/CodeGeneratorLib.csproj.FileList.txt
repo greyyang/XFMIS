@@ -1,0 +1,11 @@
+bin\Debug\CodeGeneratorLib.dll
+bin\Debug\CodeGeneratorLib.pdb
+bin\Debug\ICSharpCode.SharpZipLib.dll
+bin\Debug\Microsoft.SqlServer.Replication.dll
+bin\Debug\Microsoft.SqlServer.BatchParser.dll
+bin\Debug\zh-CHS\Microsoft.SqlServer.Replication.resources.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CodeGeneratorLib.Resx.resource.resources
+obj\Debug\CodeGeneratorLib.csproj.GenerateResource.Cache
+obj\Debug\CodeGeneratorLib.dll
+obj\Debug\CodeGeneratorLib.pdb

@@ -1,0 +1,17 @@
+bin\Debug\CodeGeneratorWin.exe.config
+obj\Debug\CodeGeneratorWin.exe
+obj\Debug\CodeGeneratorWin.pdb
+bin\Debug\CodeGeneratorWin.exe
+bin\Debug\CodeGeneratorWin.pdb
+bin\Debug\CodeGeneratorLib.dll
+bin\Debug\ICSharpCode.SharpZipLib.dll
+bin\Debug\Microsoft.SqlServer.Replication.dll
+bin\Debug\Microsoft.SqlServer.BatchParser.dll
+bin\Debug\CodeGeneratorLib.pdb
+bin\Debug\zh-CHS\Microsoft.SqlServer.Replication.resources.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CodeGeneratorWin.frmAbout.resources
+obj\Debug\CodeGeneratorWin.frmIBatisGeneratorMain.resources
+obj\Debug\CodeGeneratorWin.MainForm.resources
+obj\Debug\CodeGeneratorWin.Properties.Resources.resources
+obj\Debug\CodeGeneratorWin.csproj.GenerateResource.Cache

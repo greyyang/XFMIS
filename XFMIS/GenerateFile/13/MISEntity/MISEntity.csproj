@@ -1,0 +1,60 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+		<ProductVersion>8.0.50727</ProductVersion>
+		<SchemaVersion>2.0</SchemaVersion>
+		<ProjectGuid>{3273BBE4-771B-4985-A206-A2069B268735}</ProjectGuid>
+		<OutputType>Library</OutputType>
+		<AppDesignerFolder>Properties</AppDesignerFolder>
+		<RootNamespace>MISEntity.Entity</RootNamespace>
+		<AssemblyName>MISEntity</AssemblyName>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+		<DebugSymbols>true</DebugSymbols>
+		<DebugType>full</DebugType>
+		<Optimize>false</Optimize>
+		<OutputPath>bin\Debug\</OutputPath>
+		<DefineConstants>DEBUG;TRACE</DefineConstants>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		<DebugType>pdbonly</DebugType>
+		<Optimize>true</Optimize>
+		<OutputPath>bin\Release\</OutputPath>
+		<DefineConstants>TRACE</DefineConstants>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
+	<ItemGroup>
+		<Reference Include="System" />
+		<Reference Include="System.Data" />
+		<Reference Include="System.Xml" />
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include="TabBalance.cs" />
+    <Compile Include="TabBuildCompany.cs" />
+    <Compile Include="TabBusinessMode.cs" />
+    <Compile Include="TabCostAndReimburse.cs" />
+    <Compile Include="TabCustomer.cs" />
+    <Compile Include="TabDeal.cs" />
+    <Compile Include="TabImage.cs" />
+    <Compile Include="TabLoanRepay.cs" />
+    <Compile Include="TabMaterial.cs" />
+    <Compile Include="TabMaterialFlow.cs" />
+    <Compile Include="TabMoneyPool.cs" />
+    <Compile Include="TabPayment.cs" />
+    <Compile Include="TabProjectCategory.cs" />
+    <Compile Include="TabProjectInfo.cs" />
+    <Compile Include="TabProjectState.cs" />
+    <Compile Include="TabStateRecord.cs" />
+    <Compile Include="TabStorage.cs" />
+    <Compile Include="TabSubContractor.cs" />
+    <Compile Include="TabSubProjectInfo.cs" />
+    <Compile Include="TabUsers.cs" />
+
+		<Compile Include="Properties\AssemblyInfo.cs" />
+	</ItemGroup>
+	<Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
