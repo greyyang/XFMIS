@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{198DBB51-0916-458B-B9E9-2EC4CFBEC703}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MISLogic</RootNamespace>
+    <AssemblyName>MISLogic</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.DynamicProxy">
+      <HintPath>..\..\..\Ibatis\Ibatis.DataMapper.1.6.2.bin\Castle.DynamicProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Facilities.AutomaticTransactionManagement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Castle.Facilities.AutomaticTransactionManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Facilities.IBatisNetIntegration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Castle.Facilities.IBatisNetIntegration.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.MicroKernel, Version=1.0.0.2, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Castle.MicroKernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Services.Transaction, Version=0.1.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Castle.Services.Transaction.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Windsor, Version=1.0.0.2, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Castle.Windsor.dll</HintPath>
+    </Reference>
+    <Reference Include="IBatisNet.Common, Version=1.6.2.0, Culture=neutral, PublicKeyToken=ed781d9fc396c6ca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Ibatis\IBatisCastleSln(Web)\Castle.Web\Bin\IBatisNet.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="IBatisNet.DataAccess, Version=1.8.1.0, Culture=neutral, PublicKeyToken=ed781d9fc396c6ca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Ibatis\IBatisCastleSln(Web)\Castle.Web\Bin\IBatisNet.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="IBatisNet.DataMapper, Version=1.6.2.0, Culture=neutral, PublicKeyToken=ed781d9fc396c6ca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Ibatis\IBatisCastleSln(Web)\Castle.Web\Bin\IBatisNet.DataMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\..\Ibatis\Ibatis.DataMapper.1.6.2.bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseClass\BaseSqlMapDao.cs" />
+    <Compile Include="BaseClass\CommonLogic.cs" />
+    <Compile Include="BaseClass\ContainerAccessorUtil.cs" />
+    <Compile Include="Implement\TabBalanceLogic.cs" />
+    <Compile Include="Implement\TabBuildCompanyLogic.cs" />
+    <Compile Include="Implement\TabBusinessModeLogic.cs" />
+    <Compile Include="Implement\TabCostAndReimburseLogic.cs" />
+    <Compile Include="Implement\TabCustomerLogic.cs" />
+    <Compile Include="Implement\TabDealLogic.cs" />
+    <Compile Include="Implement\TabImageLogic.cs" />
+    <Compile Include="Implement\TabLoanRepayLogic.cs" />
+    <Compile Include="Implement\TabMaterialFlowLogic.cs" />
+    <Compile Include="Implement\TabMaterialLogic.cs" />
+    <Compile Include="Implement\TabMoneyPoolLogic.cs" />
+    <Compile Include="Implement\TabPaymentLogic.cs" />
+    <Compile Include="Implement\TabProjectCategoryLogic.cs" />
+    <Compile Include="Implement\TabProjectInfoLogic.cs" />
+    <Compile Include="Implement\TabProjectStateLogic.cs" />
+    <Compile Include="Implement\TabStateRecordLogic.cs" />
+    <Compile Include="Implement\TabStorageLogic.cs" />
+    <Compile Include="Implement\TabSubContractorLogic.cs" />
+    <Compile Include="Implement\TabSubProjectInfoLogic.cs" />
+    <Compile Include="Implement\TabUsersLogic.cs" />
+    <Compile Include="Interface\ICommonLogic.cs" />
+    <Compile Include="Interface\ITabBalanceLogic.cs" />
+    <Compile Include="Interface\ITabBuildCompanyLogic.cs" />
+    <Compile Include="Interface\ITabBusinessModeLogic.cs" />
+    <Compile Include="Interface\ITabCostAndReimburseLogic.cs" />
+    <Compile Include="Interface\ITabCustomerLogic.cs" />
+    <Compile Include="Interface\ITabDealLogic.cs" />
+    <Compile Include="Interface\ITabImageLogic.cs" />
+    <Compile Include="Interface\ITabLoanRepayLogic.cs" />
+    <Compile Include="Interface\ITabMaterialFlowLogic.cs" />
+    <Compile Include="Interface\ITabMaterialLogic.cs" />
+    <Compile Include="Interface\ITabMoneyPoolLogic.cs" />
+    <Compile Include="Interface\ITabPaymentLogic.cs" />
+    <Compile Include="Interface\ITabProjectCategoryLogic.cs" />
+    <Compile Include="Interface\ITabProjectInfoLogic.cs" />
+    <Compile Include="Interface\ITabProjectStateLogic.cs" />
+    <Compile Include="Interface\ITabStateRecordLogic.cs" />
+    <Compile Include="Interface\ITabStorageLogic.cs" />
+    <Compile Include="Interface\ITabSubContractorLogic.cs" />
+    <Compile Include="Interface\ITabSubProjectInfoLogic.cs" />
+    <Compile Include="Interface\ITabUsersLogic.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\MISEntity\MISEntity.csproj">
+      <Project>{0c2ab07e-5e17-416a-b70e-c505bdd02077}</Project>
+      <Name>MISEntity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

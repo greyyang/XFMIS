@@ -1,0 +1,903 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C8D1A2DA-B9BA-4CE2-B22A-A2632398E13E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MISClient</RootNamespace>
+    <AssemblyName>MISClient</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>发布\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>XFMISLogo-1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v13.1.UI, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v13.1.UI, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v13.1.Wizard, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v13.1.Extensions, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v13.1, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Dxper.LocalizationCHS.Win.v13.1.5, Version=13.1.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Sinicization\Dxper.LocalizationCHS.Win.v13.1.5.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.EnterpriseServices">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Messaging">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Kit\CommonInit.cs" />
+    <Compile Include="Kit\ConvertListAndDataTable.cs" />
+    <Compile Include="Kit\DataAlias.cs" />
+    <Compile Include="Kit\GenerateWorkOrder.cs" />
+    <Compile Include="Kit\GlobeVariable.cs" />
+    <Compile Include="MainFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFrame.Designer.cs">
+      <DependentUpon>MainFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sinicization\ChEditLocalizer.cs" />
+    <Compile Include="Sinicization\DevLocalizer.cs" />
+    <Compile Include="UI\BasicUI\UI_Ancestor2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BasicUI\UI_Ancestor2.Designer.cs">
+      <DependentUpon>UI_Ancestor2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BasicUI\UI_Ancestor3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BasicUI\UI_Ancestor3.Designer.cs">
+      <DependentUpon>UI_Ancestor3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BasicUI\UI_Ancestor4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BasicUI\UI_Ancestor4.Designer.cs">
+      <DependentUpon>UI_Ancestor4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FinanceManagement\UI_MoneyPool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FinanceManagement\UI_MoneyPool.Designer.cs">
+      <DependentUpon>UI_MoneyPool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FinanceManagement\UI_AddBalance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FinanceManagement\UI_AddBalance.Designer.cs">
+      <DependentUpon>UI_AddBalance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FinanceManagement\UI_AddCost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FinanceManagement\UI_AddCost.Designer.cs">
+      <DependentUpon>UI_AddCost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FinanceManagement\UI_AddLoanRepay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FinanceManagement\UI_AddLoanRepay.Designer.cs">
+      <DependentUpon>UI_AddLoanRepay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FinanceManagement\UI_Balance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FinanceManagement\UI_Balance.Designer.cs">
+      <DependentUpon>UI_Balance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FinanceManagement\UI_CostAndReimburse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FinanceManagement\UI_CostAndReimburse.Designer.cs">
+      <DependentUpon>UI_CostAndReimburse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FinanceManagement\UI_AddPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FinanceManagement\UI_AddPayment.Designer.cs">
+      <DependentUpon>UI_AddPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FinanceManagement\UI_FinanceManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FinanceManagement\UI_FinanceManagement.Designer.cs">
+      <DependentUpon>UI_FinanceManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FinanceManagement\UI_LoanRepay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FinanceManagement\UI_LoanRepay.Designer.cs">
+      <DependentUpon>UI_LoanRepay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FinanceManagement\UI_Payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FinanceManagement\UI_Payment.Designer.cs">
+      <DependentUpon>UI_Payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Login\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Login\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Login\Server.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Login\Server.designer.cs">
+      <DependentUpon>Server.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\NewProject\UI_ImageManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\NewProject\UI_ImageManage.Designer.cs">
+      <DependentUpon>UI_ImageManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\NewProject\UI_NewImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\NewProject\UI_NewImage.Designer.cs">
+      <DependentUpon>UI_NewImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\NewProject\UI_NewPlaning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\NewProject\UI_NewPlaning.Designer.cs">
+      <DependentUpon>UI_NewPlaning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\NewProject\UI_NewSubProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\NewProject\UI_NewSubProject.Designer.cs">
+      <DependentUpon>UI_NewSubProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\NewProject\UI_ProjectExInto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\NewProject\UI_ProjectExInto.Designer.cs">
+      <DependentUpon>UI_ProjectExInto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\NewProject\UI_ProjectSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\NewProject\UI_ProjectSelect.Designer.cs">
+      <DependentUpon>UI_ProjectSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\NewProject\UI_NewProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\NewProject\UI_NewProject.Designer.cs">
+      <DependentUpon>UI_NewProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\NewProject\UI_ProjectManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\NewProject\UI_ProjectManagement.Designer.cs">
+      <DependentUpon>UI_ProjectManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_DealManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_DealManage.Designer.cs">
+      <DependentUpon>UI_DealManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_AddMaterialClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_AddMaterialClass.Designer.cs">
+      <DependentUpon>UI_AddMaterialClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_AddDeal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_AddDeal.Designer.cs">
+      <DependentUpon>UI_AddDeal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_AddMaterialFlow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_AddMaterialFlow.Designer.cs">
+      <DependentUpon>UI_AddMaterialFlow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_ChangeState.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_ChangeState.Designer.cs">
+      <DependentUpon>UI_ChangeState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_Customer.Designer.cs">
+      <DependentUpon>UI_Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_AMSubContractor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_AMSubContractor.Designer.cs">
+      <DependentUpon>UI_AMSubContractor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BasicUI\UI_Ancestor1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BasicUI\UI_Ancestor1.Designer.cs">
+      <DependentUpon>UI_Ancestor1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_BusinessMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_BusinessMode.Designer.cs">
+      <DependentUpon>UI_BusinessMode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_MaterialClassManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_MaterialClassManagement.Designer.cs">
+      <DependentUpon>UI_MaterialClassManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_MaterialFlowManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_MaterialFlowManagement.Designer.cs">
+      <DependentUpon>UI_MaterialFlowManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_ModifyMaterialFlow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_ModifyMaterialFlow.Designer.cs">
+      <DependentUpon>UI_ModifyMaterialFlow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_ModifyProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_ModifyProject.Designer.cs">
+      <DependentUpon>UI_ModifyProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_ModifyState.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_ModifyState.Designer.cs">
+      <DependentUpon>UI_ModifyState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_ModifySubProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_ModifySubProject.Designer.cs">
+      <DependentUpon>UI_ModifySubProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_ProjectCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_ProjectCategory.Designer.cs">
+      <DependentUpon>UI_ProjectCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_ProjectManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_ProjectManagement.Designer.cs">
+      <DependentUpon>UI_ProjectManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_ProjectState.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_ProjectState.Designer.cs">
+      <DependentUpon>UI_ProjectState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_ShowMaterialFlow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_ShowMaterialFlow.Designer.cs">
+      <DependentUpon>UI_ShowMaterialFlow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_StateRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_StateRecord.Designer.cs">
+      <DependentUpon>UI_StateRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_SubContractor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_SubContractor.Designer.cs">
+      <DependentUpon>UI_SubContractor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_ModifyMaterialClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ProjectManagement\UI_ModifyMaterialClass.Designer.cs">
+      <DependentUpon>UI_ModifyMaterialClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Report\UI_ContainerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Report\UI_ContainerForm.Designer.cs">
+      <DependentUpon>UI_ContainerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Report\UI_ProjectDataReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Report\UI_ProjectDataReport.Designer.cs">
+      <DependentUpon>UI_ProjectDataReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Report\UI_SubProjectChoose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Report\UI_SubProjectChoose.Designer.cs">
+      <DependentUpon>UI_SubProjectChoose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Report\UI_ProjectFinanceReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Report\UI_ProjectFinanceReport.Designer.cs">
+      <DependentUpon>UI_ProjectFinanceReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Report\UI_TotalItemReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Report\UI_TotalItemReport.Designer.cs">
+      <DependentUpon>UI_TotalItemReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SystemManagement\UI_AddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SystemManagement\UI_AddUser.Designer.cs">
+      <DependentUpon>UI_AddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SystemManagement\UI_ModifyUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SystemManagement\UI_ModifyUser.Designer.cs">
+      <DependentUpon>UI_ModifyUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SystemManagement\UI_PasswordManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SystemManagement\UI_PasswordManagement.Designer.cs">
+      <DependentUpon>UI_PasswordManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SystemManagement\UI_UserManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SystemManagement\UI_UserManagement.Designer.cs">
+      <DependentUpon>UI_UserManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Welcome\UI_Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Welcome\UI_Welcome.Designer.cs">
+      <DependentUpon>UI_Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\Service_FinanceManagement\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\Service_ProjectManagement\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\Service_NewProject\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\Service_SystemManagement\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="MainFrame.resx">
+      <DependentUpon>MainFrame.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UI\BasicUI\UI_Ancestor2.resx">
+      <DependentUpon>UI_Ancestor2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BasicUI\UI_Ancestor3.resx">
+      <DependentUpon>UI_Ancestor3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BasicUI\UI_Ancestor4.resx">
+      <DependentUpon>UI_Ancestor4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FinanceManagement\UI_MoneyPool.resx">
+      <DependentUpon>UI_MoneyPool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FinanceManagement\UI_AddBalance.resx">
+      <DependentUpon>UI_AddBalance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FinanceManagement\UI_AddCost.resx">
+      <DependentUpon>UI_AddCost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FinanceManagement\UI_AddLoanRepay.resx">
+      <DependentUpon>UI_AddLoanRepay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FinanceManagement\UI_AddPayment.resx">
+      <DependentUpon>UI_AddPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FinanceManagement\UI_Balance.resx">
+      <DependentUpon>UI_Balance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FinanceManagement\UI_CostAndReimburse.resx">
+      <DependentUpon>UI_CostAndReimburse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FinanceManagement\UI_FinanceManagement.resx">
+      <DependentUpon>UI_FinanceManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Login\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Login\Server.resx">
+      <DependentUpon>Server.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\NewProject\UI_ImageManage.resx">
+      <DependentUpon>UI_ImageManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\NewProject\UI_NewImage.resx">
+      <DependentUpon>UI_NewImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\NewProject\UI_NewPlaning.resx">
+      <DependentUpon>UI_NewPlaning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\NewProject\UI_NewProject.resx">
+      <DependentUpon>UI_NewProject.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\NewProject\UI_NewSubProject.resx">
+      <DependentUpon>UI_NewSubProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\NewProject\UI_ProjectExInto.resx">
+      <DependentUpon>UI_ProjectExInto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\NewProject\UI_ProjectManagement.resx">
+      <DependentUpon>UI_ProjectManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\NewProject\UI_ProjectSelect.resx">
+      <DependentUpon>UI_ProjectSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ProjectManagement\UI_DealManage.resx">
+      <DependentUpon>UI_DealManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ProjectManagement\UI_AddMaterialClass.resx">
+      <DependentUpon>UI_AddMaterialClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ProjectManagement\UI_AddDeal.resx">
+      <DependentUpon>UI_AddDeal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ProjectManagement\UI_AddMaterialFlow.resx">
+      <DependentUpon>UI_AddMaterialFlow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ProjectManagement\UI_AMSubContractor.resx">
+      <DependentUpon>UI_AMSubContractor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BasicUI\UI_Ancestor1.resx">
+      <DependentUpon>UI_Ancestor1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ProjectManagement\UI_BusinessMode.resx">
+      <DependentUpon>UI_BusinessMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ProjectManagement\UI_ChangeState.resx">
+      <DependentUpon>UI_ChangeState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ProjectManagement\UI_Customer.resx">
+      <DependentUpon>UI_Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ProjectManagement\UI_MaterialClassManagement.resx">
+      <DependentUpon>UI_MaterialClassManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ProjectManagement\UI_MaterialFlowManagement.resx">
+      <DependentUpon>UI_MaterialFlowManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ProjectManagement\UI_ModifyMaterialFlow.resx">
+      <DependentUpon>UI_ModifyMaterialFlow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ProjectManagement\UI_ModifyProject.resx">
+      <DependentUpon>UI_ModifyProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ProjectManagement\UI_ModifyState.resx">
+      <DependentUpon>UI_ModifyState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ProjectManagement\UI_ModifySubProject.resx">
+      <DependentUpon>UI_ModifySubProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ProjectManagement\UI_ProjectCategory.resx">
+      <DependentUpon>UI_ProjectCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ProjectManagement\UI_ProjectManagement.resx">
+      <DependentUpon>UI_ProjectManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ProjectManagement\UI_ProjectState.resx">
+      <DependentUpon>UI_ProjectState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ProjectManagement\UI_ShowMaterialFlow.resx">
+      <DependentUpon>UI_ShowMaterialFlow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ProjectManagement\UI_StateRecord.resx">
+      <DependentUpon>UI_StateRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ProjectManagement\UI_SubContractor.resx">
+      <DependentUpon>UI_SubContractor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ProjectManagement\UI_ModifyMaterialClass.resx">
+      <DependentUpon>UI_ModifyMaterialClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Report\UI_ProjectDataReport.resx">
+      <DependentUpon>UI_ProjectDataReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Report\UI_SubProjectChoose.resx">
+      <DependentUpon>UI_SubProjectChoose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Report\UI_ProjectFinanceReport.resx">
+      <DependentUpon>UI_ProjectFinanceReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Report\UI_TotalItemReport.resx">
+      <DependentUpon>UI_TotalItemReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SystemManagement\UI_AddUser.resx">
+      <DependentUpon>UI_AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SystemManagement\UI_ModifyUser.resx">
+      <DependentUpon>UI_ModifyUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SystemManagement\UI_PasswordManagement.resx">
+      <DependentUpon>UI_PasswordManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SystemManagement\UI_UserManagement.resx">
+      <DependentUpon>UI_UserManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Welcome\UI_Welcome.resx">
+      <DependentUpon>UI_Welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\DataSources\MISClient.UI.NewProject.UI_NewImage.datasource" />
+    <None Include="Properties\DataSources\MISClient.UI.NewProject.UI_NewPlaning.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Web References\Service_FinanceManagement\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\Service_FinanceManagement\Service_FinanceManagement.wsdl" />
+    <None Include="Web References\Service_FinanceManagement\TabBalance.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Service_FinanceManagement\TabCostAndReimburse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Service_FinanceManagement\TabLoanRepay.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Service_FinanceManagement\TabMoneyPool.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Service_FinanceManagement\TabPayment.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Service_FinanceManagement\TabSubProjectInfo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Service_ProjectManagement\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\Service_ProjectManagement\Service_ProjectManagement.wsdl" />
+    <None Include="Web References\Service_NewProject\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\Service_NewProject\Service_NewProject.wsdl" />
+    <None Include="Web References\Service_NewProject\TabProjectInfo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Service_NewProject\TabSubProjectInfo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Service_ProjectManagement\TabBuildCompany1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Service_ProjectManagement\TabBusinessMode.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Service_ProjectManagement\TabCustomer.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Service_ProjectManagement\TabDeal.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Service_ProjectManagement\TabImage.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Service_ProjectManagement\TabMaterial.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Service_ProjectManagement\TabMaterialFlow.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Service_ProjectManagement\TabProjectCategory.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Service_ProjectManagement\TabProjectInfo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Service_ProjectManagement\TabProjectState.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Service_ProjectManagement\TabStateRecord.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Service_ProjectManagement\TabSubContractor1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Service_ProjectManagement\TabSubProjectInfo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Service_SystemManagement\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\Service_SystemManagement\Service_SystemManagement.wsdl" />
+    <None Include="Web References\Service_SystemManagement\TabUsers.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\XFMISLogo-1.ico" />
+    <Content Include="XFMISLogo-1.ico" />
+    <Content Include="XFMISLOGO.ico" />
+    <None Include="Resources\Logo-small.png" />
+    <Content Include="Resources\XFMISLOGO.ico" />
+    <Content Include="Resource\Logo-small.png" />
+    <Content Include="Sinicization\Dxper.LocalizationCHS.Win.v13.1.5.dll" />
+    <None Include="Web References\Service_SystemManagement\Service_SystemManagement.disco" />
+    <None Include="Web References\Service_FinanceManagement\Service_FinanceManagement.disco" />
+    <None Include="Web References\Service_ProjectManagement\Service_ProjectManagement.disco" />
+    <None Include="Web References\Service_NewProject\Service_NewProject.disco" />
+    <None Include="Resources\XFMIS.sln" />
+    <Content Include="Resource\Logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost:48841/Service/FinanceManagement/Service_FinanceManagement.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\Service_FinanceManagement\</RelPath>
+      <UpdateFromURL>http://localhost:48841/Service/FinanceManagement/Service_FinanceManagement.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>MISClient_Service_FinanceManagement_Service_FinanceManagement</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:48841/Service/NewProject/Service_NewProject.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\Service_NewProject\</RelPath>
+      <UpdateFromURL>http://localhost:48841/Service/NewProject/Service_NewProject.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>MISClient_Service_NewProject_Service_NewProject</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:48841/Service/ProjectManagement/Service_ProjectManagement.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\Service_ProjectManagement\</RelPath>
+      <UpdateFromURL>http://localhost:48841/Service/ProjectManagement/Service_ProjectManagement.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>MISClient_ProjectManagement_Service_ProjectManagement</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://localhost:48841/Service/SystemManagement/Service_SystemManagement.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\Service_SystemManagement\</RelPath>
+      <UpdateFromURL>http://localhost:48841/Service/SystemManagement/Service_SystemManagement.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>MISClient_Service_SystemManagement_Service_SystemManagement</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

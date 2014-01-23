@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="add_ProjectInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="projectInfo" type="tns:TabProjectInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="TabProjectInfo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="PID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="PNO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PConstruction" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PBuilder" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PState" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PCustomer" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PCategory" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PBusinessPlan" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="PDateTime" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="PContractAmount" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="PAuditors" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="PAllocation" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="PPlan" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="PRatio" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="PDisclosure" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="PStartDate" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="PEndDate" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="PDesignChange" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PDataIn" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PCompletion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PManager" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PTel" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PTeleComNO" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="add_ProjectInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="add_ProjectInfoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="add_SubProjectInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="subProjectInfo" type="tns:TabSubProjectInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="TabSubProjectInfo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="SPID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="SPProjectID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="SPNO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SPName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SPState" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SPDate" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="SPContractAmount" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="SPAuditors" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="SPRatio" nillable="true" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="SPManager" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SPTel" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="add_SubProjectInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="add_SubProjectInfoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="select_ProjectInfo">
+        <s:complexType />
+      </s:element>
+      <s:element name="select_ProjectInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="select_ProjectInfoResult" type="tns:ArrayOfTabProjectInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTabProjectInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TabProjectInfo" nillable="true" type="tns:TabProjectInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="select_SubProjectInfo">
+        <s:complexType />
+      </s:element>
+      <s:element name="select_SubProjectInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="select_SubProjectInfoResult" type="tns:ArrayOfTabSubProjectInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTabSubProjectInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TabSubProjectInfo" nillable="true" type="tns:TabSubProjectInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="delete_ProjectInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="delete_ProjectInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="delete_ProjectInfoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="delete_subProjectInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="delete_subProjectInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="delete_subProjectInfoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="update_ProjectInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="projectInfo" type="tns:TabProjectInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="update_ProjectInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="update_ProjectInfoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="update_SubProjectInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="subProjectInfo" type="tns:TabSubProjectInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="update_SubProjectInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="update_SubProjectInfoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="update_ExInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="projectInfo" type="tns:TabProjectInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="update_ExInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="update_ExInfoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="update_Plan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="projectInfo" type="tns:TabProjectInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="update_PlanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="update_PlanResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="add_Image">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="image" type="tns:TabImage" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="TabImage">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="TIID" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="TIProjectID" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="TISubProjectID" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="TINO" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="TIImage" type="s:base64Binary" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="add_ImageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="add_ImageResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="add_ProjectInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:add_ProjectInfo" />
+  </wsdl:message>
+  <wsdl:message name="add_ProjectInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:add_ProjectInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="add_SubProjectInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:add_SubProjectInfo" />
+  </wsdl:message>
+  <wsdl:message name="add_SubProjectInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:add_SubProjectInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="select_ProjectInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:select_ProjectInfo" />
+  </wsdl:message>
+  <wsdl:message name="select_ProjectInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:select_ProjectInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="select_SubProjectInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:select_SubProjectInfo" />
+  </wsdl:message>
+  <wsdl:message name="select_SubProjectInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:select_SubProjectInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="delete_ProjectInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:delete_ProjectInfo" />
+  </wsdl:message>
+  <wsdl:message name="delete_ProjectInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:delete_ProjectInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="delete_subProjectInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:delete_subProjectInfo" />
+  </wsdl:message>
+  <wsdl:message name="delete_subProjectInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:delete_subProjectInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="update_ProjectInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:update_ProjectInfo" />
+  </wsdl:message>
+  <wsdl:message name="update_ProjectInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:update_ProjectInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="update_SubProjectInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:update_SubProjectInfo" />
+  </wsdl:message>
+  <wsdl:message name="update_SubProjectInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:update_SubProjectInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="update_ExInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:update_ExInfo" />
+  </wsdl:message>
+  <wsdl:message name="update_ExInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:update_ExInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="update_PlanSoapIn">
+    <wsdl:part name="parameters" element="tns:update_Plan" />
+  </wsdl:message>
+  <wsdl:message name="update_PlanSoapOut">
+    <wsdl:part name="parameters" element="tns:update_PlanResponse" />
+  </wsdl:message>
+  <wsdl:message name="add_ImageSoapIn">
+    <wsdl:part name="parameters" element="tns:add_Image" />
+  </wsdl:message>
+  <wsdl:message name="add_ImageSoapOut">
+    <wsdl:part name="parameters" element="tns:add_ImageResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Service_NewProjectSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="add_ProjectInfo">
+      <wsdl:input message="tns:add_ProjectInfoSoapIn" />
+      <wsdl:output message="tns:add_ProjectInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="add_SubProjectInfo">
+      <wsdl:input message="tns:add_SubProjectInfoSoapIn" />
+      <wsdl:output message="tns:add_SubProjectInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="select_ProjectInfo">
+      <wsdl:input message="tns:select_ProjectInfoSoapIn" />
+      <wsdl:output message="tns:select_ProjectInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="select_SubProjectInfo">
+      <wsdl:input message="tns:select_SubProjectInfoSoapIn" />
+      <wsdl:output message="tns:select_SubProjectInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="delete_ProjectInfo">
+      <wsdl:input message="tns:delete_ProjectInfoSoapIn" />
+      <wsdl:output message="tns:delete_ProjectInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="delete_subProjectInfo">
+      <wsdl:input message="tns:delete_subProjectInfoSoapIn" />
+      <wsdl:output message="tns:delete_subProjectInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="update_ProjectInfo">
+      <wsdl:input message="tns:update_ProjectInfoSoapIn" />
+      <wsdl:output message="tns:update_ProjectInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="update_SubProjectInfo">
+      <wsdl:input message="tns:update_SubProjectInfoSoapIn" />
+      <wsdl:output message="tns:update_SubProjectInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="update_ExInfo">
+      <wsdl:input message="tns:update_ExInfoSoapIn" />
+      <wsdl:output message="tns:update_ExInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="update_Plan">
+      <wsdl:input message="tns:update_PlanSoapIn" />
+      <wsdl:output message="tns:update_PlanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="add_Image">
+      <wsdl:input message="tns:add_ImageSoapIn" />
+      <wsdl:output message="tns:add_ImageSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Service_NewProjectSoap" type="tns:Service_NewProjectSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="add_ProjectInfo">
+      <soap:operation soapAction="http://tempuri.org/add_ProjectInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="add_SubProjectInfo">
+      <soap:operation soapAction="http://tempuri.org/add_SubProjectInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="select_ProjectInfo">
+      <soap:operation soapAction="http://tempuri.org/select_ProjectInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="select_SubProjectInfo">
+      <soap:operation soapAction="http://tempuri.org/select_SubProjectInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="delete_ProjectInfo">
+      <soap:operation soapAction="http://tempuri.org/delete_ProjectInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="delete_subProjectInfo">
+      <soap:operation soapAction="http://tempuri.org/delete_subProjectInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="update_ProjectInfo">
+      <soap:operation soapAction="http://tempuri.org/update_ProjectInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="update_SubProjectInfo">
+      <soap:operation soapAction="http://tempuri.org/update_SubProjectInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="update_ExInfo">
+      <soap:operation soapAction="http://tempuri.org/update_ExInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="update_Plan">
+      <soap:operation soapAction="http://tempuri.org/update_Plan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="add_Image">
+      <soap:operation soapAction="http://tempuri.org/add_Image" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service_NewProjectSoap12" type="tns:Service_NewProjectSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="add_ProjectInfo">
+      <soap12:operation soapAction="http://tempuri.org/add_ProjectInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="add_SubProjectInfo">
+      <soap12:operation soapAction="http://tempuri.org/add_SubProjectInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="select_ProjectInfo">
+      <soap12:operation soapAction="http://tempuri.org/select_ProjectInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="select_SubProjectInfo">
+      <soap12:operation soapAction="http://tempuri.org/select_SubProjectInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="delete_ProjectInfo">
+      <soap12:operation soapAction="http://tempuri.org/delete_ProjectInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="delete_subProjectInfo">
+      <soap12:operation soapAction="http://tempuri.org/delete_subProjectInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="update_ProjectInfo">
+      <soap12:operation soapAction="http://tempuri.org/update_ProjectInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="update_SubProjectInfo">
+      <soap12:operation soapAction="http://tempuri.org/update_SubProjectInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="update_ExInfo">
+      <soap12:operation soapAction="http://tempuri.org/update_ExInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="update_Plan">
+      <soap12:operation soapAction="http://tempuri.org/update_Plan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="add_Image">
+      <soap12:operation soapAction="http://tempuri.org/add_Image" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service_NewProject">
+    <wsdl:port name="Service_NewProjectSoap" binding="tns:Service_NewProjectSoap">
+      <soap:address location="http://localhost:48841/Service/NewProject/Service_NewProject.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service_NewProjectSoap12" binding="tns:Service_NewProjectSoap12">
+      <soap12:address location="http://localhost:48841/Service/NewProject/Service_NewProject.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

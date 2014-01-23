@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MISClient.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MISClient_Service_NewProject_Service_NewProject" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:48841/Service/NewProject/Service_NewProject.asmx</Value>
+    </Setting>
+    <Setting Name="MISClient_ProjectManagement_Service_ProjectManagement" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:48841/Service/ProjectManagement/Service_ProjectManagement.asmx</Value>
+    </Setting>
+    <Setting Name="MISClient_Service_FinanceManagement_Service_FinanceManagement" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:48841/Service/FinanceManagement/Service_FinanceManagement.asmx</Value>
+    </Setting>
+    <Setting Name="MISClient_Service_SystemManagement_Service_SystemManagement" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:48841/Service/SystemManagement/Service_SystemManagement.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

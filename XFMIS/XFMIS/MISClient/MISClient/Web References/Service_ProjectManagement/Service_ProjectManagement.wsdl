@@ -1,0 +1,2285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="add_SubContractor">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="subContractor" type="tns:TabSubContractor" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="TabSubContractor">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="SCID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="SCName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SCBankAccount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SCBank" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SCContactor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SCTel" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="add_SubContractorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="add_SubContractorResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_SubContractor">
+        <s:complexType />
+      </s:element>
+      <s:element name="Select_SubContractorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Select_SubContractorResult" type="tns:ArrayOfTabSubContractor" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTabSubContractor">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TabSubContractor" nillable="true" type="tns:TabSubContractor" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Delete_SubContractor">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_SubContractorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Delete_SubContractorResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_SubContractor">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="subContractor" type="tns:TabSubContractor" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_SubContractorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Update_SubContractorResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_BusinessMode">
+        <s:complexType />
+      </s:element>
+      <s:element name="Select_BusinessModeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Select_BusinessModeResult" type="tns:ArrayOfTabBusinessMode" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTabBusinessMode">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TabBusinessMode" nillable="true" type="tns:TabBusinessMode" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TabBusinessMode">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="BPID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="BPValue" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Delete_BusinessMode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_BusinessModeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Delete_BusinessModeResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Create_BusinessMode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="businessMode" type="tns:TabBusinessMode" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Create_BusinessModeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Create_BusinessModeResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_Customer">
+        <s:complexType />
+      </s:element>
+      <s:element name="Select_CustomerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Select_CustomerResult" type="tns:ArrayOfTabCustomer" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTabCustomer">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TabCustomer" nillable="true" type="tns:TabCustomer" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TabCustomer">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="CUID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="CUValue" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Delete_Customer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_CustomerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Delete_CustomerResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Create_Customer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="customer" type="tns:TabCustomer" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Create_CustomerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Create_CustomerResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_ProjectCategory">
+        <s:complexType />
+      </s:element>
+      <s:element name="Select_ProjectCategoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Select_ProjectCategoryResult" type="tns:ArrayOfTabProjectCategory" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTabProjectCategory">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TabProjectCategory" nillable="true" type="tns:TabProjectCategory" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TabProjectCategory">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="PCID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="PCName" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Delete_ProjectCategory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_ProjectCategoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Delete_ProjectCategoryResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Create_ProjectCategory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="projectCategory" type="tns:TabProjectCategory" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Create_ProjectCategoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Create_ProjectCategoryResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_ProjectState">
+        <s:complexType />
+      </s:element>
+      <s:element name="Select_ProjectStateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Select_ProjectStateResult" type="tns:ArrayOfTabProjectState" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTabProjectState">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TabProjectState" nillable="true" type="tns:TabProjectState" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TabProjectState">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="PSID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="PSValue" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Delete_ProjectState">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_ProjectStateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Delete_ProjectStateResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Create_ProjectState">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="projectState" type="tns:TabProjectState" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Create_ProjectStateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Create_ProjectStateResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_ProjectInfo">
+        <s:complexType />
+      </s:element>
+      <s:element name="Select_ProjectInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Select_ProjectInfoResult" type="tns:ArrayOfTabProjectInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTabProjectInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TabProjectInfo" nillable="true" type="tns:TabProjectInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TabProjectInfo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="PID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="PNO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PConstruction" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PBuilder" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PState" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PCustomer" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PCategory" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PBusinessPlan" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="PDateTime" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="PContractAmount" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="PAuditors" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="PAllocation" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="PPlan" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="PRatio" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="PDisclosure" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="PStartDate" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="PEndDate" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="PDesignChange" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PDataIn" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PCompletion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PManager" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PTel" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PTeleComNO" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Select_ProjectInfoByID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_ProjectInfoByIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Select_ProjectInfoByIDResult" type="tns:TabProjectInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_SubProjectInfo_ByProjectID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_SubProjectInfo_ByProjectIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Select_SubProjectInfo_ByProjectIDResult" type="tns:ArrayOfTabSubProjectInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTabSubProjectInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TabSubProjectInfo" nillable="true" type="tns:TabSubProjectInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TabSubProjectInfo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="SPID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="SPProjectID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="SPNO" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SPName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SPState" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SPDate" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="SPContractAmount" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="SPAuditors" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="SPRatio" nillable="true" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="SPManager" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SPTel" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Delete_ProjectInfo_ByProjectID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_ProjectInfo_ByProjectIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Delete_ProjectInfo_ByProjectIDResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_ProjectInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="info" type="tns:TabProjectInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_ProjectInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Update_ProjectInfoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_SubProjectInfo_ByProjectID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_SubProjectInfo_ByProjectIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Delete_SubProjectInfo_ByProjectIDResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_SubProjectInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="info" type="tns:TabSubProjectInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_SubProjectInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Update_SubProjectInfoResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Query_SubProjectInfo_ByID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Query_SubProjectInfo_ByIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Query_SubProjectInfo_ByIDResult" type="tns:TabSubProjectInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_SubProjectInfo">
+        <s:complexType />
+      </s:element>
+      <s:element name="Select_SubProjectInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Select_SubProjectInfoResult" type="tns:ArrayOfTabSubProjectInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_Deal">
+        <s:complexType />
+      </s:element>
+      <s:element name="Select_DealResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Select_DealResult" type="tns:ArrayOfTabDeal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTabDeal">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TabDeal" nillable="true" type="tns:TabDeal" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TabDeal">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="DLID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="DLSubProjectID" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="DLManager" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DLCompany" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DLMoeny" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="DLStart" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="DLEnd" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="DLState" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DLDate" nillable="true" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Delete_Deal">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_DealResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Delete_DealResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Create_Deal">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="deal" type="tns:TabDeal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Create_DealResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Create_DealResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Deal">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="deal" type="tns:TabDeal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_DealResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Update_DealResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="select_Deal_BySubID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="subID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="select_Deal_BySubIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="select_Deal_BySubIDResult" type="tns:ArrayOfTabDeal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Create_StateRecord">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="stateRecord" type="tns:TabStateRecord" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="TabStateRecord">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="SRID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="SRProjectID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="SRModifier" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SRDate" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="SRMemo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SRState" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SRFlag" nillable="true" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Create_StateRecordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Create_StateRecordResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_StateRecord">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_StateRecordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Delete_StateRecordResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_StateRecord">
+        <s:complexType />
+      </s:element>
+      <s:element name="Select_StateRecordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Select_StateRecordResult" type="tns:ArrayOfTabStateRecord" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTabStateRecord">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TabStateRecord" nillable="true" type="tns:TabStateRecord" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Create_MaterialClass">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="material" type="tns:TabMaterial" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="TabMaterial">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="MID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="MName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MType" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MUnit" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MMemo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MClass" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="MCount" nillable="true" type="s:decimal" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Create_MaterialClassResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Create_MaterialClassResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_MaterialClass">
+        <s:complexType />
+      </s:element>
+      <s:element name="Select_MaterialClassResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Select_MaterialClassResult" type="tns:ArrayOfTabMaterial" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTabMaterial">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TabMaterial" nillable="true" type="tns:TabMaterial" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Select_MaterialClassByID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_MaterialClassByIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Select_MaterialClassByIDResult" type="tns:TabMaterial" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_MaterialClass">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="material" type="tns:TabMaterial" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_MaterialClassResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Delete_MaterialClassResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_MaterialClass">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="material" type="tns:TabMaterial" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_MaterialClassResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Update_MaterialClassResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Create_MaterialFlow">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="materialFlow" type="tns:TabMaterialFlow" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="TabMaterialFlow">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="MFID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="MFSubProjectID" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="MFProject" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="MFAmount" nillable="true" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="MFFlag" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="MFMaterialID" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="MFDatetime" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="MFMemo" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Create_MaterialFlowResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Create_MaterialFlowResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_MaterialFlowAll">
+        <s:complexType />
+      </s:element>
+      <s:element name="Select_MaterialFlowAllResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Select_MaterialFlowAllResult" type="tns:ArrayOfTabMaterialFlow" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTabMaterialFlow">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TabMaterialFlow" nillable="true" type="tns:TabMaterialFlow" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Select_MaterialFlowIn">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="subProjectID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_MaterialFlowInResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Select_MaterialFlowInResult" type="tns:ArrayOfTabMaterialFlow" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_MaterialFlowOut">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="subProjectID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_MaterialFlowOutResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Select_MaterialFlowOutResult" type="tns:ArrayOfTabMaterialFlow" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_MaterialFlowByID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_MaterialFlowByIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Select_MaterialFlowByIDResult" type="tns:TabMaterialFlow" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_MaterialFlowByMaterialID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="MaterialID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_MaterialFlowByMaterialIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Select_MaterialFlowByMaterialIDResult" type="tns:ArrayOfTabMaterialFlow" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_MaterialFlow">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="materialFlow" type="tns:TabMaterialFlow" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_MaterialFlowResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Delete_MaterialFlowResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_MaterialFlow">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="materialFlow" type="tns:TabMaterialFlow" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_MaterialFlowResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Update_MaterialFlowResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_BuildCompanyByID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_BuildCompanyByIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Select_BuildCompanyByIDResult" type="tns:TabBuildCompany" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="TabBuildCompany">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="BCID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="BCSubProjectID" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="BCName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BCWork" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BCContactor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BCTel" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BCMemo" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Select_BuildCompanyBySubProjectID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="subProjectID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_BuildCompanyBySubProjectIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Select_BuildCompanyBySubProjectIDResult" type="tns:ArrayOfTabBuildCompany" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTabBuildCompany">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TabBuildCompany" nillable="true" type="tns:TabBuildCompany" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Select_Image">
+        <s:complexType />
+      </s:element>
+      <s:element name="Select_ImageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Select_ImageResult" type="tns:ArrayOfTabImage" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTabImage">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TabImage" nillable="true" type="tns:TabImage" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TabImage">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="TIID" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="TIProjectID" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="TISubProjectID" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="TINO" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="TIImage" type="s:base64Binary" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Select_Image_ByPID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_Image_ByPIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Select_Image_ByPIDResult" type="tns:ArrayOfTabImage" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="add_SubContractorSoapIn">
+    <wsdl:part name="parameters" element="tns:add_SubContractor" />
+  </wsdl:message>
+  <wsdl:message name="add_SubContractorSoapOut">
+    <wsdl:part name="parameters" element="tns:add_SubContractorResponse" />
+  </wsdl:message>
+  <wsdl:message name="Select_SubContractorSoapIn">
+    <wsdl:part name="parameters" element="tns:Select_SubContractor" />
+  </wsdl:message>
+  <wsdl:message name="Select_SubContractorSoapOut">
+    <wsdl:part name="parameters" element="tns:Select_SubContractorResponse" />
+  </wsdl:message>
+  <wsdl:message name="Delete_SubContractorSoapIn">
+    <wsdl:part name="parameters" element="tns:Delete_SubContractor" />
+  </wsdl:message>
+  <wsdl:message name="Delete_SubContractorSoapOut">
+    <wsdl:part name="parameters" element="tns:Delete_SubContractorResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_SubContractorSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_SubContractor" />
+  </wsdl:message>
+  <wsdl:message name="Update_SubContractorSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_SubContractorResponse" />
+  </wsdl:message>
+  <wsdl:message name="Select_BusinessModeSoapIn">
+    <wsdl:part name="parameters" element="tns:Select_BusinessMode" />
+  </wsdl:message>
+  <wsdl:message name="Select_BusinessModeSoapOut">
+    <wsdl:part name="parameters" element="tns:Select_BusinessModeResponse" />
+  </wsdl:message>
+  <wsdl:message name="Delete_BusinessModeSoapIn">
+    <wsdl:part name="parameters" element="tns:Delete_BusinessMode" />
+  </wsdl:message>
+  <wsdl:message name="Delete_BusinessModeSoapOut">
+    <wsdl:part name="parameters" element="tns:Delete_BusinessModeResponse" />
+  </wsdl:message>
+  <wsdl:message name="Create_BusinessModeSoapIn">
+    <wsdl:part name="parameters" element="tns:Create_BusinessMode" />
+  </wsdl:message>
+  <wsdl:message name="Create_BusinessModeSoapOut">
+    <wsdl:part name="parameters" element="tns:Create_BusinessModeResponse" />
+  </wsdl:message>
+  <wsdl:message name="Select_CustomerSoapIn">
+    <wsdl:part name="parameters" element="tns:Select_Customer" />
+  </wsdl:message>
+  <wsdl:message name="Select_CustomerSoapOut">
+    <wsdl:part name="parameters" element="tns:Select_CustomerResponse" />
+  </wsdl:message>
+  <wsdl:message name="Delete_CustomerSoapIn">
+    <wsdl:part name="parameters" element="tns:Delete_Customer" />
+  </wsdl:message>
+  <wsdl:message name="Delete_CustomerSoapOut">
+    <wsdl:part name="parameters" element="tns:Delete_CustomerResponse" />
+  </wsdl:message>
+  <wsdl:message name="Create_CustomerSoapIn">
+    <wsdl:part name="parameters" element="tns:Create_Customer" />
+  </wsdl:message>
+  <wsdl:message name="Create_CustomerSoapOut">
+    <wsdl:part name="parameters" element="tns:Create_CustomerResponse" />
+  </wsdl:message>
+  <wsdl:message name="Select_ProjectCategorySoapIn">
+    <wsdl:part name="parameters" element="tns:Select_ProjectCategory" />
+  </wsdl:message>
+  <wsdl:message name="Select_ProjectCategorySoapOut">
+    <wsdl:part name="parameters" element="tns:Select_ProjectCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="Delete_ProjectCategorySoapIn">
+    <wsdl:part name="parameters" element="tns:Delete_ProjectCategory" />
+  </wsdl:message>
+  <wsdl:message name="Delete_ProjectCategorySoapOut">
+    <wsdl:part name="parameters" element="tns:Delete_ProjectCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="Create_ProjectCategorySoapIn">
+    <wsdl:part name="parameters" element="tns:Create_ProjectCategory" />
+  </wsdl:message>
+  <wsdl:message name="Create_ProjectCategorySoapOut">
+    <wsdl:part name="parameters" element="tns:Create_ProjectCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="Select_ProjectStateSoapIn">
+    <wsdl:part name="parameters" element="tns:Select_ProjectState" />
+  </wsdl:message>
+  <wsdl:message name="Select_ProjectStateSoapOut">
+    <wsdl:part name="parameters" element="tns:Select_ProjectStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="Delete_ProjectStateSoapIn">
+    <wsdl:part name="parameters" element="tns:Delete_ProjectState" />
+  </wsdl:message>
+  <wsdl:message name="Delete_ProjectStateSoapOut">
+    <wsdl:part name="parameters" element="tns:Delete_ProjectStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="Create_ProjectStateSoapIn">
+    <wsdl:part name="parameters" element="tns:Create_ProjectState" />
+  </wsdl:message>
+  <wsdl:message name="Create_ProjectStateSoapOut">
+    <wsdl:part name="parameters" element="tns:Create_ProjectStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="Select_ProjectInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:Select_ProjectInfo" />
+  </wsdl:message>
+  <wsdl:message name="Select_ProjectInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:Select_ProjectInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="Select_ProjectInfoByIDSoapIn">
+    <wsdl:part name="parameters" element="tns:Select_ProjectInfoByID" />
+  </wsdl:message>
+  <wsdl:message name="Select_ProjectInfoByIDSoapOut">
+    <wsdl:part name="parameters" element="tns:Select_ProjectInfoByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="Select_SubProjectInfo_ByProjectIDSoapIn">
+    <wsdl:part name="parameters" element="tns:Select_SubProjectInfo_ByProjectID" />
+  </wsdl:message>
+  <wsdl:message name="Select_SubProjectInfo_ByProjectIDSoapOut">
+    <wsdl:part name="parameters" element="tns:Select_SubProjectInfo_ByProjectIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="Delete_ProjectInfo_ByProjectIDSoapIn">
+    <wsdl:part name="parameters" element="tns:Delete_ProjectInfo_ByProjectID" />
+  </wsdl:message>
+  <wsdl:message name="Delete_ProjectInfo_ByProjectIDSoapOut">
+    <wsdl:part name="parameters" element="tns:Delete_ProjectInfo_ByProjectIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_ProjectInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_ProjectInfo" />
+  </wsdl:message>
+  <wsdl:message name="Update_ProjectInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_ProjectInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="Delete_SubProjectInfo_ByProjectIDSoapIn">
+    <wsdl:part name="parameters" element="tns:Delete_SubProjectInfo_ByProjectID" />
+  </wsdl:message>
+  <wsdl:message name="Delete_SubProjectInfo_ByProjectIDSoapOut">
+    <wsdl:part name="parameters" element="tns:Delete_SubProjectInfo_ByProjectIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_SubProjectInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_SubProjectInfo" />
+  </wsdl:message>
+  <wsdl:message name="Update_SubProjectInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_SubProjectInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="Query_SubProjectInfo_ByIDSoapIn">
+    <wsdl:part name="parameters" element="tns:Query_SubProjectInfo_ByID" />
+  </wsdl:message>
+  <wsdl:message name="Query_SubProjectInfo_ByIDSoapOut">
+    <wsdl:part name="parameters" element="tns:Query_SubProjectInfo_ByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="Select_SubProjectInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:Select_SubProjectInfo" />
+  </wsdl:message>
+  <wsdl:message name="Select_SubProjectInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:Select_SubProjectInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="Select_DealSoapIn">
+    <wsdl:part name="parameters" element="tns:Select_Deal" />
+  </wsdl:message>
+  <wsdl:message name="Select_DealSoapOut">
+    <wsdl:part name="parameters" element="tns:Select_DealResponse" />
+  </wsdl:message>
+  <wsdl:message name="Delete_DealSoapIn">
+    <wsdl:part name="parameters" element="tns:Delete_Deal" />
+  </wsdl:message>
+  <wsdl:message name="Delete_DealSoapOut">
+    <wsdl:part name="parameters" element="tns:Delete_DealResponse" />
+  </wsdl:message>
+  <wsdl:message name="Create_DealSoapIn">
+    <wsdl:part name="parameters" element="tns:Create_Deal" />
+  </wsdl:message>
+  <wsdl:message name="Create_DealSoapOut">
+    <wsdl:part name="parameters" element="tns:Create_DealResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_DealSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Deal" />
+  </wsdl:message>
+  <wsdl:message name="Update_DealSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_DealResponse" />
+  </wsdl:message>
+  <wsdl:message name="select_Deal_BySubIDSoapIn">
+    <wsdl:part name="parameters" element="tns:select_Deal_BySubID" />
+  </wsdl:message>
+  <wsdl:message name="select_Deal_BySubIDSoapOut">
+    <wsdl:part name="parameters" element="tns:select_Deal_BySubIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="Create_StateRecordSoapIn">
+    <wsdl:part name="parameters" element="tns:Create_StateRecord" />
+  </wsdl:message>
+  <wsdl:message name="Create_StateRecordSoapOut">
+    <wsdl:part name="parameters" element="tns:Create_StateRecordResponse" />
+  </wsdl:message>
+  <wsdl:message name="Delete_StateRecordSoapIn">
+    <wsdl:part name="parameters" element="tns:Delete_StateRecord" />
+  </wsdl:message>
+  <wsdl:message name="Delete_StateRecordSoapOut">
+    <wsdl:part name="parameters" element="tns:Delete_StateRecordResponse" />
+  </wsdl:message>
+  <wsdl:message name="Select_StateRecordSoapIn">
+    <wsdl:part name="parameters" element="tns:Select_StateRecord" />
+  </wsdl:message>
+  <wsdl:message name="Select_StateRecordSoapOut">
+    <wsdl:part name="parameters" element="tns:Select_StateRecordResponse" />
+  </wsdl:message>
+  <wsdl:message name="Create_MaterialClassSoapIn">
+    <wsdl:part name="parameters" element="tns:Create_MaterialClass" />
+  </wsdl:message>
+  <wsdl:message name="Create_MaterialClassSoapOut">
+    <wsdl:part name="parameters" element="tns:Create_MaterialClassResponse" />
+  </wsdl:message>
+  <wsdl:message name="Select_MaterialClassSoapIn">
+    <wsdl:part name="parameters" element="tns:Select_MaterialClass" />
+  </wsdl:message>
+  <wsdl:message name="Select_MaterialClassSoapOut">
+    <wsdl:part name="parameters" element="tns:Select_MaterialClassResponse" />
+  </wsdl:message>
+  <wsdl:message name="Select_MaterialClassByIDSoapIn">
+    <wsdl:part name="parameters" element="tns:Select_MaterialClassByID" />
+  </wsdl:message>
+  <wsdl:message name="Select_MaterialClassByIDSoapOut">
+    <wsdl:part name="parameters" element="tns:Select_MaterialClassByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="Delete_MaterialClassSoapIn">
+    <wsdl:part name="parameters" element="tns:Delete_MaterialClass" />
+  </wsdl:message>
+  <wsdl:message name="Delete_MaterialClassSoapOut">
+    <wsdl:part name="parameters" element="tns:Delete_MaterialClassResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_MaterialClassSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_MaterialClass" />
+  </wsdl:message>
+  <wsdl:message name="Update_MaterialClassSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_MaterialClassResponse" />
+  </wsdl:message>
+  <wsdl:message name="Create_MaterialFlowSoapIn">
+    <wsdl:part name="parameters" element="tns:Create_MaterialFlow" />
+  </wsdl:message>
+  <wsdl:message name="Create_MaterialFlowSoapOut">
+    <wsdl:part name="parameters" element="tns:Create_MaterialFlowResponse" />
+  </wsdl:message>
+  <wsdl:message name="Select_MaterialFlowAllSoapIn">
+    <wsdl:part name="parameters" element="tns:Select_MaterialFlowAll" />
+  </wsdl:message>
+  <wsdl:message name="Select_MaterialFlowAllSoapOut">
+    <wsdl:part name="parameters" element="tns:Select_MaterialFlowAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="Select_MaterialFlowInSoapIn">
+    <wsdl:part name="parameters" element="tns:Select_MaterialFlowIn" />
+  </wsdl:message>
+  <wsdl:message name="Select_MaterialFlowInSoapOut">
+    <wsdl:part name="parameters" element="tns:Select_MaterialFlowInResponse" />
+  </wsdl:message>
+  <wsdl:message name="Select_MaterialFlowOutSoapIn">
+    <wsdl:part name="parameters" element="tns:Select_MaterialFlowOut" />
+  </wsdl:message>
+  <wsdl:message name="Select_MaterialFlowOutSoapOut">
+    <wsdl:part name="parameters" element="tns:Select_MaterialFlowOutResponse" />
+  </wsdl:message>
+  <wsdl:message name="Select_MaterialFlowByIDSoapIn">
+    <wsdl:part name="parameters" element="tns:Select_MaterialFlowByID" />
+  </wsdl:message>
+  <wsdl:message name="Select_MaterialFlowByIDSoapOut">
+    <wsdl:part name="parameters" element="tns:Select_MaterialFlowByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="Select_MaterialFlowByMaterialIDSoapIn">
+    <wsdl:part name="parameters" element="tns:Select_MaterialFlowByMaterialID" />
+  </wsdl:message>
+  <wsdl:message name="Select_MaterialFlowByMaterialIDSoapOut">
+    <wsdl:part name="parameters" element="tns:Select_MaterialFlowByMaterialIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="Delete_MaterialFlowSoapIn">
+    <wsdl:part name="parameters" element="tns:Delete_MaterialFlow" />
+  </wsdl:message>
+  <wsdl:message name="Delete_MaterialFlowSoapOut">
+    <wsdl:part name="parameters" element="tns:Delete_MaterialFlowResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_MaterialFlowSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_MaterialFlow" />
+  </wsdl:message>
+  <wsdl:message name="Update_MaterialFlowSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_MaterialFlowResponse" />
+  </wsdl:message>
+  <wsdl:message name="Select_BuildCompanyByIDSoapIn">
+    <wsdl:part name="parameters" element="tns:Select_BuildCompanyByID" />
+  </wsdl:message>
+  <wsdl:message name="Select_BuildCompanyByIDSoapOut">
+    <wsdl:part name="parameters" element="tns:Select_BuildCompanyByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="Select_BuildCompanyBySubProjectIDSoapIn">
+    <wsdl:part name="parameters" element="tns:Select_BuildCompanyBySubProjectID" />
+  </wsdl:message>
+  <wsdl:message name="Select_BuildCompanyBySubProjectIDSoapOut">
+    <wsdl:part name="parameters" element="tns:Select_BuildCompanyBySubProjectIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="Select_ImageSoapIn">
+    <wsdl:part name="parameters" element="tns:Select_Image" />
+  </wsdl:message>
+  <wsdl:message name="Select_ImageSoapOut">
+    <wsdl:part name="parameters" element="tns:Select_ImageResponse" />
+  </wsdl:message>
+  <wsdl:message name="Select_Image_ByPIDSoapIn">
+    <wsdl:part name="parameters" element="tns:Select_Image_ByPID" />
+  </wsdl:message>
+  <wsdl:message name="Select_Image_ByPIDSoapOut">
+    <wsdl:part name="parameters" element="tns:Select_Image_ByPIDResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Service_ProjectManagementSoap">
+    <wsdl:operation name="add_SubContractor">
+      <wsdl:input message="tns:add_SubContractorSoapIn" />
+      <wsdl:output message="tns:add_SubContractorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select_SubContractor">
+      <wsdl:input message="tns:Select_SubContractorSoapIn" />
+      <wsdl:output message="tns:Select_SubContractorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete_SubContractor">
+      <wsdl:input message="tns:Delete_SubContractorSoapIn" />
+      <wsdl:output message="tns:Delete_SubContractorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_SubContractor">
+      <wsdl:input message="tns:Update_SubContractorSoapIn" />
+      <wsdl:output message="tns:Update_SubContractorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select_BusinessMode">
+      <wsdl:input message="tns:Select_BusinessModeSoapIn" />
+      <wsdl:output message="tns:Select_BusinessModeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete_BusinessMode">
+      <wsdl:input message="tns:Delete_BusinessModeSoapIn" />
+      <wsdl:output message="tns:Delete_BusinessModeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Create_BusinessMode">
+      <wsdl:input message="tns:Create_BusinessModeSoapIn" />
+      <wsdl:output message="tns:Create_BusinessModeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select_Customer">
+      <wsdl:input message="tns:Select_CustomerSoapIn" />
+      <wsdl:output message="tns:Select_CustomerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Customer">
+      <wsdl:input message="tns:Delete_CustomerSoapIn" />
+      <wsdl:output message="tns:Delete_CustomerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Create_Customer">
+      <wsdl:input message="tns:Create_CustomerSoapIn" />
+      <wsdl:output message="tns:Create_CustomerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select_ProjectCategory">
+      <wsdl:input message="tns:Select_ProjectCategorySoapIn" />
+      <wsdl:output message="tns:Select_ProjectCategorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete_ProjectCategory">
+      <wsdl:input message="tns:Delete_ProjectCategorySoapIn" />
+      <wsdl:output message="tns:Delete_ProjectCategorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Create_ProjectCategory">
+      <wsdl:input message="tns:Create_ProjectCategorySoapIn" />
+      <wsdl:output message="tns:Create_ProjectCategorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select_ProjectState">
+      <wsdl:input message="tns:Select_ProjectStateSoapIn" />
+      <wsdl:output message="tns:Select_ProjectStateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete_ProjectState">
+      <wsdl:input message="tns:Delete_ProjectStateSoapIn" />
+      <wsdl:output message="tns:Delete_ProjectStateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Create_ProjectState">
+      <wsdl:input message="tns:Create_ProjectStateSoapIn" />
+      <wsdl:output message="tns:Create_ProjectStateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select_ProjectInfo">
+      <wsdl:input message="tns:Select_ProjectInfoSoapIn" />
+      <wsdl:output message="tns:Select_ProjectInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select_ProjectInfoByID">
+      <wsdl:input message="tns:Select_ProjectInfoByIDSoapIn" />
+      <wsdl:output message="tns:Select_ProjectInfoByIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select_SubProjectInfo_ByProjectID">
+      <wsdl:input message="tns:Select_SubProjectInfo_ByProjectIDSoapIn" />
+      <wsdl:output message="tns:Select_SubProjectInfo_ByProjectIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete_ProjectInfo_ByProjectID">
+      <wsdl:input message="tns:Delete_ProjectInfo_ByProjectIDSoapIn" />
+      <wsdl:output message="tns:Delete_ProjectInfo_ByProjectIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_ProjectInfo">
+      <wsdl:input message="tns:Update_ProjectInfoSoapIn" />
+      <wsdl:output message="tns:Update_ProjectInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete_SubProjectInfo_ByProjectID">
+      <wsdl:input message="tns:Delete_SubProjectInfo_ByProjectIDSoapIn" />
+      <wsdl:output message="tns:Delete_SubProjectInfo_ByProjectIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_SubProjectInfo">
+      <wsdl:input message="tns:Update_SubProjectInfoSoapIn" />
+      <wsdl:output message="tns:Update_SubProjectInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Query_SubProjectInfo_ByID">
+      <wsdl:input message="tns:Query_SubProjectInfo_ByIDSoapIn" />
+      <wsdl:output message="tns:Query_SubProjectInfo_ByIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select_SubProjectInfo">
+      <wsdl:input message="tns:Select_SubProjectInfoSoapIn" />
+      <wsdl:output message="tns:Select_SubProjectInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select_Deal">
+      <wsdl:input message="tns:Select_DealSoapIn" />
+      <wsdl:output message="tns:Select_DealSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Deal">
+      <wsdl:input message="tns:Delete_DealSoapIn" />
+      <wsdl:output message="tns:Delete_DealSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Create_Deal">
+      <wsdl:input message="tns:Create_DealSoapIn" />
+      <wsdl:output message="tns:Create_DealSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Deal">
+      <wsdl:input message="tns:Update_DealSoapIn" />
+      <wsdl:output message="tns:Update_DealSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="select_Deal_BySubID">
+      <wsdl:input message="tns:select_Deal_BySubIDSoapIn" />
+      <wsdl:output message="tns:select_Deal_BySubIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Create_StateRecord">
+      <wsdl:input message="tns:Create_StateRecordSoapIn" />
+      <wsdl:output message="tns:Create_StateRecordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete_StateRecord">
+      <wsdl:input message="tns:Delete_StateRecordSoapIn" />
+      <wsdl:output message="tns:Delete_StateRecordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select_StateRecord">
+      <wsdl:input message="tns:Select_StateRecordSoapIn" />
+      <wsdl:output message="tns:Select_StateRecordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Create_MaterialClass">
+      <wsdl:input message="tns:Create_MaterialClassSoapIn" />
+      <wsdl:output message="tns:Create_MaterialClassSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select_MaterialClass">
+      <wsdl:input message="tns:Select_MaterialClassSoapIn" />
+      <wsdl:output message="tns:Select_MaterialClassSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select_MaterialClassByID">
+      <wsdl:input message="tns:Select_MaterialClassByIDSoapIn" />
+      <wsdl:output message="tns:Select_MaterialClassByIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete_MaterialClass">
+      <wsdl:input message="tns:Delete_MaterialClassSoapIn" />
+      <wsdl:output message="tns:Delete_MaterialClassSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_MaterialClass">
+      <wsdl:input message="tns:Update_MaterialClassSoapIn" />
+      <wsdl:output message="tns:Update_MaterialClassSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Create_MaterialFlow">
+      <wsdl:input message="tns:Create_MaterialFlowSoapIn" />
+      <wsdl:output message="tns:Create_MaterialFlowSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select_MaterialFlowAll">
+      <wsdl:input message="tns:Select_MaterialFlowAllSoapIn" />
+      <wsdl:output message="tns:Select_MaterialFlowAllSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select_MaterialFlowIn">
+      <wsdl:input message="tns:Select_MaterialFlowInSoapIn" />
+      <wsdl:output message="tns:Select_MaterialFlowInSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select_MaterialFlowOut">
+      <wsdl:input message="tns:Select_MaterialFlowOutSoapIn" />
+      <wsdl:output message="tns:Select_MaterialFlowOutSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select_MaterialFlowByID">
+      <wsdl:input message="tns:Select_MaterialFlowByIDSoapIn" />
+      <wsdl:output message="tns:Select_MaterialFlowByIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select_MaterialFlowByMaterialID">
+      <wsdl:input message="tns:Select_MaterialFlowByMaterialIDSoapIn" />
+      <wsdl:output message="tns:Select_MaterialFlowByMaterialIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete_MaterialFlow">
+      <wsdl:input message="tns:Delete_MaterialFlowSoapIn" />
+      <wsdl:output message="tns:Delete_MaterialFlowSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_MaterialFlow">
+      <wsdl:input message="tns:Update_MaterialFlowSoapIn" />
+      <wsdl:output message="tns:Update_MaterialFlowSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select_BuildCompanyByID">
+      <wsdl:input message="tns:Select_BuildCompanyByIDSoapIn" />
+      <wsdl:output message="tns:Select_BuildCompanyByIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select_BuildCompanyBySubProjectID">
+      <wsdl:input message="tns:Select_BuildCompanyBySubProjectIDSoapIn" />
+      <wsdl:output message="tns:Select_BuildCompanyBySubProjectIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select_Image">
+      <wsdl:input message="tns:Select_ImageSoapIn" />
+      <wsdl:output message="tns:Select_ImageSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select_Image_ByPID">
+      <wsdl:input message="tns:Select_Image_ByPIDSoapIn" />
+      <wsdl:output message="tns:Select_Image_ByPIDSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Service_ProjectManagementSoap" type="tns:Service_ProjectManagementSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="add_SubContractor">
+      <soap:operation soapAction="http://tempuri.org/add_SubContractor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_SubContractor">
+      <soap:operation soapAction="http://tempuri.org/Select_SubContractor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_SubContractor">
+      <soap:operation soapAction="http://tempuri.org/Delete_SubContractor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_SubContractor">
+      <soap:operation soapAction="http://tempuri.org/Update_SubContractor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_BusinessMode">
+      <soap:operation soapAction="http://tempuri.org/Select_BusinessMode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_BusinessMode">
+      <soap:operation soapAction="http://tempuri.org/Delete_BusinessMode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Create_BusinessMode">
+      <soap:operation soapAction="http://tempuri.org/Create_BusinessMode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_Customer">
+      <soap:operation soapAction="http://tempuri.org/Select_Customer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Customer">
+      <soap:operation soapAction="http://tempuri.org/Delete_Customer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Create_Customer">
+      <soap:operation soapAction="http://tempuri.org/Create_Customer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_ProjectCategory">
+      <soap:operation soapAction="http://tempuri.org/Select_ProjectCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_ProjectCategory">
+      <soap:operation soapAction="http://tempuri.org/Delete_ProjectCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Create_ProjectCategory">
+      <soap:operation soapAction="http://tempuri.org/Create_ProjectCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_ProjectState">
+      <soap:operation soapAction="http://tempuri.org/Select_ProjectState" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_ProjectState">
+      <soap:operation soapAction="http://tempuri.org/Delete_ProjectState" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Create_ProjectState">
+      <soap:operation soapAction="http://tempuri.org/Create_ProjectState" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_ProjectInfo">
+      <soap:operation soapAction="http://tempuri.org/Select_ProjectInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_ProjectInfoByID">
+      <soap:operation soapAction="http://tempuri.org/Select_ProjectInfoByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_SubProjectInfo_ByProjectID">
+      <soap:operation soapAction="http://tempuri.org/Select_SubProjectInfo_ByProjectID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_ProjectInfo_ByProjectID">
+      <soap:operation soapAction="http://tempuri.org/Delete_ProjectInfo_ByProjectID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_ProjectInfo">
+      <soap:operation soapAction="http://tempuri.org/Update_ProjectInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_SubProjectInfo_ByProjectID">
+      <soap:operation soapAction="http://tempuri.org/Delete_SubProjectInfo_ByProjectID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_SubProjectInfo">
+      <soap:operation soapAction="http://tempuri.org/Update_SubProjectInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Query_SubProjectInfo_ByID">
+      <soap:operation soapAction="http://tempuri.org/Query_SubProjectInfo_ByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_SubProjectInfo">
+      <soap:operation soapAction="http://tempuri.org/Select_SubProjectInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_Deal">
+      <soap:operation soapAction="http://tempuri.org/Select_Deal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Deal">
+      <soap:operation soapAction="http://tempuri.org/Delete_Deal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Create_Deal">
+      <soap:operation soapAction="http://tempuri.org/Create_Deal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Deal">
+      <soap:operation soapAction="http://tempuri.org/Update_Deal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="select_Deal_BySubID">
+      <soap:operation soapAction="http://tempuri.org/select_Deal_BySubID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Create_StateRecord">
+      <soap:operation soapAction="http://tempuri.org/Create_StateRecord" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_StateRecord">
+      <soap:operation soapAction="http://tempuri.org/Delete_StateRecord" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_StateRecord">
+      <soap:operation soapAction="http://tempuri.org/Select_StateRecord" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Create_MaterialClass">
+      <soap:operation soapAction="http://tempuri.org/Create_MaterialClass" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_MaterialClass">
+      <soap:operation soapAction="http://tempuri.org/Select_MaterialClass" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_MaterialClassByID">
+      <soap:operation soapAction="http://tempuri.org/Select_MaterialClassByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_MaterialClass">
+      <soap:operation soapAction="http://tempuri.org/Delete_MaterialClass" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_MaterialClass">
+      <soap:operation soapAction="http://tempuri.org/Update_MaterialClass" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Create_MaterialFlow">
+      <soap:operation soapAction="http://tempuri.org/Create_MaterialFlow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_MaterialFlowAll">
+      <soap:operation soapAction="http://tempuri.org/Select_MaterialFlowAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_MaterialFlowIn">
+      <soap:operation soapAction="http://tempuri.org/Select_MaterialFlowIn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_MaterialFlowOut">
+      <soap:operation soapAction="http://tempuri.org/Select_MaterialFlowOut" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_MaterialFlowByID">
+      <soap:operation soapAction="http://tempuri.org/Select_MaterialFlowByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_MaterialFlowByMaterialID">
+      <soap:operation soapAction="http://tempuri.org/Select_MaterialFlowByMaterialID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_MaterialFlow">
+      <soap:operation soapAction="http://tempuri.org/Delete_MaterialFlow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_MaterialFlow">
+      <soap:operation soapAction="http://tempuri.org/Update_MaterialFlow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_BuildCompanyByID">
+      <soap:operation soapAction="http://tempuri.org/Select_BuildCompanyByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_BuildCompanyBySubProjectID">
+      <soap:operation soapAction="http://tempuri.org/Select_BuildCompanyBySubProjectID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_Image">
+      <soap:operation soapAction="http://tempuri.org/Select_Image" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_Image_ByPID">
+      <soap:operation soapAction="http://tempuri.org/Select_Image_ByPID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service_ProjectManagementSoap12" type="tns:Service_ProjectManagementSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="add_SubContractor">
+      <soap12:operation soapAction="http://tempuri.org/add_SubContractor" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_SubContractor">
+      <soap12:operation soapAction="http://tempuri.org/Select_SubContractor" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_SubContractor">
+      <soap12:operation soapAction="http://tempuri.org/Delete_SubContractor" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_SubContractor">
+      <soap12:operation soapAction="http://tempuri.org/Update_SubContractor" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_BusinessMode">
+      <soap12:operation soapAction="http://tempuri.org/Select_BusinessMode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_BusinessMode">
+      <soap12:operation soapAction="http://tempuri.org/Delete_BusinessMode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Create_BusinessMode">
+      <soap12:operation soapAction="http://tempuri.org/Create_BusinessMode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_Customer">
+      <soap12:operation soapAction="http://tempuri.org/Select_Customer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Customer">
+      <soap12:operation soapAction="http://tempuri.org/Delete_Customer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Create_Customer">
+      <soap12:operation soapAction="http://tempuri.org/Create_Customer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_ProjectCategory">
+      <soap12:operation soapAction="http://tempuri.org/Select_ProjectCategory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_ProjectCategory">
+      <soap12:operation soapAction="http://tempuri.org/Delete_ProjectCategory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Create_ProjectCategory">
+      <soap12:operation soapAction="http://tempuri.org/Create_ProjectCategory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_ProjectState">
+      <soap12:operation soapAction="http://tempuri.org/Select_ProjectState" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_ProjectState">
+      <soap12:operation soapAction="http://tempuri.org/Delete_ProjectState" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Create_ProjectState">
+      <soap12:operation soapAction="http://tempuri.org/Create_ProjectState" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_ProjectInfo">
+      <soap12:operation soapAction="http://tempuri.org/Select_ProjectInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_ProjectInfoByID">
+      <soap12:operation soapAction="http://tempuri.org/Select_ProjectInfoByID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_SubProjectInfo_ByProjectID">
+      <soap12:operation soapAction="http://tempuri.org/Select_SubProjectInfo_ByProjectID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_ProjectInfo_ByProjectID">
+      <soap12:operation soapAction="http://tempuri.org/Delete_ProjectInfo_ByProjectID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_ProjectInfo">
+      <soap12:operation soapAction="http://tempuri.org/Update_ProjectInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_SubProjectInfo_ByProjectID">
+      <soap12:operation soapAction="http://tempuri.org/Delete_SubProjectInfo_ByProjectID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_SubProjectInfo">
+      <soap12:operation soapAction="http://tempuri.org/Update_SubProjectInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Query_SubProjectInfo_ByID">
+      <soap12:operation soapAction="http://tempuri.org/Query_SubProjectInfo_ByID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_SubProjectInfo">
+      <soap12:operation soapAction="http://tempuri.org/Select_SubProjectInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_Deal">
+      <soap12:operation soapAction="http://tempuri.org/Select_Deal" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_Deal">
+      <soap12:operation soapAction="http://tempuri.org/Delete_Deal" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Create_Deal">
+      <soap12:operation soapAction="http://tempuri.org/Create_Deal" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Deal">
+      <soap12:operation soapAction="http://tempuri.org/Update_Deal" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="select_Deal_BySubID">
+      <soap12:operation soapAction="http://tempuri.org/select_Deal_BySubID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Create_StateRecord">
+      <soap12:operation soapAction="http://tempuri.org/Create_StateRecord" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_StateRecord">
+      <soap12:operation soapAction="http://tempuri.org/Delete_StateRecord" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_StateRecord">
+      <soap12:operation soapAction="http://tempuri.org/Select_StateRecord" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Create_MaterialClass">
+      <soap12:operation soapAction="http://tempuri.org/Create_MaterialClass" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_MaterialClass">
+      <soap12:operation soapAction="http://tempuri.org/Select_MaterialClass" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_MaterialClassByID">
+      <soap12:operation soapAction="http://tempuri.org/Select_MaterialClassByID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_MaterialClass">
+      <soap12:operation soapAction="http://tempuri.org/Delete_MaterialClass" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_MaterialClass">
+      <soap12:operation soapAction="http://tempuri.org/Update_MaterialClass" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Create_MaterialFlow">
+      <soap12:operation soapAction="http://tempuri.org/Create_MaterialFlow" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_MaterialFlowAll">
+      <soap12:operation soapAction="http://tempuri.org/Select_MaterialFlowAll" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_MaterialFlowIn">
+      <soap12:operation soapAction="http://tempuri.org/Select_MaterialFlowIn" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_MaterialFlowOut">
+      <soap12:operation soapAction="http://tempuri.org/Select_MaterialFlowOut" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_MaterialFlowByID">
+      <soap12:operation soapAction="http://tempuri.org/Select_MaterialFlowByID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_MaterialFlowByMaterialID">
+      <soap12:operation soapAction="http://tempuri.org/Select_MaterialFlowByMaterialID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_MaterialFlow">
+      <soap12:operation soapAction="http://tempuri.org/Delete_MaterialFlow" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_MaterialFlow">
+      <soap12:operation soapAction="http://tempuri.org/Update_MaterialFlow" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_BuildCompanyByID">
+      <soap12:operation soapAction="http://tempuri.org/Select_BuildCompanyByID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_BuildCompanyBySubProjectID">
+      <soap12:operation soapAction="http://tempuri.org/Select_BuildCompanyBySubProjectID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_Image">
+      <soap12:operation soapAction="http://tempuri.org/Select_Image" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_Image_ByPID">
+      <soap12:operation soapAction="http://tempuri.org/Select_Image_ByPID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service_ProjectManagement">
+    <wsdl:port name="Service_ProjectManagementSoap" binding="tns:Service_ProjectManagementSoap">
+      <soap:address location="http://localhost:48841/Service/ProjectManagement/Service_ProjectManagement.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service_ProjectManagementSoap12" binding="tns:Service_ProjectManagementSoap12">
+      <soap12:address location="http://localhost:48841/Service/ProjectManagement/Service_ProjectManagement.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Create_User">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="tns:TabUsers" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="TabUsers">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="UID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="UAccount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UPassword" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UDepart" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UPrivilege" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Create_UserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Create_UserResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Find_UserAccount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="account" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Find_UserAccountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Find_UserAccountResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_UserAll">
+        <s:complexType />
+      </s:element>
+      <s:element name="Select_UserAllResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Select_UserAllResult" type="tns:ArrayOfTabUsers" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTabUsers">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TabUsers" nillable="true" type="tns:TabUsers" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Select_User">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="userID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_UserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Select_UserResult" type="tns:TabUsers" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_User">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="tns:TabUsers" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_UserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Delete_UserResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_User">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="user" type="tns:TabUsers" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_UserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Update_UserResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="checkPassword">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="checkPasswordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="checkPasswordResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_User_ByAcount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="account" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Select_User_ByAcountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Select_User_ByAcountResult" type="tns:ArrayOfTabUsers" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="Create_UserSoapIn">
+    <wsdl:part name="parameters" element="tns:Create_User" />
+  </wsdl:message>
+  <wsdl:message name="Create_UserSoapOut">
+    <wsdl:part name="parameters" element="tns:Create_UserResponse" />
+  </wsdl:message>
+  <wsdl:message name="Find_UserAccountSoapIn">
+    <wsdl:part name="parameters" element="tns:Find_UserAccount" />
+  </wsdl:message>
+  <wsdl:message name="Find_UserAccountSoapOut">
+    <wsdl:part name="parameters" element="tns:Find_UserAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="Select_UserAllSoapIn">
+    <wsdl:part name="parameters" element="tns:Select_UserAll" />
+  </wsdl:message>
+  <wsdl:message name="Select_UserAllSoapOut">
+    <wsdl:part name="parameters" element="tns:Select_UserAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="Select_UserSoapIn">
+    <wsdl:part name="parameters" element="tns:Select_User" />
+  </wsdl:message>
+  <wsdl:message name="Select_UserSoapOut">
+    <wsdl:part name="parameters" element="tns:Select_UserResponse" />
+  </wsdl:message>
+  <wsdl:message name="Delete_UserSoapIn">
+    <wsdl:part name="parameters" element="tns:Delete_User" />
+  </wsdl:message>
+  <wsdl:message name="Delete_UserSoapOut">
+    <wsdl:part name="parameters" element="tns:Delete_UserResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_UserSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_User" />
+  </wsdl:message>
+  <wsdl:message name="Update_UserSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_UserResponse" />
+  </wsdl:message>
+  <wsdl:message name="checkPasswordSoapIn">
+    <wsdl:part name="parameters" element="tns:checkPassword" />
+  </wsdl:message>
+  <wsdl:message name="checkPasswordSoapOut">
+    <wsdl:part name="parameters" element="tns:checkPasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="Select_User_ByAcountSoapIn">
+    <wsdl:part name="parameters" element="tns:Select_User_ByAcount" />
+  </wsdl:message>
+  <wsdl:message name="Select_User_ByAcountSoapOut">
+    <wsdl:part name="parameters" element="tns:Select_User_ByAcountResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Service_SystemManagementSoap">
+    <wsdl:operation name="Create_User">
+      <wsdl:input message="tns:Create_UserSoapIn" />
+      <wsdl:output message="tns:Create_UserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Find_UserAccount">
+      <wsdl:input message="tns:Find_UserAccountSoapIn" />
+      <wsdl:output message="tns:Find_UserAccountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select_UserAll">
+      <wsdl:input message="tns:Select_UserAllSoapIn" />
+      <wsdl:output message="tns:Select_UserAllSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select_User">
+      <wsdl:input message="tns:Select_UserSoapIn" />
+      <wsdl:output message="tns:Select_UserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete_User">
+      <wsdl:input message="tns:Delete_UserSoapIn" />
+      <wsdl:output message="tns:Delete_UserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_User">
+      <wsdl:input message="tns:Update_UserSoapIn" />
+      <wsdl:output message="tns:Update_UserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="checkPassword">
+      <wsdl:input message="tns:checkPasswordSoapIn" />
+      <wsdl:output message="tns:checkPasswordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Select_User_ByAcount">
+      <wsdl:input message="tns:Select_User_ByAcountSoapIn" />
+      <wsdl:output message="tns:Select_User_ByAcountSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Service_SystemManagementSoap" type="tns:Service_SystemManagementSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Create_User">
+      <soap:operation soapAction="http://tempuri.org/Create_User" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Find_UserAccount">
+      <soap:operation soapAction="http://tempuri.org/Find_UserAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_UserAll">
+      <soap:operation soapAction="http://tempuri.org/Select_UserAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_User">
+      <soap:operation soapAction="http://tempuri.org/Select_User" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_User">
+      <soap:operation soapAction="http://tempuri.org/Delete_User" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_User">
+      <soap:operation soapAction="http://tempuri.org/Update_User" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkPassword">
+      <soap:operation soapAction="http://tempuri.org/checkPassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_User_ByAcount">
+      <soap:operation soapAction="http://tempuri.org/Select_User_ByAcount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service_SystemManagementSoap12" type="tns:Service_SystemManagementSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Create_User">
+      <soap12:operation soapAction="http://tempuri.org/Create_User" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Find_UserAccount">
+      <soap12:operation soapAction="http://tempuri.org/Find_UserAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_UserAll">
+      <soap12:operation soapAction="http://tempuri.org/Select_UserAll" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_User">
+      <soap12:operation soapAction="http://tempuri.org/Select_User" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_User">
+      <soap12:operation soapAction="http://tempuri.org/Delete_User" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_User">
+      <soap12:operation soapAction="http://tempuri.org/Update_User" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkPassword">
+      <soap12:operation soapAction="http://tempuri.org/checkPassword" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Select_User_ByAcount">
+      <soap12:operation soapAction="http://tempuri.org/Select_User_ByAcount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service_SystemManagement">
+    <wsdl:port name="Service_SystemManagementSoap" binding="tns:Service_SystemManagementSoap">
+      <soap:address location="http://localhost:48841/Service/SystemManagement/Service_SystemManagement.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service_SystemManagementSoap12" binding="tns:Service_SystemManagementSoap12">
+      <soap12:address location="http://localhost:48841/Service/SystemManagement/Service_SystemManagement.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
