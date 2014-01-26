@@ -37,7 +37,8 @@ namespace MISClient.UI.FinanceManagement
             this.CancelButton = btn_cancel;
             this.btn_save.Click += btn_save_Click;
             this.btn_cancel.Click += btn_cancel_Click;
-
+            this.date_time.Properties.TextEditStyle = TextEditStyles.DisableTextEditor;
+            this.date_time.DateTime = DateTime.Now;
             this.text_NO.Properties.TextEditStyle = TextEditStyles.DisableTextEditor;
             text_NO.Properties.DataSource = service_PM.Select_SubProjectInfo();
             text_NO.Properties.Columns.Add(new LookUpColumnInfo("SPNO"));

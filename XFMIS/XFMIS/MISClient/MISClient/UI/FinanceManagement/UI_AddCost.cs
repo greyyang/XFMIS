@@ -32,6 +32,8 @@ namespace MISClient.UI.FinanceManagement
             DisableAll();
             this.label_Amount.Enabled = true;
             this.text_Amount.Enabled = true;
+            this.date_time.Properties.TextEditStyle = TextEditStyles.DisableTextEditor;
+            this.date_time.DateTime = DateTime.Now;
 
             this.Text = "成本报账";
             this.AcceptButton = btn_save;

@@ -19,8 +19,9 @@ namespace MISClient.UI.NewProject
         public UI_ProjectManagement()
         {
             InitializeComponent();
-            InitVisibleIndex();
+            
             InitSplitGrid();
+            InitVisibleIndex();
         }
 
         private void InitVisibleIndex()

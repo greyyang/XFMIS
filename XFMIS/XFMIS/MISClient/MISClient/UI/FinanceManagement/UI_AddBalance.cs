@@ -37,6 +37,7 @@ namespace MISClient.UI.FinanceManagement
             text_NO.Properties.TextEditStyle = TextEditStyles.DisableTextEditor;
             text_Company.Properties.TextEditStyle = TextEditStyles.DisableTextEditor;
             date_time.Properties.TextEditStyle = TextEditStyles.DisableTextEditor;
+            date_time.DateTime = DateTime.Now;
             text_NO.Properties.DataSource = service_PM.Select_SubProjectInfo() ;
             text_NO.Properties.Columns.Add(new LookUpColumnInfo("SPNO"));
             text_NO.Properties.Columns.Add(new LookUpColumnInfo("SPName"));

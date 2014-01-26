@@ -52,6 +52,8 @@ namespace MISClient.UI.FinanceManagement
             text_kpje.Text = "";
             text_kpje.Enabled = false;
 
+            this.date_time.Properties.TextEditStyle = TextEditStyles.DisableTextEditor;
+            date_time.DateTime = DateTime.Now;
             this.Text = "添加开票回款记录";
             this.AcceptButton = btn_save;
             this.CancelButton = btn_cancel;

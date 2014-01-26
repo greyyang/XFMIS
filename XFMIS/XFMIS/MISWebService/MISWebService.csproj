@@ -143,6 +143,9 @@
     <Content Include="ProjectResource\PDSQL14-1-2.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="ProjectResource\PDSQL14-1-22.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="ProjectResource\SQL 13-12-23.sql" />
     <Content Include="ProjectResource\SQLScript 2014-1-12.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
