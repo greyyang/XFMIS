@@ -21,7 +21,7 @@ namespace MISClient.UI.ProjectManagement
         public UI_MaterialClassManagement()
         {
             InitializeComponent();
-            InitVisableIndex();
+            
         }
 
         private void InitVisableIndex()
@@ -62,7 +62,7 @@ namespace MISClient.UI.ProjectManagement
         private void UI_MaterialClassManagement_Load(object sender, EventArgs e)
         {
             showAllMaterialClass();
-
+            InitVisableIndex();
         }
 
         private void btn_AddMaterialClass_Click(object sender, EventArgs e)

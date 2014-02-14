@@ -1,0 +1,6 @@
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataAccess.fakes : warning : 无法为 IBatisNet.DataAccess.DaoManager 生成存根: 类型没有系列可见的构造函数。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataAccess.fakes : warning : 无法为 IBatisNet.DataAccess.MessageManager+MessageKeys 生成填充码: 类型对 exported or assembly(IBatisNet.DataAccess.1.8.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataAccess.fakes : warning : 无法为 IBatisNet.DataAccess.Interfaces.IDaoSessionHandler 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataAccess.fakes : warning : 无法为 IBatisNet.DataAccess.Interfaces.IDao 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataAccess.fakes : warning : 无法为 IBatisNet.DataAccess.SessionStore.ISessionStore 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataAccess.fakes : warning : 无法为 IBatisNet.DataAccess.IDaoManager 生成填充码: 类型是一个接口。

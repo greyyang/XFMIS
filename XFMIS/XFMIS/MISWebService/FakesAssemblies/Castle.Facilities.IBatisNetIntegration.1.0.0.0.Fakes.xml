@@ -1,0 +1,674 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Castle.Facilities.IBatisNetIntegration.1.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInspector">
+            <summary>Castle.Facilities.IBatisNetIntegration.AutomaticSessionInspector 的填充码类型</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInspector.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInspector.#ctor(Castle.Facilities.IBatisNetIntegration.AutomaticSessionInspector)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInspector.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInspector.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInspector.Bind(Castle.MicroKernel.ModelBuilder.IContributeComponentModelConstruction)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInspector.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInspector.Constructor">
+            <summary>设置 AutomaticSessionInspector.AutomaticSessionInspector() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInspector.ProcessModelIKernelComponentModel">
+            <summary>设置 AutomaticSessionInspector.ProcessModel(IKernel kernel, ComponentModel model) 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInspector.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInspector.AllInstances.ProcessModelIKernelComponentModel">
+            <summary>设置 AutomaticSessionInspector.ProcessModel(IKernel kernel, ComponentModel model) 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInterceptor">
+            <summary>Castle.Facilities.IBatisNetIntegration.AutomaticSessionInterceptor 的填充码类型</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInterceptor.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInterceptor.#ctor(Castle.Facilities.IBatisNetIntegration.AutomaticSessionInterceptor)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInterceptor.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInterceptor.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInterceptor.Bind(Castle.Core.Interceptor.IMethodInterceptor)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInterceptor.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInterceptor.ConstructorIKernel">
+            <summary>设置 AutomaticSessionInterceptor.AutomaticSessionInterceptor(IKernel kernel) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInterceptor.EnlistSessionIfHasTransactionActiveStringISqlMapper">
+            <summary>设置 AutomaticSessionInterceptor.EnlistSessionIfHasTransactionActive(String key, ISqlMapper sqlMap) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInterceptor.InterceptIMethodInvocationObjectArray">
+            <summary>设置 AutomaticSessionInterceptor.Intercept(IMethodInvocation invocation, Object[] args) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInterceptor.ObtainSqlMapKeyForMethodInfo">
+            <summary>设置 AutomaticSessionInterceptor.ObtainSqlMapKeyFor(MethodInfo info) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInterceptor.ObtainSqlMapperForString">
+            <summary>设置 AutomaticSessionInterceptor.ObtainSqlMapperFor(String key) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInterceptor.StaticConstructor">
+            <summary>设置 AutomaticSessionInterceptor.AutomaticSessionInterceptor() 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInterceptor.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInterceptor.AllInstances.EnlistSessionIfHasTransactionActiveStringISqlMapper">
+            <summary>设置 AutomaticSessionInterceptor.EnlistSessionIfHasTransactionActive(String key, ISqlMapper sqlMap) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInterceptor.AllInstances.InterceptIMethodInvocationObjectArray">
+            <summary>设置 AutomaticSessionInterceptor.Intercept(IMethodInvocation invocation, Object[] args) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInterceptor.AllInstances.ObtainSqlMapKeyForMethodInfo">
+            <summary>设置 AutomaticSessionInterceptor.ObtainSqlMapKeyFor(MethodInfo info) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimAutomaticSessionInterceptor.AllInstances.ObtainSqlMapperForString">
+            <summary>设置 AutomaticSessionInterceptor.ObtainSqlMapperFor(String key) 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.ShimDataMapperTransactionManager">
+            <summary>Castle.Facilities.IBatisNetIntegration.DataMapperTransactionManager 的填充码类型</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimDataMapperTransactionManager.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimDataMapperTransactionManager.#ctor(Castle.Facilities.IBatisNetIntegration.DataMapperTransactionManager)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimDataMapperTransactionManager.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimDataMapperTransactionManager.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimDataMapperTransactionManager.Bind(Castle.Services.Transaction.ITransactionManager)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimDataMapperTransactionManager.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimDataMapperTransactionManager.Constructor">
+            <summary>设置 DataMapperTransactionManager.DataMapperTransactionManager() 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.ShimDataMapperTransactionManager.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.ShimIBatisNetFacility">
+            <summary>Castle.Facilities.IBatisNetIntegration.IBatisNetFacility 的填充码类型</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimIBatisNetFacility.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimIBatisNetFacility.#ctor(Castle.Facilities.IBatisNetIntegration.IBatisNetFacility)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimIBatisNetFacility.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimIBatisNetFacility.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimIBatisNetFacility.Bind(Castle.MicroKernel.IFacility)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimIBatisNetFacility.Bind(System.IDisposable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimIBatisNetFacility.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimIBatisNetFacility.ConfigureFactoryIConfiguration">
+            <summary>设置 IBatisNetFacility.ConfigureFactory(IConfiguration config) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimIBatisNetFacility.Constructor">
+            <summary>设置 IBatisNetFacility.IBatisNetFacility() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimIBatisNetFacility.Init">
+            <summary>设置 IBatisNetFacility.Init() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimIBatisNetFacility.StaticConstructor">
+            <summary>设置 IBatisNetFacility.IBatisNetFacility() 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.ShimIBatisNetFacility.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimIBatisNetFacility.AllInstances.ConfigureFactoryIConfiguration">
+            <summary>设置 IBatisNetFacility.ConfigureFactory(IConfiguration config) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimIBatisNetFacility.AllInstances.Init">
+            <summary>设置 IBatisNetFacility.Init() 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.ShimNoSessionAttribute">
+            <summary>Castle.Facilities.IBatisNetIntegration.NoSessionAttribute 的填充码类型</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimNoSessionAttribute.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimNoSessionAttribute.#ctor(Castle.Facilities.IBatisNetIntegration.NoSessionAttribute)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimNoSessionAttribute.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimNoSessionAttribute.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimNoSessionAttribute.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimNoSessionAttribute.Constructor">
+            <summary>设置 NoSessionAttribute.NoSessionAttribute() 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.ShimNoSessionAttribute.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.ShimResourceSqlMapAdapter">
+            <summary>Castle.Facilities.IBatisNetIntegration.ResourceSqlMapAdapter 的填充码类型</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimResourceSqlMapAdapter.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimResourceSqlMapAdapter.#ctor(Castle.Facilities.IBatisNetIntegration.ResourceSqlMapAdapter)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimResourceSqlMapAdapter.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimResourceSqlMapAdapter.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimResourceSqlMapAdapter.Bind(Castle.Services.Transaction.IResource)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimResourceSqlMapAdapter.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimResourceSqlMapAdapter.Commit">
+            <summary>设置 ResourceSqlMapAdapter.Commit() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimResourceSqlMapAdapter.ConstructorIDalSession">
+            <summary>设置 ResourceSqlMapAdapter.ResourceSqlMapAdapter(IDalSession session) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimResourceSqlMapAdapter.Rollback">
+            <summary>设置 ResourceSqlMapAdapter.Rollback() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimResourceSqlMapAdapter.Start">
+            <summary>设置 ResourceSqlMapAdapter.Start() 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.ShimResourceSqlMapAdapter.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimResourceSqlMapAdapter.AllInstances.Commit">
+            <summary>设置 ResourceSqlMapAdapter.Commit() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimResourceSqlMapAdapter.AllInstances.Rollback">
+            <summary>设置 ResourceSqlMapAdapter.Rollback() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimResourceSqlMapAdapter.AllInstances.Start">
+            <summary>设置 ResourceSqlMapAdapter.Start() 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSessionAttribute">
+            <summary>Castle.Facilities.IBatisNetIntegration.SessionAttribute 的填充码类型</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSessionAttribute.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSessionAttribute.#ctor(Castle.Facilities.IBatisNetIntegration.SessionAttribute)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSessionAttribute.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSessionAttribute.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSessionAttribute.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSessionAttribute.Constructor">
+            <summary>设置 SessionAttribute.SessionAttribute() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSessionAttribute.ConstructorString">
+            <summary>设置 SessionAttribute.SessionAttribute(String sqlMapId) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSessionAttribute.SqlMapIdGet">
+            <summary>设置 SessionAttribute.get_SqlMapId() 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSessionAttribute.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSessionAttribute.AllInstances.SqlMapIdGet">
+            <summary>设置 SessionAttribute.get_SqlMapId() 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapActivator">
+            <summary>Castle.Facilities.IBatisNetIntegration.SqlMapActivator 的填充码类型</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapActivator.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapActivator.#ctor(Castle.Facilities.IBatisNetIntegration.SqlMapActivator)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapActivator.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapActivator.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapActivator.Bind(Castle.MicroKernel.IComponentActivator)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapActivator.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapActivator.ConstructorComponentModelIKernelComponentInstanceDelegateComponentInstanceDelegate">
+            <summary>设置 SqlMapActivator.SqlMapActivator(ComponentModel model, IKernel kernel, ComponentInstanceDelegate onCreation, ComponentInstanceDelegate onDestruction) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapActivator.InternalCreateCreationContext">
+            <summary>设置 SqlMapActivator.InternalCreate(CreationContext context) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapActivator.InternalDestroyObject">
+            <summary>设置 SqlMapActivator.InternalDestroy(Object instance) 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapActivator.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapActivator.AllInstances.InternalCreateCreationContext">
+            <summary>设置 SqlMapActivator.InternalCreate(CreationContext context) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapActivator.AllInstances.InternalDestroyObject">
+            <summary>设置 SqlMapActivator.InternalDestroy(Object instance) 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapKeeper">
+            <summary>Castle.Facilities.IBatisNetIntegration.SqlMapKeeper 的填充码类型</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapKeeper.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapKeeper.#ctor(Castle.Facilities.IBatisNetIntegration.SqlMapKeeper)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapKeeper.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapKeeper.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapKeeper.Bind(Castle.Services.Transaction.ISynchronization)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapKeeper.AfterCompletion">
+            <summary>设置 SqlMapKeeper.AfterCompletion() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapKeeper.BeforeCompletion">
+            <summary>设置 SqlMapKeeper.BeforeCompletion() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapKeeper.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapKeeper.ConstructorISqlMapper">
+            <summary>设置 SqlMapKeeper.SqlMapKeeper(ISqlMapper sqlMap) 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapKeeper.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapKeeper.AllInstances.AfterCompletion">
+            <summary>设置 SqlMapKeeper.AfterCompletion() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimSqlMapKeeper.AllInstances.BeforeCompletion">
+            <summary>设置 SqlMapKeeper.BeforeCompletion() 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.ShimUsesAutomaticSessionCreationAttribute">
+            <summary>Castle.Facilities.IBatisNetIntegration.UsesAutomaticSessionCreationAttribute 的填充码类型</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimUsesAutomaticSessionCreationAttribute.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimUsesAutomaticSessionCreationAttribute.#ctor(Castle.Facilities.IBatisNetIntegration.UsesAutomaticSessionCreationAttribute)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimUsesAutomaticSessionCreationAttribute.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.ShimUsesAutomaticSessionCreationAttribute.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimUsesAutomaticSessionCreationAttribute.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimUsesAutomaticSessionCreationAttribute.Constructor">
+            <summary>设置 UsesAutomaticSessionCreationAttribute.UsesAutomaticSessionCreationAttribute() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimUsesAutomaticSessionCreationAttribute.ConstructorString">
+            <summary>设置 UsesAutomaticSessionCreationAttribute.UsesAutomaticSessionCreationAttribute(String sqlMapId) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimUsesAutomaticSessionCreationAttribute.SqlMapIdGet">
+            <summary>设置 UsesAutomaticSessionCreationAttribute.get_SqlMapId() 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.ShimUsesAutomaticSessionCreationAttribute.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.ShimUsesAutomaticSessionCreationAttribute.AllInstances.SqlMapIdGet">
+            <summary>设置 UsesAutomaticSessionCreationAttribute.get_SqlMapId() 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.StubAutomaticSessionInspector">
+            <summary>Castle.Facilities.IBatisNetIntegration.AutomaticSessionInspector 的存根类型</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubAutomaticSessionInspector.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubAutomaticSessionInspector.InitializeStub">
+            <summary>初始化 type StubAutomaticSessionInspector 的新实例</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubAutomaticSessionInspector.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubAutomaticSessionInspector.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubAutomaticSessionInspector.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.StubAutomaticSessionInterceptor">
+            <summary>Castle.Facilities.IBatisNetIntegration.AutomaticSessionInterceptor 的存根类型</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubAutomaticSessionInterceptor.#ctor(Castle.MicroKernel.IKernel)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubAutomaticSessionInterceptor.InitializeStub">
+            <summary>初始化 type StubAutomaticSessionInterceptor 的新实例</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubAutomaticSessionInterceptor.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubAutomaticSessionInterceptor.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubAutomaticSessionInterceptor.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.StubDataMapperTransactionManager">
+            <summary>Castle.Facilities.IBatisNetIntegration.DataMapperTransactionManager 的存根类型</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubDataMapperTransactionManager.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubDataMapperTransactionManager.CreateTransaction(Castle.Services.Transaction.TransactionMode,Castle.Services.Transaction.IsolationMode)">
+            <summary>设置 DefaultTransactionManager.CreateTransaction(TransactionMode transactionMode, IsolationMode isolationMode) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Facilities.IBatisNetIntegration.Fakes.StubDataMapperTransactionManager.CreateTransactionTransactionModeIsolationMode">
+            <summary>设置 DefaultTransactionManager.CreateTransaction(TransactionMode transactionMode, IsolationMode isolationMode) 的 stub</summary>
+        </member>
+        <member name="F:Castle.Facilities.IBatisNetIntegration.Fakes.StubDataMapperTransactionManager.CurrentTransactionGet">
+            <summary>设置 DefaultTransactionManager.get_CurrentTransaction() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubDataMapperTransactionManager.Dispose(Castle.Services.Transaction.ITransaction)">
+            <summary>设置 DefaultTransactionManager.Dispose(ITransaction transaction) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Facilities.IBatisNetIntegration.Fakes.StubDataMapperTransactionManager.DisposeITransaction">
+            <summary>设置 DefaultTransactionManager.Dispose(ITransaction transaction) 的 stub</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubDataMapperTransactionManager.InitializeLifetimeService">
+            <summary>设置 DefaultTransactionManager.InitializeLifetimeService() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Facilities.IBatisNetIntegration.Fakes.StubDataMapperTransactionManager.InitializeLifetimeService01">
+            <summary>设置 DefaultTransactionManager.InitializeLifetimeService() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubDataMapperTransactionManager.InitializeStub">
+            <summary>初始化 type StubDataMapperTransactionManager 的新实例</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubDataMapperTransactionManager.ObtainDefaultTransactionMode(Castle.Services.Transaction.TransactionMode)">
+            <summary>设置 DefaultTransactionManager.ObtainDefaultTransactionMode(TransactionMode transactionMode) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Facilities.IBatisNetIntegration.Fakes.StubDataMapperTransactionManager.ObtainDefaultTransactionModeTransactionMode">
+            <summary>设置 DefaultTransactionManager.ObtainDefaultTransactionMode(TransactionMode transactionMode) 的 stub</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubDataMapperTransactionManager.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubDataMapperTransactionManager.CurrentTransaction">
+            <summary>设置 DefaultTransactionManager.get_CurrentTransaction() 的 stub</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubDataMapperTransactionManager.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubDataMapperTransactionManager.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.StubIBatisNetFacility">
+            <summary>Castle.Facilities.IBatisNetIntegration.IBatisNetFacility 的存根类型</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubIBatisNetFacility.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubIBatisNetFacility.Dispose">
+            <summary>设置 AbstractFacility.Dispose() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Facilities.IBatisNetIntegration.Fakes.StubIBatisNetFacility.Dispose01">
+            <summary>设置 AbstractFacility.Dispose() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubIBatisNetFacility.Init">
+            <summary>设置 IBatisNetFacility.Init() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Facilities.IBatisNetIntegration.Fakes.StubIBatisNetFacility.Init01">
+            <summary>设置 IBatisNetFacility.Init() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubIBatisNetFacility.InitializeStub">
+            <summary>初始化 type StubIBatisNetFacility 的新实例</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubIBatisNetFacility.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubIBatisNetFacility.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubIBatisNetFacility.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.StubResourceSqlMapAdapter">
+            <summary>Castle.Facilities.IBatisNetIntegration.ResourceSqlMapAdapter 的存根类型</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubResourceSqlMapAdapter.#ctor(IBatisNet.Common.IDalSession)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubResourceSqlMapAdapter.InitializeStub">
+            <summary>初始化 type StubResourceSqlMapAdapter 的新实例</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubResourceSqlMapAdapter.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubResourceSqlMapAdapter.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubResourceSqlMapAdapter.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.StubSessionAttribute">
+            <summary>Castle.Facilities.IBatisNetIntegration.SessionAttribute 的存根类型</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubSessionAttribute.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubSessionAttribute.#ctor(System.String)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubSessionAttribute.Equals(System.Object)">
+            <summary>设置 Attribute.Equals(Object obj) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Facilities.IBatisNetIntegration.Fakes.StubSessionAttribute.EqualsObject">
+            <summary>设置 Attribute.Equals(Object obj) 的 stub</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubSessionAttribute.GetHashCode">
+            <summary>设置 Attribute.GetHashCode() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Facilities.IBatisNetIntegration.Fakes.StubSessionAttribute.GetHashCode01">
+            <summary>设置 Attribute.GetHashCode() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubSessionAttribute.InitializeStub">
+            <summary>初始化 type StubSessionAttribute 的新实例</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubSessionAttribute.IsDefaultAttribute">
+            <summary>设置 Attribute.IsDefaultAttribute() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Facilities.IBatisNetIntegration.Fakes.StubSessionAttribute.IsDefaultAttribute01">
+            <summary>设置 Attribute.IsDefaultAttribute() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubSessionAttribute.Match(System.Object)">
+            <summary>设置 Attribute.Match(Object obj) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Facilities.IBatisNetIntegration.Fakes.StubSessionAttribute.MatchObject">
+            <summary>设置 Attribute.Match(Object obj) 的 stub</summary>
+        </member>
+        <member name="F:Castle.Facilities.IBatisNetIntegration.Fakes.StubSessionAttribute.TypeIdGet">
+            <summary>设置 Attribute.get_TypeId() 的 stub</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubSessionAttribute.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubSessionAttribute.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubSessionAttribute.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubSessionAttribute.TypeId">
+            <summary>设置 Attribute.get_TypeId() 的 stub</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.StubSqlMapActivator">
+            <summary>Castle.Facilities.IBatisNetIntegration.SqlMapActivator 的存根类型</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubSqlMapActivator.#ctor(Castle.Core.ComponentModel,Castle.MicroKernel.IKernel,Castle.MicroKernel.ComponentInstanceDelegate,Castle.MicroKernel.ComponentInstanceDelegate)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubSqlMapActivator.Create(Castle.MicroKernel.CreationContext)">
+            <summary>设置 AbstractComponentActivator.Create(CreationContext context) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Facilities.IBatisNetIntegration.Fakes.StubSqlMapActivator.CreateCreationContext">
+            <summary>设置 AbstractComponentActivator.Create(CreationContext context) 的 stub</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubSqlMapActivator.Destroy(System.Object)">
+            <summary>设置 AbstractComponentActivator.Destroy(Object instance) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Facilities.IBatisNetIntegration.Fakes.StubSqlMapActivator.DestroyObject">
+            <summary>设置 AbstractComponentActivator.Destroy(Object instance) 的 stub</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubSqlMapActivator.InitializeStub">
+            <summary>初始化 type StubSqlMapActivator 的新实例</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubSqlMapActivator.InternalCreate(Castle.MicroKernel.CreationContext)">
+            <summary>设置 SqlMapActivator.InternalCreate(CreationContext context) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Facilities.IBatisNetIntegration.Fakes.StubSqlMapActivator.InternalCreateCreationContext">
+            <summary>设置 SqlMapActivator.InternalCreate(CreationContext context) 的 stub</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubSqlMapActivator.InternalDestroy(System.Object)">
+            <summary>设置 SqlMapActivator.InternalDestroy(Object instance) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Facilities.IBatisNetIntegration.Fakes.StubSqlMapActivator.InternalDestroyObject">
+            <summary>设置 SqlMapActivator.InternalDestroy(Object instance) 的 stub</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubSqlMapActivator.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubSqlMapActivator.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubSqlMapActivator.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.StubSqlMapKeeper">
+            <summary>Castle.Facilities.IBatisNetIntegration.SqlMapKeeper 的存根类型</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubSqlMapKeeper.#ctor(IBatisNet.DataMapper.ISqlMapper)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubSqlMapKeeper.InitializeStub">
+            <summary>初始化 type StubSqlMapKeeper 的新实例</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubSqlMapKeeper.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubSqlMapKeeper.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubSqlMapKeeper.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Castle.Facilities.IBatisNetIntegration.Fakes.StubUsesAutomaticSessionCreationAttribute">
+            <summary>Castle.Facilities.IBatisNetIntegration.UsesAutomaticSessionCreationAttribute 的存根类型</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubUsesAutomaticSessionCreationAttribute.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubUsesAutomaticSessionCreationAttribute.#ctor(System.String)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubUsesAutomaticSessionCreationAttribute.Equals(System.Object)">
+            <summary>设置 Attribute.Equals(Object obj) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Facilities.IBatisNetIntegration.Fakes.StubUsesAutomaticSessionCreationAttribute.EqualsObject">
+            <summary>设置 Attribute.Equals(Object obj) 的 stub</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubUsesAutomaticSessionCreationAttribute.GetHashCode">
+            <summary>设置 Attribute.GetHashCode() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Facilities.IBatisNetIntegration.Fakes.StubUsesAutomaticSessionCreationAttribute.GetHashCode01">
+            <summary>设置 Attribute.GetHashCode() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubUsesAutomaticSessionCreationAttribute.InitializeStub">
+            <summary>初始化 type StubUsesAutomaticSessionCreationAttribute 的新实例</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubUsesAutomaticSessionCreationAttribute.IsDefaultAttribute">
+            <summary>设置 Attribute.IsDefaultAttribute() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Facilities.IBatisNetIntegration.Fakes.StubUsesAutomaticSessionCreationAttribute.IsDefaultAttribute01">
+            <summary>设置 Attribute.IsDefaultAttribute() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Facilities.IBatisNetIntegration.Fakes.StubUsesAutomaticSessionCreationAttribute.Match(System.Object)">
+            <summary>设置 Attribute.Match(Object obj) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Facilities.IBatisNetIntegration.Fakes.StubUsesAutomaticSessionCreationAttribute.MatchObject">
+            <summary>设置 Attribute.Match(Object obj) 的 stub</summary>
+        </member>
+        <member name="F:Castle.Facilities.IBatisNetIntegration.Fakes.StubUsesAutomaticSessionCreationAttribute.TypeIdGet">
+            <summary>设置 Attribute.get_TypeId() 的 stub</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubUsesAutomaticSessionCreationAttribute.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubUsesAutomaticSessionCreationAttribute.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubUsesAutomaticSessionCreationAttribute.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="P:Castle.Facilities.IBatisNetIntegration.Fakes.StubUsesAutomaticSessionCreationAttribute.TypeId">
+            <summary>设置 Attribute.get_TypeId() 的 stub</summary>
+        </member>
+    </members>
+</doc>

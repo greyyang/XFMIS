@@ -1,0 +1,1160 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Castle.Services.Transaction.0.1.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Castle.Services.Transaction.Fakes.ShimAbstractTransaction">
+            <summary>Castle.Services.Transaction.AbstractTransaction 的填充码类型</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.#ctor(Castle.Services.Transaction.AbstractTransaction)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.Bind(Castle.Services.Transaction.ITransaction)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.Bind(System.IDisposable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.AssertStateTransactionStatus">
+            <summary>设置 AbstractTransaction.AssertState(TransactionStatus state) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.Begin">
+            <summary>设置 AbstractTransaction.Begin() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.Commit">
+            <summary>设置 AbstractTransaction.Commit() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.Constructor">
+            <summary>设置 AbstractTransaction.AbstractTransaction() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.ContextGet">
+            <summary>设置 AbstractTransaction.get_Context() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.Dispose">
+            <summary>设置 AbstractTransaction.Dispose() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.EnlistIResource">
+            <summary>设置 AbstractTransaction.Enlist(IResource resource) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.InitializeLifetimeService">
+            <summary>设置 AbstractTransaction.InitializeLifetimeService() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.LoggerGet">
+            <summary>设置 AbstractTransaction.get_Logger() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.LoggerSetILogger">
+            <summary>设置 AbstractTransaction.set_Logger(ILogger value) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.PerformSynchronizationsBoolean">
+            <summary>设置 AbstractTransaction.PerformSynchronizations(Boolean runAfterCompletion) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.RegisterSynchronizationISynchronization">
+            <summary>设置 AbstractTransaction.RegisterSynchronization(ISynchronization synchronization) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.Rollback">
+            <summary>设置 AbstractTransaction.Rollback() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.StatusGet">
+            <summary>设置 AbstractTransaction.get_Status() 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.AllInstances.AssertStateTransactionStatus">
+            <summary>设置 AbstractTransaction.AssertState(TransactionStatus state) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.AllInstances.Begin">
+            <summary>设置 AbstractTransaction.Begin() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.AllInstances.Commit">
+            <summary>设置 AbstractTransaction.Commit() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.AllInstances.ContextGet">
+            <summary>设置 AbstractTransaction.get_Context() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.AllInstances.Dispose">
+            <summary>设置 AbstractTransaction.Dispose() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.AllInstances.EnlistIResource">
+            <summary>设置 AbstractTransaction.Enlist(IResource resource) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.AllInstances.InitializeLifetimeService">
+            <summary>设置 AbstractTransaction.InitializeLifetimeService() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.AllInstances.LoggerGet">
+            <summary>设置 AbstractTransaction.get_Logger() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.AllInstances.LoggerSetILogger">
+            <summary>设置 AbstractTransaction.set_Logger(ILogger value) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.AllInstances.PerformSynchronizationsBoolean">
+            <summary>设置 AbstractTransaction.PerformSynchronizations(Boolean runAfterCompletion) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.AllInstances.RegisterSynchronizationISynchronization">
+            <summary>设置 AbstractTransaction.RegisterSynchronization(ISynchronization synchronization) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.AllInstances.Rollback">
+            <summary>设置 AbstractTransaction.Rollback() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimAbstractTransaction.AllInstances.StatusGet">
+            <summary>设置 AbstractTransaction.get_Status() 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Services.Transaction.Fakes.ShimChildTransaction">
+            <summary>Castle.Services.Transaction.ChildTransaction 的填充码类型</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimChildTransaction.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimChildTransaction.#ctor(Castle.Services.Transaction.ChildTransaction)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimChildTransaction.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimChildTransaction.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimChildTransaction.Bind(Castle.Services.Transaction.ITransaction)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimChildTransaction.Bind(System.IDisposable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimChildTransaction.Begin">
+            <summary>设置 ChildTransaction.Begin() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimChildTransaction.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimChildTransaction.ChildTransactionRolledBack">
+            <summary>设置 ChildTransaction.ChildTransactionRolledBack() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimChildTransaction.Commit">
+            <summary>设置 ChildTransaction.Commit() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimChildTransaction.ConstructorStandardTransaction">
+            <summary>设置 ChildTransaction.ChildTransaction(StandardTransaction parent) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimChildTransaction.ContextGet">
+            <summary>设置 ChildTransaction.get_Context() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimChildTransaction.EnlistIResource">
+            <summary>设置 ChildTransaction.Enlist(IResource resource) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimChildTransaction.IsChildTransactionGet">
+            <summary>设置 ChildTransaction.get_IsChildTransaction() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimChildTransaction.IsRollbackOnlySetGet">
+            <summary>设置 ChildTransaction.get_IsRollbackOnlySet() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimChildTransaction.RegisterSynchronizationISynchronization">
+            <summary>设置 ChildTransaction.RegisterSynchronization(ISynchronization synchronization) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimChildTransaction.Rollback">
+            <summary>设置 ChildTransaction.Rollback() 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Services.Transaction.Fakes.ShimChildTransaction.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimChildTransaction.AllInstances.Begin">
+            <summary>设置 ChildTransaction.Begin() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimChildTransaction.AllInstances.ChildTransactionRolledBack">
+            <summary>设置 ChildTransaction.ChildTransactionRolledBack() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimChildTransaction.AllInstances.Commit">
+            <summary>设置 ChildTransaction.Commit() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimChildTransaction.AllInstances.ContextGet">
+            <summary>设置 ChildTransaction.get_Context() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimChildTransaction.AllInstances.EnlistIResource">
+            <summary>设置 ChildTransaction.Enlist(IResource resource) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimChildTransaction.AllInstances.IsChildTransactionGet">
+            <summary>设置 ChildTransaction.get_IsChildTransaction() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimChildTransaction.AllInstances.IsRollbackOnlySetGet">
+            <summary>设置 ChildTransaction.get_IsRollbackOnlySet() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimChildTransaction.AllInstances.RegisterSynchronizationISynchronization">
+            <summary>设置 ChildTransaction.RegisterSynchronization(ISynchronization synchronization) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimChildTransaction.AllInstances.Rollback">
+            <summary>设置 ChildTransaction.Rollback() 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager">
+            <summary>Castle.Services.Transaction.DefaultTransactionManager 的填充码类型</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.#ctor(Castle.Services.Transaction.DefaultTransactionManager)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.Bind(Castle.Services.Transaction.ITransactionManager)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.CheckNotSupportedTransactionTransactionMode">
+            <summary>设置 DefaultTransactionManager.CheckNotSupportedTransaction(TransactionMode transactionMode) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.ChildTransactionCreatedAddTransactionCreationInfoDelegate">
+            <summary>设置 DefaultTransactionManager.add_ChildTransactionCreated(TransactionCreationInfoDelegate value) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.ChildTransactionCreatedRemoveTransactionCreationInfoDelegate">
+            <summary>设置 DefaultTransactionManager.remove_ChildTransactionCreated(TransactionCreationInfoDelegate value) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.Constructor">
+            <summary>设置 DefaultTransactionManager.DefaultTransactionManager() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.CreateTransactionTransactionModeIsolationMode">
+            <summary>设置 DefaultTransactionManager.CreateTransaction(TransactionMode transactionMode, IsolationMode isolationMode) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.CurrentTransactionGet">
+            <summary>设置 DefaultTransactionManager.get_CurrentTransaction() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.DisposeITransaction">
+            <summary>设置 DefaultTransactionManager.Dispose(ITransaction transaction) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.InitializeLifetimeService">
+            <summary>设置 DefaultTransactionManager.InitializeLifetimeService() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.LoggerGet">
+            <summary>设置 DefaultTransactionManager.get_Logger() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.LoggerSetILogger">
+            <summary>设置 DefaultTransactionManager.set_Logger(ILogger value) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.ObtainDefaultTransactionModeTransactionMode">
+            <summary>设置 DefaultTransactionManager.ObtainDefaultTransactionMode(TransactionMode transactionMode) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.RaiseChildTransactionCreatedITransactionTransactionModeIsolationMode">
+            <summary>设置 DefaultTransactionManager.RaiseChildTransactionCreated(ITransaction transaction, TransactionMode transactionMode, IsolationMode isolationMode) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.RaiseTransactionCommittedITransaction">
+            <summary>设置 DefaultTransactionManager.RaiseTransactionCommitted(ITransaction transaction) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.RaiseTransactionCreatedITransactionTransactionModeIsolationMode">
+            <summary>设置 DefaultTransactionManager.RaiseTransactionCreated(ITransaction transaction, TransactionMode transactionMode, IsolationMode isolationMode) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.RaiseTransactionDisposedITransaction">
+            <summary>设置 DefaultTransactionManager.RaiseTransactionDisposed(ITransaction transaction) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.RaiseTransactionRolledbackITransaction">
+            <summary>设置 DefaultTransactionManager.RaiseTransactionRolledback(ITransaction transaction) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.StaticConstructor">
+            <summary>设置 DefaultTransactionManager.DefaultTransactionManager() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.TransactionCommittedAddTransactionDelegate">
+            <summary>设置 DefaultTransactionManager.add_TransactionCommitted(TransactionDelegate value) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.TransactionCommittedRemoveTransactionDelegate">
+            <summary>设置 DefaultTransactionManager.remove_TransactionCommitted(TransactionDelegate value) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.TransactionCreatedAddTransactionCreationInfoDelegate">
+            <summary>设置 DefaultTransactionManager.add_TransactionCreated(TransactionCreationInfoDelegate value) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.TransactionCreatedRemoveTransactionCreationInfoDelegate">
+            <summary>设置 DefaultTransactionManager.remove_TransactionCreated(TransactionCreationInfoDelegate value) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.TransactionDisposedAddTransactionDelegate">
+            <summary>设置 DefaultTransactionManager.add_TransactionDisposed(TransactionDelegate value) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.TransactionDisposedRemoveTransactionDelegate">
+            <summary>设置 DefaultTransactionManager.remove_TransactionDisposed(TransactionDelegate value) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.TransactionRolledbackAddTransactionDelegate">
+            <summary>设置 DefaultTransactionManager.add_TransactionRolledback(TransactionDelegate value) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.TransactionRolledbackRemoveTransactionDelegate">
+            <summary>设置 DefaultTransactionManager.remove_TransactionRolledback(TransactionDelegate value) 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.AllInstances.CheckNotSupportedTransactionTransactionMode">
+            <summary>设置 DefaultTransactionManager.CheckNotSupportedTransaction(TransactionMode transactionMode) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.AllInstances.ChildTransactionCreatedAddTransactionCreationInfoDelegate">
+            <summary>设置 DefaultTransactionManager.add_ChildTransactionCreated(TransactionCreationInfoDelegate value) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.AllInstances.ChildTransactionCreatedRemoveTransactionCreationInfoDelegate">
+            <summary>设置 DefaultTransactionManager.remove_ChildTransactionCreated(TransactionCreationInfoDelegate value) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.AllInstances.CreateTransactionTransactionModeIsolationMode">
+            <summary>设置 DefaultTransactionManager.CreateTransaction(TransactionMode transactionMode, IsolationMode isolationMode) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.AllInstances.CurrentTransactionGet">
+            <summary>设置 DefaultTransactionManager.get_CurrentTransaction() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.AllInstances.DisposeITransaction">
+            <summary>设置 DefaultTransactionManager.Dispose(ITransaction transaction) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.AllInstances.InitializeLifetimeService">
+            <summary>设置 DefaultTransactionManager.InitializeLifetimeService() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.AllInstances.LoggerGet">
+            <summary>设置 DefaultTransactionManager.get_Logger() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.AllInstances.LoggerSetILogger">
+            <summary>设置 DefaultTransactionManager.set_Logger(ILogger value) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.AllInstances.ObtainDefaultTransactionModeTransactionMode">
+            <summary>设置 DefaultTransactionManager.ObtainDefaultTransactionMode(TransactionMode transactionMode) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.AllInstances.RaiseChildTransactionCreatedITransactionTransactionModeIsolationMode">
+            <summary>设置 DefaultTransactionManager.RaiseChildTransactionCreated(ITransaction transaction, TransactionMode transactionMode, IsolationMode isolationMode) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.AllInstances.RaiseTransactionCommittedITransaction">
+            <summary>设置 DefaultTransactionManager.RaiseTransactionCommitted(ITransaction transaction) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.AllInstances.RaiseTransactionCreatedITransactionTransactionModeIsolationMode">
+            <summary>设置 DefaultTransactionManager.RaiseTransactionCreated(ITransaction transaction, TransactionMode transactionMode, IsolationMode isolationMode) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.AllInstances.RaiseTransactionDisposedITransaction">
+            <summary>设置 DefaultTransactionManager.RaiseTransactionDisposed(ITransaction transaction) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.AllInstances.RaiseTransactionRolledbackITransaction">
+            <summary>设置 DefaultTransactionManager.RaiseTransactionRolledback(ITransaction transaction) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.AllInstances.TransactionCommittedAddTransactionDelegate">
+            <summary>设置 DefaultTransactionManager.add_TransactionCommitted(TransactionDelegate value) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.AllInstances.TransactionCommittedRemoveTransactionDelegate">
+            <summary>设置 DefaultTransactionManager.remove_TransactionCommitted(TransactionDelegate value) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.AllInstances.TransactionCreatedAddTransactionCreationInfoDelegate">
+            <summary>设置 DefaultTransactionManager.add_TransactionCreated(TransactionCreationInfoDelegate value) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.AllInstances.TransactionCreatedRemoveTransactionCreationInfoDelegate">
+            <summary>设置 DefaultTransactionManager.remove_TransactionCreated(TransactionCreationInfoDelegate value) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.AllInstances.TransactionDisposedAddTransactionDelegate">
+            <summary>设置 DefaultTransactionManager.add_TransactionDisposed(TransactionDelegate value) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.AllInstances.TransactionDisposedRemoveTransactionDelegate">
+            <summary>设置 DefaultTransactionManager.remove_TransactionDisposed(TransactionDelegate value) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.AllInstances.TransactionRolledbackAddTransactionDelegate">
+            <summary>设置 DefaultTransactionManager.add_TransactionRolledback(TransactionDelegate value) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimDefaultTransactionManager.AllInstances.TransactionRolledbackRemoveTransactionDelegate">
+            <summary>设置 DefaultTransactionManager.remove_TransactionRolledback(TransactionDelegate value) 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Services.Transaction.Fakes.ShimStandardTransaction">
+            <summary>Castle.Services.Transaction.StandardTransaction 的填充码类型</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimStandardTransaction.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimStandardTransaction.#ctor(Castle.Services.Transaction.StandardTransaction)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimStandardTransaction.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimStandardTransaction.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimStandardTransaction.Bind(Castle.Services.Transaction.ITransaction)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimStandardTransaction.Bind(System.IDisposable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimStandardTransaction.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimStandardTransaction.ChildTransactionRolledBack">
+            <summary>设置 StandardTransaction.ChildTransactionRolledBack() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimStandardTransaction.Commit">
+            <summary>设置 StandardTransaction.Commit() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimStandardTransaction.Constructor">
+            <summary>设置 StandardTransaction.StandardTransaction() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimStandardTransaction.ConstructorTransactionDelegateTransactionDelegate">
+            <summary>设置 StandardTransaction.StandardTransaction(TransactionDelegate onTransactionCommitted, TransactionDelegate onTransactionRolledback) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimStandardTransaction.CreateChildTransaction">
+            <summary>设置 StandardTransaction.CreateChildTransaction() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimStandardTransaction.IsChildTransactionGet">
+            <summary>设置 StandardTransaction.get_IsChildTransaction() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimStandardTransaction.IsRollbackOnlySetGet">
+            <summary>设置 StandardTransaction.get_IsRollbackOnlySet() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimStandardTransaction.Rollback">
+            <summary>设置 StandardTransaction.Rollback() 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Services.Transaction.Fakes.ShimStandardTransaction.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimStandardTransaction.AllInstances.ChildTransactionRolledBack">
+            <summary>设置 StandardTransaction.ChildTransactionRolledBack() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimStandardTransaction.AllInstances.Commit">
+            <summary>设置 StandardTransaction.Commit() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimStandardTransaction.AllInstances.CreateChildTransaction">
+            <summary>设置 StandardTransaction.CreateChildTransaction() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimStandardTransaction.AllInstances.IsChildTransactionGet">
+            <summary>设置 StandardTransaction.get_IsChildTransaction() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimStandardTransaction.AllInstances.IsRollbackOnlySetGet">
+            <summary>设置 StandardTransaction.get_IsRollbackOnlySet() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimStandardTransaction.AllInstances.Rollback">
+            <summary>设置 StandardTransaction.Rollback() 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Services.Transaction.Fakes.ShimTransactionAttribute">
+            <summary>Castle.Services.Transaction.TransactionAttribute 的填充码类型</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimTransactionAttribute.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimTransactionAttribute.#ctor(Castle.Services.Transaction.TransactionAttribute)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimTransactionAttribute.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimTransactionAttribute.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimTransactionAttribute.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimTransactionAttribute.Constructor">
+            <summary>设置 TransactionAttribute.TransactionAttribute() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimTransactionAttribute.ConstructorTransactionMode">
+            <summary>设置 TransactionAttribute.TransactionAttribute(TransactionMode transactionMode) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimTransactionAttribute.ConstructorTransactionModeIsolationMode">
+            <summary>设置 TransactionAttribute.TransactionAttribute(TransactionMode transactionMode, IsolationMode isolationMode) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimTransactionAttribute.IsolationModeGet">
+            <summary>设置 TransactionAttribute.get_IsolationMode() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimTransactionAttribute.TransactionModeGet">
+            <summary>设置 TransactionAttribute.get_TransactionMode() 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Services.Transaction.Fakes.ShimTransactionAttribute.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimTransactionAttribute.AllInstances.IsolationModeGet">
+            <summary>设置 TransactionAttribute.get_IsolationMode() 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimTransactionAttribute.AllInstances.TransactionModeGet">
+            <summary>设置 TransactionAttribute.get_TransactionMode() 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Services.Transaction.Fakes.ShimTransactionException">
+            <summary>Castle.Services.Transaction.TransactionException 的填充码类型</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimTransactionException.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimTransactionException.#ctor(Castle.Services.Transaction.TransactionException)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimTransactionException.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimTransactionException.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimTransactionException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimTransactionException.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimTransactionException.ConstructorSerializationInfoStreamingContext">
+            <summary>设置 TransactionException.TransactionException(SerializationInfo info, StreamingContext context) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimTransactionException.ConstructorString">
+            <summary>设置 TransactionException.TransactionException(String message) 的 填充码</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimTransactionException.ConstructorStringException">
+            <summary>设置 TransactionException.TransactionException(String message, Exception innerException) 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Services.Transaction.Fakes.ShimTransactionException.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="T:Castle.Services.Transaction.Fakes.ShimTransactionalAttribute">
+            <summary>Castle.Services.Transaction.TransactionalAttribute 的填充码类型</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimTransactionalAttribute.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimTransactionalAttribute.#ctor(Castle.Services.Transaction.TransactionalAttribute)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimTransactionalAttribute.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.ShimTransactionalAttribute.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimTransactionalAttribute.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.ShimTransactionalAttribute.Constructor">
+            <summary>设置 TransactionalAttribute.TransactionalAttribute() 的 填充码</summary>
+        </member>
+        <member name="T:Castle.Services.Transaction.Fakes.ShimTransactionalAttribute.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="T:Castle.Services.Transaction.Fakes.StubAbstractTransaction">
+            <summary>Castle.Services.Transaction.AbstractTransaction 的存根类型</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubAbstractTransaction.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubAbstractTransaction.AssertState(Castle.Services.Transaction.TransactionStatus)">
+            <summary>设置 AbstractTransaction.AssertState(TransactionStatus state) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubAbstractTransaction.AssertStateTransactionStatus">
+            <summary>设置 AbstractTransaction.AssertState(TransactionStatus state) 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubAbstractTransaction.Begin">
+            <summary>设置 AbstractTransaction.Begin() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubAbstractTransaction.Begin01">
+            <summary>设置 AbstractTransaction.Begin() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubAbstractTransaction.Commit">
+            <summary>设置 AbstractTransaction.Commit() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubAbstractTransaction.Commit01">
+            <summary>设置 AbstractTransaction.Commit() 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubAbstractTransaction.ContextGet">
+            <summary>设置 AbstractTransaction.get_Context() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubAbstractTransaction.Dispose">
+            <summary>设置 AbstractTransaction.Dispose() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubAbstractTransaction.Dispose01">
+            <summary>设置 AbstractTransaction.Dispose() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubAbstractTransaction.Enlist(Castle.Services.Transaction.IResource)">
+            <summary>设置 AbstractTransaction.Enlist(IResource resource) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubAbstractTransaction.EnlistIResource">
+            <summary>设置 AbstractTransaction.Enlist(IResource resource) 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubAbstractTransaction.InitializeLifetimeService">
+            <summary>设置 AbstractTransaction.InitializeLifetimeService() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubAbstractTransaction.InitializeLifetimeService01">
+            <summary>设置 AbstractTransaction.InitializeLifetimeService() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubAbstractTransaction.InitializeStub">
+            <summary>初始化 type StubAbstractTransaction 的新实例</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubAbstractTransaction.IsChildTransactionGet">
+            <summary>设置 AbstractTransaction.get_IsChildTransaction() 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubAbstractTransaction.IsRollbackOnlySetGet">
+            <summary>设置 AbstractTransaction.get_IsRollbackOnlySet() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubAbstractTransaction.RegisterSynchronization(Castle.Services.Transaction.ISynchronization)">
+            <summary>设置 AbstractTransaction.RegisterSynchronization(ISynchronization synchronization) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubAbstractTransaction.RegisterSynchronizationISynchronization">
+            <summary>设置 AbstractTransaction.RegisterSynchronization(ISynchronization synchronization) 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubAbstractTransaction.Rollback">
+            <summary>设置 AbstractTransaction.Rollback() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubAbstractTransaction.Rollback01">
+            <summary>设置 AbstractTransaction.Rollback() 的 stub</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubAbstractTransaction.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubAbstractTransaction.Context">
+            <summary>设置 AbstractTransaction.get_Context() 的 stub</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubAbstractTransaction.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubAbstractTransaction.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubAbstractTransaction.IsChildTransaction">
+            <summary>设置 AbstractTransaction.get_IsChildTransaction() 的 stub</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubAbstractTransaction.IsRollbackOnlySet">
+            <summary>设置 AbstractTransaction.get_IsRollbackOnlySet() 的 stub</summary>
+        </member>
+        <member name="T:Castle.Services.Transaction.Fakes.StubChildTransaction">
+            <summary>Castle.Services.Transaction.ChildTransaction 的存根类型</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubChildTransaction.#ctor(Castle.Services.Transaction.StandardTransaction)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubChildTransaction.AssertState(Castle.Services.Transaction.TransactionStatus)">
+            <summary>设置 AbstractTransaction.AssertState(TransactionStatus state) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubChildTransaction.AssertStateTransactionStatus">
+            <summary>设置 AbstractTransaction.AssertState(TransactionStatus state) 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubChildTransaction.Begin">
+            <summary>设置 ChildTransaction.Begin() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubChildTransaction.Begin01">
+            <summary>设置 ChildTransaction.Begin() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubChildTransaction.ChildTransactionRolledBack">
+            <summary>设置 ChildTransaction.ChildTransactionRolledBack() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubChildTransaction.ChildTransactionRolledBack01">
+            <summary>设置 ChildTransaction.ChildTransactionRolledBack() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubChildTransaction.Commit">
+            <summary>设置 ChildTransaction.Commit() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubChildTransaction.Commit01">
+            <summary>设置 ChildTransaction.Commit() 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubChildTransaction.ContextGet">
+            <summary>设置 ChildTransaction.get_Context() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubChildTransaction.Dispose">
+            <summary>设置 AbstractTransaction.Dispose() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubChildTransaction.Dispose01">
+            <summary>设置 AbstractTransaction.Dispose() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubChildTransaction.Enlist(Castle.Services.Transaction.IResource)">
+            <summary>设置 ChildTransaction.Enlist(IResource resource) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubChildTransaction.EnlistIResource">
+            <summary>设置 ChildTransaction.Enlist(IResource resource) 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubChildTransaction.InitializeLifetimeService">
+            <summary>设置 AbstractTransaction.InitializeLifetimeService() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubChildTransaction.InitializeLifetimeService01">
+            <summary>设置 AbstractTransaction.InitializeLifetimeService() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubChildTransaction.InitializeStub">
+            <summary>初始化 type StubChildTransaction 的新实例</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubChildTransaction.IsChildTransactionGet">
+            <summary>设置 ChildTransaction.get_IsChildTransaction() 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubChildTransaction.IsRollbackOnlySetGet">
+            <summary>设置 ChildTransaction.get_IsRollbackOnlySet() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubChildTransaction.RegisterSynchronization(Castle.Services.Transaction.ISynchronization)">
+            <summary>设置 ChildTransaction.RegisterSynchronization(ISynchronization synchronization) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubChildTransaction.RegisterSynchronizationISynchronization">
+            <summary>设置 ChildTransaction.RegisterSynchronization(ISynchronization synchronization) 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubChildTransaction.Rollback">
+            <summary>设置 ChildTransaction.Rollback() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubChildTransaction.Rollback01">
+            <summary>设置 ChildTransaction.Rollback() 的 stub</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubChildTransaction.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubChildTransaction.Context">
+            <summary>设置 ChildTransaction.get_Context() 的 stub</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubChildTransaction.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubChildTransaction.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubChildTransaction.IsChildTransaction">
+            <summary>设置 ChildTransaction.get_IsChildTransaction() 的 stub</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubChildTransaction.IsRollbackOnlySet">
+            <summary>设置 ChildTransaction.get_IsRollbackOnlySet() 的 stub</summary>
+        </member>
+        <member name="T:Castle.Services.Transaction.Fakes.StubDefaultTransactionManager">
+            <summary>Castle.Services.Transaction.DefaultTransactionManager 的存根类型</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubDefaultTransactionManager.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubDefaultTransactionManager.CreateTransaction(Castle.Services.Transaction.TransactionMode,Castle.Services.Transaction.IsolationMode)">
+            <summary>设置 DefaultTransactionManager.CreateTransaction(TransactionMode transactionMode, IsolationMode isolationMode) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubDefaultTransactionManager.CreateTransactionTransactionModeIsolationMode">
+            <summary>设置 DefaultTransactionManager.CreateTransaction(TransactionMode transactionMode, IsolationMode isolationMode) 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubDefaultTransactionManager.CurrentTransactionGet">
+            <summary>设置 DefaultTransactionManager.get_CurrentTransaction() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubDefaultTransactionManager.Dispose(Castle.Services.Transaction.ITransaction)">
+            <summary>设置 DefaultTransactionManager.Dispose(ITransaction transaction) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubDefaultTransactionManager.DisposeITransaction">
+            <summary>设置 DefaultTransactionManager.Dispose(ITransaction transaction) 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubDefaultTransactionManager.InitializeLifetimeService">
+            <summary>设置 DefaultTransactionManager.InitializeLifetimeService() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubDefaultTransactionManager.InitializeLifetimeService01">
+            <summary>设置 DefaultTransactionManager.InitializeLifetimeService() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubDefaultTransactionManager.InitializeStub">
+            <summary>初始化 type StubDefaultTransactionManager 的新实例</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubDefaultTransactionManager.ObtainDefaultTransactionMode(Castle.Services.Transaction.TransactionMode)">
+            <summary>设置 DefaultTransactionManager.ObtainDefaultTransactionMode(TransactionMode transactionMode) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubDefaultTransactionManager.ObtainDefaultTransactionModeTransactionMode">
+            <summary>设置 DefaultTransactionManager.ObtainDefaultTransactionMode(TransactionMode transactionMode) 的 stub</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubDefaultTransactionManager.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubDefaultTransactionManager.CurrentTransaction">
+            <summary>设置 DefaultTransactionManager.get_CurrentTransaction() 的 stub</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubDefaultTransactionManager.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubDefaultTransactionManager.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Castle.Services.Transaction.Fakes.StubIResource">
+            <summary>Castle.Services.Transaction.IResource 的存根类型</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubIResource.#ctor">
+            <summary>初始化 type StubIResource 的新实例</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubIResource.cst::Castle#Services#Transaction#IResource#Commit">
+            <summary>设置 IResource.Commit() 的 存根</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubIResource.cst::Castle#Services#Transaction#IResource#Rollback">
+            <summary>设置 IResource.Rollback() 的 存根</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubIResource.cst::Castle#Services#Transaction#IResource#Start">
+            <summary>设置 IResource.Start() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubIResource.Commit">
+            <summary>设置 IResource.Commit() 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubIResource.Rollback">
+            <summary>设置 IResource.Rollback() 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubIResource.Start">
+            <summary>设置 IResource.Start() 的 stub</summary>
+        </member>
+        <member name="T:Castle.Services.Transaction.Fakes.StubISynchronization">
+            <summary>Castle.Services.Transaction.ISynchronization 的存根类型</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubISynchronization.#ctor">
+            <summary>初始化 type StubISynchronization 的新实例</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubISynchronization.AfterCompletion">
+            <summary>设置 ISynchronization.AfterCompletion() 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubISynchronization.BeforeCompletion">
+            <summary>设置 ISynchronization.BeforeCompletion() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubISynchronization.cst::Castle#Services#Transaction#ISynchronization#AfterCompletion">
+            <summary>设置 ISynchronization.AfterCompletion() 的 存根</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubISynchronization.cst::Castle#Services#Transaction#ISynchronization#BeforeCompletion">
+            <summary>设置 ISynchronization.BeforeCompletion() 的 存根</summary>
+        </member>
+        <member name="T:Castle.Services.Transaction.Fakes.StubITransaction">
+            <summary>Castle.Services.Transaction.ITransaction 的存根类型</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubITransaction.#ctor">
+            <summary>初始化 type StubITransaction 的新实例</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubITransaction.Begin">
+            <summary>设置 ITransaction.Begin() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubITransaction.cst::Castle#Services#Transaction#ITransaction#Begin">
+            <summary>设置 ITransaction.Begin() 的 存根</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubITransaction.cst::Castle#Services#Transaction#ITransaction#Commit">
+            <summary>设置 ITransaction.Commit() 的 存根</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubITransaction.cst::Castle#Services#Transaction#ITransaction#Enlist(Castle.Services.Transaction.IResource)">
+            <summary>设置 ITransaction.Enlist(IResource resource) 的 存根</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubITransaction.cst::Castle#Services#Transaction#ITransaction#RegisterSynchronization(Castle.Services.Transaction.ISynchronization)">
+            <summary>设置 ITransaction.RegisterSynchronization(ISynchronization synchronization) 的 存根</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubITransaction.cst::Castle#Services#Transaction#ITransaction#Rollback">
+            <summary>设置 ITransaction.Rollback() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubITransaction.Commit">
+            <summary>设置 ITransaction.Commit() 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubITransaction.ContextGet">
+            <summary>设置 ITransaction.get_Context() 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubITransaction.EnlistIResource">
+            <summary>设置 ITransaction.Enlist(IResource resource) 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubITransaction.IsChildTransactionGet">
+            <summary>设置 ITransaction.get_IsChildTransaction() 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubITransaction.IsRollbackOnlySetGet">
+            <summary>设置 ITransaction.get_IsRollbackOnlySet() 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubITransaction.RegisterSynchronizationISynchronization">
+            <summary>设置 ITransaction.RegisterSynchronization(ISynchronization synchronization) 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubITransaction.Rollback">
+            <summary>设置 ITransaction.Rollback() 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubITransaction.StatusGet">
+            <summary>设置 ITransaction.get_Status() 的 stub</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubITransaction.cst::Castle#Services#Transaction#ITransaction#Context">
+            <summary>设置 ITransaction.get_Context() 的 stub</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubITransaction.cst::Castle#Services#Transaction#ITransaction#IsChildTransaction">
+            <summary>设置 ITransaction.get_IsChildTransaction() 的 stub</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubITransaction.cst::Castle#Services#Transaction#ITransaction#IsRollbackOnlySet">
+            <summary>设置 ITransaction.get_IsRollbackOnlySet() 的 stub</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubITransaction.cst::Castle#Services#Transaction#ITransaction#Status">
+            <summary>设置 ITransaction.get_Status() 的 stub</summary>
+        </member>
+        <member name="T:Castle.Services.Transaction.Fakes.StubITransactionManager">
+            <summary>Castle.Services.Transaction.ITransactionManager 的存根类型</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubITransactionManager.#ctor">
+            <summary>初始化 type StubITransactionManager 的新实例</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubITransactionManager.cst::Castle#Services#Transaction#ITransactionManager#CreateTransaction(Castle.Services.Transaction.TransactionMode,Castle.Services.Transaction.IsolationMode)">
+            <summary>设置 ITransactionManager.CreateTransaction(TransactionMode transactionMode, IsolationMode isolationMode) 的 存根</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubITransactionManager.cst::Castle#Services#Transaction#ITransactionManager#Dispose(Castle.Services.Transaction.ITransaction)">
+            <summary>设置 ITransactionManager.Dispose(ITransaction transaction) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubITransactionManager.CreateTransactionTransactionModeIsolationMode">
+            <summary>设置 ITransactionManager.CreateTransaction(TransactionMode transactionMode, IsolationMode isolationMode) 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubITransactionManager.CurrentTransactionGet">
+            <summary>设置 ITransactionManager.get_CurrentTransaction() 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubITransactionManager.DisposeITransaction">
+            <summary>设置 ITransactionManager.Dispose(ITransaction transaction) 的 stub</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubITransactionManager.cst::Castle#Services#Transaction#ITransactionManager#CurrentTransaction">
+            <summary>设置 ITransactionManager.get_CurrentTransaction() 的 stub</summary>
+        </member>
+        <member name="T:Castle.Services.Transaction.Fakes.StubStandardTransaction">
+            <summary>Castle.Services.Transaction.StandardTransaction 的存根类型</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubStandardTransaction.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubStandardTransaction.#ctor(Castle.Services.Transaction.TransactionDelegate,Castle.Services.Transaction.TransactionDelegate)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubStandardTransaction.AssertState(Castle.Services.Transaction.TransactionStatus)">
+            <summary>设置 AbstractTransaction.AssertState(TransactionStatus state) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubStandardTransaction.AssertStateTransactionStatus">
+            <summary>设置 AbstractTransaction.AssertState(TransactionStatus state) 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubStandardTransaction.Begin">
+            <summary>设置 AbstractTransaction.Begin() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubStandardTransaction.Begin01">
+            <summary>设置 AbstractTransaction.Begin() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubStandardTransaction.ChildTransactionRolledBack">
+            <summary>设置 StandardTransaction.ChildTransactionRolledBack() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubStandardTransaction.ChildTransactionRolledBack01">
+            <summary>设置 StandardTransaction.ChildTransactionRolledBack() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubStandardTransaction.Commit">
+            <summary>设置 StandardTransaction.Commit() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubStandardTransaction.Commit01">
+            <summary>设置 StandardTransaction.Commit() 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubStandardTransaction.ContextGet">
+            <summary>设置 AbstractTransaction.get_Context() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubStandardTransaction.Dispose">
+            <summary>设置 AbstractTransaction.Dispose() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubStandardTransaction.Dispose01">
+            <summary>设置 AbstractTransaction.Dispose() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubStandardTransaction.Enlist(Castle.Services.Transaction.IResource)">
+            <summary>设置 AbstractTransaction.Enlist(IResource resource) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubStandardTransaction.EnlistIResource">
+            <summary>设置 AbstractTransaction.Enlist(IResource resource) 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubStandardTransaction.InitializeLifetimeService">
+            <summary>设置 AbstractTransaction.InitializeLifetimeService() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubStandardTransaction.InitializeLifetimeService01">
+            <summary>设置 AbstractTransaction.InitializeLifetimeService() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubStandardTransaction.InitializeStub">
+            <summary>初始化 type StubStandardTransaction 的新实例</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubStandardTransaction.IsChildTransactionGet">
+            <summary>设置 StandardTransaction.get_IsChildTransaction() 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubStandardTransaction.IsRollbackOnlySetGet">
+            <summary>设置 StandardTransaction.get_IsRollbackOnlySet() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubStandardTransaction.RegisterSynchronization(Castle.Services.Transaction.ISynchronization)">
+            <summary>设置 AbstractTransaction.RegisterSynchronization(ISynchronization synchronization) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubStandardTransaction.RegisterSynchronizationISynchronization">
+            <summary>设置 AbstractTransaction.RegisterSynchronization(ISynchronization synchronization) 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubStandardTransaction.Rollback">
+            <summary>设置 StandardTransaction.Rollback() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubStandardTransaction.Rollback01">
+            <summary>设置 StandardTransaction.Rollback() 的 stub</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubStandardTransaction.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubStandardTransaction.Context">
+            <summary>设置 AbstractTransaction.get_Context() 的 stub</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubStandardTransaction.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubStandardTransaction.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubStandardTransaction.IsChildTransaction">
+            <summary>设置 StandardTransaction.get_IsChildTransaction() 的 stub</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubStandardTransaction.IsRollbackOnlySet">
+            <summary>设置 StandardTransaction.get_IsRollbackOnlySet() 的 stub</summary>
+        </member>
+        <member name="T:Castle.Services.Transaction.Fakes.StubTransactionAttribute">
+            <summary>Castle.Services.Transaction.TransactionAttribute 的存根类型</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubTransactionAttribute.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubTransactionAttribute.#ctor(Castle.Services.Transaction.TransactionMode)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubTransactionAttribute.#ctor(Castle.Services.Transaction.TransactionMode,Castle.Services.Transaction.IsolationMode)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubTransactionAttribute.Equals(System.Object)">
+            <summary>设置 Attribute.Equals(Object obj) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubTransactionAttribute.EqualsObject">
+            <summary>设置 Attribute.Equals(Object obj) 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubTransactionAttribute.GetHashCode">
+            <summary>设置 Attribute.GetHashCode() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubTransactionAttribute.GetHashCode01">
+            <summary>设置 Attribute.GetHashCode() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubTransactionAttribute.InitializeStub">
+            <summary>初始化 type StubTransactionAttribute 的新实例</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubTransactionAttribute.IsDefaultAttribute">
+            <summary>设置 Attribute.IsDefaultAttribute() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubTransactionAttribute.IsDefaultAttribute01">
+            <summary>设置 Attribute.IsDefaultAttribute() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubTransactionAttribute.Match(System.Object)">
+            <summary>设置 Attribute.Match(Object obj) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubTransactionAttribute.MatchObject">
+            <summary>设置 Attribute.Match(Object obj) 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubTransactionAttribute.TypeIdGet">
+            <summary>设置 Attribute.get_TypeId() 的 stub</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubTransactionAttribute.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubTransactionAttribute.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubTransactionAttribute.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubTransactionAttribute.TypeId">
+            <summary>设置 Attribute.get_TypeId() 的 stub</summary>
+        </member>
+        <member name="T:Castle.Services.Transaction.Fakes.StubTransactionException">
+            <summary>Castle.Services.Transaction.TransactionException 的存根类型</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubTransactionException.#ctor(System.String)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubTransactionException.#ctor(System.String,System.Exception)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubTransactionException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubTransactionException.AttachBackingFieldToHelpLink">
+            <summary>附加委托以将 StubTransactionException.HelpLink 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubTransactionException.AttachBackingFieldToSource">
+            <summary>附加委托以将 StubTransactionException.Source 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubTransactionException.DataGet">
+            <summary>设置 Exception.get_Data() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubTransactionException.GetBaseException">
+            <summary>设置 Exception.GetBaseException() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubTransactionException.GetBaseException01">
+            <summary>设置 Exception.GetBaseException() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubTransactionException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>设置 Exception.GetObjectData(SerializationInfo info, StreamingContext context) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubTransactionException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>设置 Exception.GetObjectData(SerializationInfo info, StreamingContext context) 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubTransactionException.HelpLinkGet">
+            <summary>设置 Exception.get_HelpLink() 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubTransactionException.HelpLinkSetString">
+            <summary>设置 Exception.set_HelpLink(String value) 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubTransactionException.InitializeStub">
+            <summary>初始化 type StubTransactionException 的新实例</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubTransactionException.MessageGet">
+            <summary>设置 Exception.get_Message() 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubTransactionException.SourceGet">
+            <summary>设置 Exception.get_Source() 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubTransactionException.SourceSetString">
+            <summary>设置 Exception.set_Source(String value) 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubTransactionException.StackTraceGet">
+            <summary>设置 Exception.get_StackTrace() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubTransactionException.ToString">
+            <summary>设置 Exception.ToString() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubTransactionException.ToString01">
+            <summary>设置 Exception.ToString() 的 stub</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubTransactionException.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubTransactionException.Data">
+            <summary>设置 Exception.get_Data() 的 stub</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubTransactionException.HelpLink">
+            <summary>设置 Exception.get_HelpLink() 的 stub</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubTransactionException.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubTransactionException.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubTransactionException.Message">
+            <summary>设置 Exception.get_Message() 的 stub</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubTransactionException.Source">
+            <summary>设置 Exception.get_Source() 的 stub</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubTransactionException.StackTrace">
+            <summary>设置 Exception.get_StackTrace() 的 stub</summary>
+        </member>
+        <member name="T:Castle.Services.Transaction.Fakes.StubTransactionalAttribute">
+            <summary>Castle.Services.Transaction.TransactionalAttribute 的存根类型</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubTransactionalAttribute.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubTransactionalAttribute.Equals(System.Object)">
+            <summary>设置 Attribute.Equals(Object obj) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubTransactionalAttribute.EqualsObject">
+            <summary>设置 Attribute.Equals(Object obj) 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubTransactionalAttribute.GetHashCode">
+            <summary>设置 Attribute.GetHashCode() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubTransactionalAttribute.GetHashCode01">
+            <summary>设置 Attribute.GetHashCode() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubTransactionalAttribute.InitializeStub">
+            <summary>初始化 type StubTransactionalAttribute 的新实例</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubTransactionalAttribute.IsDefaultAttribute">
+            <summary>设置 Attribute.IsDefaultAttribute() 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubTransactionalAttribute.IsDefaultAttribute01">
+            <summary>设置 Attribute.IsDefaultAttribute() 的 stub</summary>
+        </member>
+        <member name="M:Castle.Services.Transaction.Fakes.StubTransactionalAttribute.Match(System.Object)">
+            <summary>设置 Attribute.Match(Object obj) 的 存根</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubTransactionalAttribute.MatchObject">
+            <summary>设置 Attribute.Match(Object obj) 的 stub</summary>
+        </member>
+        <member name="F:Castle.Services.Transaction.Fakes.StubTransactionalAttribute.TypeIdGet">
+            <summary>设置 Attribute.get_TypeId() 的 stub</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubTransactionalAttribute.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubTransactionalAttribute.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubTransactionalAttribute.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="P:Castle.Services.Transaction.Fakes.StubTransactionalAttribute.TypeId">
+            <summary>设置 Attribute.get_TypeId() 的 stub</summary>
+        </member>
+    </members>
+</doc>

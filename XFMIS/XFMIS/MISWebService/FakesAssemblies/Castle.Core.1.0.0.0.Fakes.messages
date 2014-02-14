@@ -1,0 +1,47 @@
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Internal.VertexColor 生成存根: 类型是一个值类型。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Internal.ColorsSet 生成存根: 类型对 exported or assembly(Castle.Core.1.0.0.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Internal.TimestampSet 生成存根: 类型对 exported or assembly(Castle.Core.1.0.0.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Internal.LinkNode 生成存根: 类型对 exported or assembly(Castle.Core.1.0.0.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Internal.LinkedListEnumerator 生成存根: 类型对 exported or assembly(Castle.Core.1.0.0.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Logging.LoggerLevel 生成存根: 类型是一个值类型。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.LifestyleType 生成存根: 类型是一个值类型。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.PropertiesInspectionBehavior 生成存根: 类型是一个值类型。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.ComponentModel 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.DependencyType 生成存根: 类型是一个值类型。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.InterceptorReferenceType 生成存根: 类型是一个值类型。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.LifecycleStepType 生成存根: 类型是一个值类型。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Resource.IResource 生成存根: method System.IO.TextReader Castle.Core.Resource.IResource.GetStreamReader() unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.TextReader 在目标框架版本中不可用。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Resource.AbstractResource 生成存根: method System.IO.TextReader Castle.Core.Resource.AbstractResource.GetStreamReader() unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.TextReader 在目标框架版本中不可用。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Resource.AbstractStreamResource 生成存根: method System.IO.Stream Castle.Core.Resource.AbstractStreamResource.get_Stream() unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.Stream 在目标框架版本中不可用。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Resource.AssemblyResource 生成存根: method System.IO.Stream Castle.Core.Resource.AbstractStreamResource.get_Stream() unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.Stream 在目标框架版本中不可用。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Resource.ConfigResource 生成存根: method System.IO.TextReader Castle.Core.Resource.AbstractResource.GetStreamReader() unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.TextReader 在目标框架版本中不可用。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Resource.CustomUri 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Resource.FileResource 生成存根: method System.IO.Stream Castle.Core.Resource.AbstractStreamResource.get_Stream() unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.Stream 在目标框架版本中不可用。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Resource.StaticContentResource 生成存根: method System.IO.TextReader Castle.Core.Resource.AbstractResource.GetStreamReader() unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.TextReader 在目标框架版本中不可用。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Resource.UncResource 生成存根: method System.IO.Stream Castle.Core.Resource.AbstractStreamResource.get_Stream() unstubbable: 方法是抽象的，因此无法用作存根，类型 System.IO.Stream 在目标框架版本中不可用。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Interceptor.IInterceptor 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Interceptor.IInvocation 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Interceptor.IMethodInterceptor 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Interceptor.IMethodInvocation 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Interceptor.IOnBehalfAware 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.IVertex 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Internal.VertexColor 生成填充码: 类型是一个枚举。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Internal.ColorsSet 生成填充码: 类型对 exported or assembly(Castle.Core.1.0.0.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Internal.TimestampSet 生成填充码: 类型对 exported or assembly(Castle.Core.1.0.0.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Internal.LinkNode 生成填充码: 类型对 exported or assembly(Castle.Core.1.0.0.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Internal.LinkedListEnumerator 生成填充码: 类型对 exported or assembly(Castle.Core.1.0.0.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.IInitializable 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.IRecyclable 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.IStartable 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Logging.ILoggerFactory 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Logging.ILogger 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Logging.LoggerLevel 生成填充码: 类型是一个枚举。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Configuration.IConfiguration 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.LifestyleType 生成填充码: 类型是一个枚举。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.PropertiesInspectionBehavior 生成填充码: 类型是一个枚举。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.DependencyType 生成填充码: 类型是一个枚举。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.InterceptorReferenceType 生成填充码: 类型是一个枚举。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.LifecycleStepType 生成填充码: 类型是一个枚举。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Resource.IResource 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.Resource.IResourceFactory 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Core.fakes : warning : 无法为 Castle.Core.IServiceEnabledComponent 生成填充码: 类型是一个接口。

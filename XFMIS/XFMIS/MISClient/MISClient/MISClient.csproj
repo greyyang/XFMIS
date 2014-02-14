@@ -826,7 +826,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\LoginBackground.bmp" />
+    <None Include="Resources\2014-02-08_104203.png" />
     <Content Include="Resources\XFMISLogo-1.ico" />
+    <Content Include="Resource\background.jpg" />
     <Content Include="XFMISLogo-1.ico" />
     <Content Include="XFMISLOGO.ico" />
     <None Include="Resources\Logo-small.png" />

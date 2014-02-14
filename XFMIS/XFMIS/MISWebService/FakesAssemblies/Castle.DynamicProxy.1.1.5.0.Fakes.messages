@@ -1,0 +1,19 @@
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.DynamicProxy.fakes : warning : 无法为 Castle.DynamicProxy.Builder.CodeBuilder.Utils.LdcOpCodesDictionary 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.DynamicProxy.fakes : warning : 无法为 Castle.DynamicProxy.Builder.CodeBuilder.Utils.LdindOpCodesDictionary 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.DynamicProxy.fakes : warning : 无法为 Castle.DynamicProxy.Builder.CodeBuilder.Utils.StindOpCodesDictionary 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.DynamicProxy.fakes : warning : 无法为 Castle.DynamicProxy.Builder.CodeBuilder.Utils.OpCodeUtil 生成存根: 类型对 exported or assembly(Castle.DynamicProxy.1.1.5.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.DynamicProxy.fakes : warning : 无法为 Castle.DynamicProxy.Builder.CodeBuilder.EasyDefaultConstructor 生成存根: 类型没有系列可见的构造函数。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.DynamicProxy.fakes : warning : 无法为 Castle.DynamicProxy.Builder.CodeGenerators.Set 生成存根: 类型对 exported or assembly(Castle.DynamicProxy.1.1.5.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.DynamicProxy.fakes : warning : 无法为 Castle.DynamicProxy.Builder.CodeGenerators.CallableField 生成存根: 类型对 exported or assembly(Castle.DynamicProxy.1.1.5.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.DynamicProxy.fakes : warning : 无法为 Castle.DynamicProxy.GeneratorContext 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.DynamicProxy.fakes : warning : 无法为 Castle.DynamicProxy.AssertUtil 生成存根: 类型对 exported or assembly(Castle.DynamicProxy.1.1.5.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.DynamicProxy.fakes : warning : 无法为 Castle.DynamicProxy.Builder.CodeBuilder.SimpleAST.IEmitter 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.DynamicProxy.fakes : warning : 无法为 Castle.DynamicProxy.Builder.CodeBuilder.Utils.OpCodeUtil 生成填充码: 类型对 exported or assembly(Castle.DynamicProxy.1.1.5.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.DynamicProxy.fakes : warning : 无法为 Castle.DynamicProxy.Builder.CodeBuilder.IEasyMember 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.DynamicProxy.fakes : warning : 无法为 Castle.DynamicProxy.Builder.CodeGenerators.Set 生成填充码: 类型对 exported or assembly(Castle.DynamicProxy.1.1.5.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.DynamicProxy.fakes : warning : 无法为 Castle.DynamicProxy.Builder.CodeGenerators.CallableField 生成填充码: 类型对 exported or assembly(Castle.DynamicProxy.1.1.5.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.DynamicProxy.fakes : warning : 无法为 Castle.DynamicProxy.Builder.IProxyBuilder 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.DynamicProxy.fakes : warning : 无法为 Castle.DynamicProxy.IInvocation 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.DynamicProxy.fakes : warning : 无法为 Castle.DynamicProxy.AssertUtil 生成填充码: 类型对 exported or assembly(Castle.DynamicProxy.1.1.5.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.DynamicProxy.fakes : warning : 无法为 Castle.DynamicProxy.ICallable 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.DynamicProxy.fakes : warning : 无法为 Castle.DynamicProxy.IInterceptor 生成填充码: 类型是一个接口。

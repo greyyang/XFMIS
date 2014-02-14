@@ -42,61 +42,81 @@
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(280, 110);
+            this.labelControl1.Appearance.Font = new System.Drawing.Font("微软雅黑", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl1.Location = new System.Drawing.Point(152, 95);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(48, 14);
+            this.labelControl1.Size = new System.Drawing.Size(52, 19);
             this.labelControl1.TabIndex = 0;
             this.labelControl1.Text = "用户名：";
             // 
             // labelControl2
             // 
-            this.labelControl2.Location = new System.Drawing.Point(280, 145);
+            this.labelControl2.Appearance.Font = new System.Drawing.Font("微软雅黑", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl2.Location = new System.Drawing.Point(152, 128);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(48, 14);
+            this.labelControl2.Size = new System.Drawing.Size(51, 19);
             this.labelControl2.TabIndex = 1;
             this.labelControl2.Text = "密   码：";
             // 
             // text_username
             // 
             this.text_username.EditValue = "sa";
-            this.text_username.Location = new System.Drawing.Point(334, 107);
+            this.text_username.Location = new System.Drawing.Point(210, 97);
             this.text_username.Name = "text_username";
-            this.text_username.Size = new System.Drawing.Size(100, 20);
+            this.text_username.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.text_username.Size = new System.Drawing.Size(86, 18);
             this.text_username.TabIndex = 2;
             // 
             // text_sn
             // 
             this.text_sn.EditValue = "123";
-            this.text_sn.Location = new System.Drawing.Point(334, 142);
+            this.text_sn.Location = new System.Drawing.Point(210, 130);
             this.text_sn.Name = "text_sn";
+            this.text_sn.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.text_sn.Properties.PasswordChar = '*';
-            this.text_sn.Size = new System.Drawing.Size(100, 20);
+            this.text_sn.Size = new System.Drawing.Size(86, 18);
             this.text_sn.TabIndex = 3;
             // 
             // simpleButton1
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(172, 201);
+            this.simpleButton1.Appearance.BackColor = System.Drawing.Color.DarkGreen;
+            this.simpleButton1.Appearance.BackColor2 = System.Drawing.SystemColors.GrayText;
+            this.simpleButton1.Appearance.BorderColor = System.Drawing.Color.Aqua;
+            this.simpleButton1.Appearance.Font = new System.Drawing.Font("微软雅黑", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton1.Appearance.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.simpleButton1.Appearance.Options.UseBackColor = true;
+            this.simpleButton1.Appearance.Options.UseBorderColor = true;
+            this.simpleButton1.Appearance.Options.UseFont = true;
+            this.simpleButton1.Appearance.Options.UseForeColor = true;
+            this.simpleButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.simpleButton1.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
+            this.simpleButton1.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
+            this.simpleButton1.Location = new System.Drawing.Point(210, 154);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(75, 23);
+            this.simpleButton1.Size = new System.Drawing.Size(86, 28);
             this.simpleButton1.TabIndex = 4;
             this.simpleButton1.Text = "登录";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // simpleButton2
             // 
+            this.simpleButton2.Appearance.ForeColor = System.Drawing.Color.DarkRed;
+            this.simpleButton2.Appearance.Options.UseForeColor = true;
+            this.simpleButton2.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
             this.simpleButton2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.simpleButton2.Location = new System.Drawing.Point(288, 201);
+            this.simpleButton2.Location = new System.Drawing.Point(438, 12);
             this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(75, 23);
+            this.simpleButton2.Size = new System.Drawing.Size(19, 18);
             this.simpleButton2.TabIndex = 5;
-            this.simpleButton2.Text = "取消";
+            this.simpleButton2.Text = "x";
             this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
             // 
             // simpleButton3
             // 
-            this.simpleButton3.Location = new System.Drawing.Point(510, 201);
+            this.simpleButton3.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
+            this.simpleButton3.Location = new System.Drawing.Point(436, 161);
             this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(25, 23);
+            this.simpleButton3.Size = new System.Drawing.Size(21, 21);
             this.simpleButton3.TabIndex = 7;
             this.simpleButton3.Text = "+";
             this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
@@ -104,10 +124,12 @@
             // Login
             // 
             this.AcceptButton = this.simpleButton1;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImageLayoutStore = System.Windows.Forms.ImageLayout.Stretch;
+            this.BackgroundImageStore = global::MISClient.Properties.Resources.background;
             this.CancelButton = this.simpleButton2;
-            this.ClientSize = new System.Drawing.Size(547, 242);
+            this.ClientSize = new System.Drawing.Size(469, 197);
             this.Controls.Add(this.simpleButton3);
             this.Controls.Add(this.simpleButton2);
             this.Controls.Add(this.simpleButton1);

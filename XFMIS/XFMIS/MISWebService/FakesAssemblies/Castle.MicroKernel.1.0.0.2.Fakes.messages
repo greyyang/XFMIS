@@ -1,0 +1,50 @@
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.CreationContext 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.Facilities.EventWiring.WireInfo 生成存根: 类型对 exported or assembly(Castle.MicroKernel.1.0.0.2.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.Facilities.Remoting.RemotingStrategy 生成存根: 类型是一个值类型。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.HandlerState 生成存根: 类型是一个值类型。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.HandlerStateDelegate 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.ExtendedPropertiesConstants 生成存根: 类型对 exported or assembly(Castle.MicroKernel.1.0.0.2.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.SubSystems.Naming.TreeNode 生成存根: 类型对 exported or assembly(Castle.MicroKernel.1.0.0.2.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.Util.GenericTypeNameProvider 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.ComponentDataDelegate 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.ComponentInstanceDelegate 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.ComponentModelDelegate 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.HandlerDelegate 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.DependencyDelegate 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.IComponentActivator 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.ISubDependencyResolver 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.CreationContext+DependencyModelExtended 生成填充码: 类型对 exported or assembly(Castle.MicroKernel.1.0.0.2.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.IFacility 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.Facilities.EventWiring.WireInfo 生成填充码: 类型对 exported or assembly(Castle.MicroKernel.1.0.0.2.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.Facilities.Remoting.RemotingStrategy 生成填充码: 类型是一个枚举。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.ModelBuilder.IContributeComponentModelConstruction 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.LifecycleConcerns.ILifecycleConcern 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.IHandler 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.Handlers.IExposeDependencyInfo 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.IHandlerFactory 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.HandlerState 生成填充码: 类型是一个枚举。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.HandlerStateDelegate 生成填充码: 类型是一个委托。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.Lifestyle.Pool.IPool 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.Lifestyle.Pool.IPoolFactory 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.ILifestyleManager 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.ExtendedPropertiesConstants 生成填充码: 类型对 exported or assembly(Castle.MicroKernel.1.0.0.2.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.IComponentModelBuilder 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.IProxyFactory 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.IReleasePolicy 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.IDependencyResolver 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.ISubSystem 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.IConfigurationStore 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.SubSystems.Conversion.ITypeConverter 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.SubSystems.Conversion.IKernelDependentConverter 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.SubSystems.Conversion.IConversionManager 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.SubSystems.Conversion.ITypeConverterContext 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.SubSystems.Naming.TreeNode 生成填充码: 类型对 exported or assembly(Castle.MicroKernel.1.0.0.2.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.INamingSubSystem 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.SubSystems.Resource.IResourceSubSystem 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.IKernelEvents 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.IKernel 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.ComponentDataDelegate 生成填充码: 类型是一个委托。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.ComponentInstanceDelegate 生成填充码: 类型是一个委托。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.ComponentModelDelegate 生成填充码: 类型是一个委托。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.HandlerDelegate 生成填充码: 类型是一个委托。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.MicroKernel.fakes : warning : 无法为 Castle.MicroKernel.DependencyDelegate 生成填充码: 类型是一个委托。

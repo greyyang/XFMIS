@@ -247,7 +247,7 @@ namespace MISClient.Kit
             return ht_BL;
         }
 
-        public static Hashtable getAliasSet(string dataType)
+        private static Hashtable getAliasSet(string dataType)
         {
             switch (dataType)
             {

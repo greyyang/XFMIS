@@ -1,0 +1,70 @@
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.DelegatePropertySetAccessor 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Logging.LogManager 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.ReflectionFieldSetAccessor 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.EmitPropertyGetAccessor 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.EmitFieldGetAccessor 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.DelegateFieldSetAccessor 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.DBHelperParameterCache 生成存根: 类型没有系列可见的构造函数。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Transaction.IsolationLevel 生成存根: 类型是一个值类型。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.TypeUtils 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.BoxingOpCodes 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Transaction.TransactionOptions 生成存根: 类型是一个值类型。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Logging.Impl.NoOpLoggerFA 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.ReflectionPropertyGetAccessor 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.ConfigureHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.StateConfig 生成存根: 类型是一个值类型。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.ConfigWatcherHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Logging.Impl.NoOpLogger 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Transaction.TransactionScopeOptions 生成存根: 类型是一个值类型。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.DelegatePropertyGetAccessor 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.DelegateFactory 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.ReflectionInfo 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.ReflectionFieldGetAccessor 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Proxy.ProxyGeneratorFactory 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.DelegateFieldGetAccessor 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.TypesResolver.TypeRegistry 生成存根: 类型没有系列可见的构造函数。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.EmitPropertySetAccessor 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.EmitFieldSetAccessor 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.DelegateObjectFactory 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.ReflectionPropertySetAccessor 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.ActivatorFactory 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Logging.LogSetting 生成存根: 类型对 exported or assembly(IBatisNet.Common.1.4.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Logging.LogLevel 生成存根: 类型是一个值类型。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.EmitObjectFactory 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 <PrivateImplementationDetails>{138E1231-5000-45A5-9C82-07604163252E} 生成存根: 类型不受支持，因为存在于内部限制。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.IAccessor 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.ISet 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.ISetAccessor 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.DelegatePropertySetAccessor+SetValue 生成填充码: 类型是一个委托。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Logging.ILog 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.IDbProvider 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.IGet 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.ISetAccessorFactory 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.SetAccessorFactory+CreateFieldSetAccessor 生成填充码: 类型是一个委托。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.SetAccessorFactory+CreatePropertySetAccessor 生成填充码: 类型是一个委托。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.IGetAccessorFactory 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.GetAccessorFactory+CreateFieldGetAccessor 生成填充码: 类型是一个委托。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.GetAccessorFactory+CreatePropertyGetAccessor 生成填充码: 类型是一个委托。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.IGetAccessor 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.DelegateFieldSetAccessor+SetValue 生成填充码: 类型是一个委托。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Transaction.IsolationLevel 生成填充码: 类型是一个枚举。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.IObjectFactory 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Logging.ILoggerFactoryAdapter 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.IDalSession 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.ConfigureHandler 生成填充码: 类型是一个委托。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.StringTokenizer+StringTokenizerEnumerator 生成填充码: 类型对 exported or assembly(IBatisNet.Common.1.4.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Transaction.TransactionScopeOptions 生成填充码: 类型是一个枚举。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Proxy.IProxyGenerator 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.DelegatePropertyGetAccessor+GetValue 生成填充码: 类型是一个委托。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.IDataSource 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.TypesResolver.ITypeResolver 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.IFactory 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.DelegateFactory+Create 生成填充码: 类型是一个委托。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.TypesResolver.TypeResolver+GenericArgumentsInfo 生成填充码: 类型对 exported or assembly(IBatisNet.Common.1.4.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.TypesResolver.TypeResolver+TypeAssemblyInfo 生成填充码: 类型对 exported or assembly(IBatisNet.Common.1.4.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Objects.Members.DelegateFieldGetAccessor+GetValue 生成填充码: 类型是一个委托。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Pagination.IPaginatedList 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Utilities.Resources+FileAssemblyInfo 生成填充码: 类型对 exported or assembly(IBatisNet.Common.1.4.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Logging.LogSetting 生成填充码: 类型对 exported or assembly(IBatisNet.Common.1.4.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 IBatisNet.Common.Logging.LogLevel 生成填充码: 类型是一个枚举。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.Common.fakes : warning : 无法为 <PrivateImplementationDetails>{138E1231-5000-45A5-9C82-07604163252E} 生成填充码: 类型不受支持，因为存在于内部限制。

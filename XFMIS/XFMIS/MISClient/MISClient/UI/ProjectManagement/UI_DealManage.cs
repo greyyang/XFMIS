@@ -10,6 +10,8 @@ using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using MISClient.Service_ProjectManagement;
 using DevExpress.XtraEditors.Controls;
+using MISClient.Kit;
+
 namespace MISClient.UI.ProjectManagement
 {
     public partial class UI_DealManage : DevExpress.XtraEditors.XtraForm
@@ -46,6 +48,8 @@ namespace MISClient.UI.ProjectManagement
             deal = service_PM.Select_Deal();
             gridControl1.DataSource = deal;
 
+            gridView1.Columns["DLID"].Visible = false;
+            DataAlias.setTableCaption("TabDL", gridView1);
             //不能修改单元格，选择一行
             gridView1.OptionsBehavior.Editable = false;
             //在选择一行时焦点单元格颜色一致

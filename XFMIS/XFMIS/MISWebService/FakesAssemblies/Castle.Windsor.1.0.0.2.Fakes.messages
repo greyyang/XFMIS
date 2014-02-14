@@ -1,0 +1,16 @@
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Windsor.fakes : warning : 无法为 Castle.Windsor.Adapters.ComponentModel.ContainerAdapterSite 生成存根: 类型对 exported or assembly(Castle.Windsor.1.0.0.2.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Windsor.fakes : warning : 无法为 Castle.Windsor.Adapters.ComponentModel.ServiceCreatorCallbackActivator 生成存根: 类型对 exported or assembly(Castle.Windsor.1.0.0.2.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Windsor.fakes : warning : 无法为 Castle.Windsor.Configuration.Interpreters.XmlProcessor.ElementProcessors.StatementState 生成存根: 类型是一个值类型。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Windsor.fakes : warning : 无法为 Castle.Windsor.Proxy.InterceptorChain 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Windsor.fakes : warning : 无法为 Castle.Windsor.IContainerAccessor 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Windsor.fakes : warning : 无法为 Castle.Windsor.Adapters.ComponentModel.IContainerAdapter 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Windsor.fakes : warning : 无法为 Castle.Windsor.Adapters.ComponentModel.IContainerAdapterSite 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Windsor.fakes : warning : 无法为 Castle.Windsor.Adapters.ComponentModel.ContainerAdapterSite 生成填充码: 类型对 exported or assembly(Castle.Windsor.1.0.0.2.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Windsor.fakes : warning : 无法为 Castle.Windsor.Adapters.ComponentModel.ServiceCreatorCallbackActivator 生成填充码: 类型对 exported or assembly(Castle.Windsor.1.0.0.2.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Windsor.fakes : warning : 无法为 Castle.Windsor.Configuration.Interpreters.XmlProcessor.IXmlNodeProcessor 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Windsor.fakes : warning : 无法为 Castle.Windsor.Configuration.Interpreters.XmlProcessor.ElementProcessors.StatementState 生成填充码: 类型是一个枚举。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Windsor.fakes : warning : 无法为 Castle.Windsor.Configuration.Interpreters.XmlProcessor.IXmlProcessorEngine 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Windsor.fakes : warning : 无法为 Castle.Windsor.Configuration.Interpreters.XmlProcessor.IXmlProcessorNodeList 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Windsor.fakes : warning : 无法为 Castle.Windsor.Configuration.IConfigurationInterpreter 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Windsor.fakes : warning : 无法为 Castle.Windsor.IComponentsInstaller 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Windsor.fakes : warning : 无法为 Castle.Windsor.IWindsorContainer 生成填充码: 类型是一个接口。

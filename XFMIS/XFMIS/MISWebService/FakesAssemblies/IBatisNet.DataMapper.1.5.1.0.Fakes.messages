@@ -1,0 +1,229 @@
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.BaseTypeHandler 生成存根: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableSingleTypeHandler 生成存根: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.ArgumentStrategy.SelectArrayStrategy 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.ResultMapDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.DynamicDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.SingleTypeHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableCharTypeHandler 生成存根: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.EnumTypeHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.ByteArrayTypeHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.ResultStrategy.ResultClassStrategy 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.SqlText 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Elements.IsNotPropertyAvailable 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Elements.Dynamic 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.IsNotNullDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.DeleteDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.ParameterSetterImpl 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.SqlMapper 生成存根: 类型没有系列可见的构造函数。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.TypeHandlerDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.IsNullDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.IsLessThanDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.StringTypeHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.ResultStrategy.ObjectStrategy 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.PostBindind 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.MappedStatement 生成存根: 类型没有系列可见的构造函数。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.DeleteMappedStatement 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.ArgumentStrategy.SelectGenericListStrategy 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Handlers.IterateTagHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Handlers.IsNotParameterPresentTagHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Handlers.DynamicTagHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Elements.IsEmpty 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.StatementDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.IsNotPropertyAvailableDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableUInt16TypeHandler 生成存根: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableSByteTypeHandler 生成存根: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableInt32TypeHandler 生成存根: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.ResultStrategy.ResultMapStrategy 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.PostSelectStrategy.ObjectStrategy 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.ExecuteEventHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.DataExchange.ListDataExchange 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Handlers.IsLessThanTagHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Elements.Iterate 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.IsEqualDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.CacheModelDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.UInt16TypeHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.ResultStrategy.SimpleTypeStrategy 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.ArgumentStrategy.SelectObjectStrategy 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.SelectKeyType 生成存根: 类型是一个值类型。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.CacheKeyType 生成存根: 类型是一个值类型。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Static.StaticSql 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Elements.IsNull 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Elements.IsNotEmpty 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.IsEmptyDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.ArgumentPropertyDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.TimeSpanTypeHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.ResultGetterImpl 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableByteTypeHandler 生成存根: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Int16TypeHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.DBNullTypeHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.CustomTypeHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.PostSelectStrategy.ArrayStrategy 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Handlers.IsGreaterEqualTagHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Elements.IsNotParameterPresent 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.SelectDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.ParameterMapping.InlineParameterMapParser 生成存根: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Cache.Memory.MemoryCacheLevel 生成存根: 类型没有系列可见的构造函数。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Commands.DefaultPreparedCommand 生成存根: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableUInt64TypeHandler 生成存根: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableDateTimeTypeHandler 生成存根: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Proxy.LazyLoadInterceptor 生成存根: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.PropertyStrategy.SelectArrayStrategy 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.PostSelectStrategy.GenericListStrategy 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.DataExchange.DictionaryDataExchange 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.DataExchange.ComplexDataExchange 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Handlers.IsGreaterThanTagHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Elements.IsLessEqual 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.IsGreaterThanDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.UInt64TypeHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.CharTypeHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.ResultStrategy.ListStrategy 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.PropertyStrategy.ResultMapStrategy 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.PostSelectStrategy.StrongTypedListStrategy 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Static.ProcedureSql 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Handlers.IterateContext 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Handlers.IsLessEqualTagHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.SubMapDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.IterateSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableGuidTypeHandler 生成存根: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableBooleanTypeHandler 生成存根: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Int64TypeHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.ResultStrategy.AutoMapStrategy 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.ReaderAutoMapper 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.DataExchange.PrimitiveDataExchange 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.SimpleDynamic.SimpleDynamicSql 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Elements.IsParameterPresent 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Elements.IsLessThan 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.UnknownTypeHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.PropertyStrategy.SelectListStrategy 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Handlers.SqlTagContext 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.IsLessEqualDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.InsertDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.SelectMappedStatement 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.ResultStrategy.ResultStrategyFactory 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.ArgumentStrategy.SelectListStrategy 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Handlers.IsNotEqualTagHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Elements.IsGreaterEqual 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.UpdateDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.IsGreaterEqualDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.BooleanTypeHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.UpdateMappedStatement 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.PropertyStrategy.SelectObjectStrategy 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.PostSelectStrategy.ListStrategy 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.InsertMappedStatement 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Elements.IsEqual 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.DynamicSql 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.IsNotParameterPresentDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableUInt32TypeHandler 生成存根: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableInt16TypeHandler 生成存根: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableDecimalTypeHandler 生成存根: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.ByteTypeHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.PropertyStrategy.DefaultStrategy 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.CachingStatement 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.ArgumentStrategy.ResultMapStrategy 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.ArgumentStrategy.DefaultStrategy 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Handlers.IsNotEmptyTagHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Elements.IsGreaterThan 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.UInt32TypeHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.SByteTypeHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableDoubleTypeHandler 生成存根: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Int32TypeHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.ResultStrategy.DictionaryStrategy 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.PropertyStrategy.SelectGenericListStrategy 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Handlers.IsNotNullTagHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Elements.IsNotNull 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Elements.IsNotEqual 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.TypeAliasDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.ProcedureDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.ParameterMapDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.IsParameterPresentDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.IsNotEqualDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.DoubleTypeHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Elements.IsPropertyAvailable 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.ResultPropertyDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.IsPropertyAvailableDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.IsNotEmptyDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.DiscriminatorDeSerializer 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.ObjectTypeHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableInt64TypeHandler 生成存根: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.GuidTypeHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.DecimalTypeHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.DateTimeTypeHandler 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.DataExchange.DotNetObjectDataExchange 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Commands.PreparedCommandFactory 生成存根: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Commands.PreparedCommandProxy 生成存根: 类型没有系列可见的构造函数。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.ITypeHandler 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.BaseTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableSingleTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.SessionStore.ISessionStore 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.ArgumentStrategy.IArgumentStrategy 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Serializers.IDeSerializer 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.SingleTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableCharTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.IResultGetter 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.EnumTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.ByteArrayTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.ResultStrategy.IResultStrategy 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.ISqlChild 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Elements.IDynamicParent 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.IParameterSetter 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.ISqlMapper 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.SqlMapper+DictionaryRowDelegate 生成填充码: 类型是一个委托。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.SqlMapper+RowDelegate 生成填充码: 类型是一个委托。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.SqlMapper+RowDelegate`1 生成填充码: 类型是一个委托。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Proxy.ILazyFactory 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.StringTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Scope.IScope 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.PostBindind+ExecuteMethod 生成填充码: 类型是一个枚举。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.IMappedStatement 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Statements.IStatement 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.Handlers.ISqlTagHandler 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Commands.InMemoryDataReader+InMemoryResultSet 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableUInt16TypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableSByteTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableInt32TypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.PostSelectStrategy.IPostSelectStrategy 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.ExecuteEventHandler 生成填充码: 类型是一个委托。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.DataExchange.IDataExchange 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.UInt16TypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.SelectKeyType 生成填充码: 类型是一个枚举。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.CacheKeyType 生成填充码: 类型是一个枚举。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.ISql 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.TimeSpanTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableByteTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Int16TypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.DBNullTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.CustomTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.MappedStatements.PropertyStrategy.IPropertyStrategy 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.ParameterMapping.InlineParameterMapParser 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Commands.IPreparedCommand 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Commands.DefaultPreparedCommand 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableUInt64TypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableDateTimeTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Proxy.LazyLoadInterceptor 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Cache.ICacheController 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.UInt64TypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.CharTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableGuidTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableBooleanTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Int64TypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.SimpleDynamic.SimpleDynamicSql 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.UnknownTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.ITypeHandlerCallback 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.BooleanTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Sql.Dynamic.DynamicSql 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableUInt32TypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableInt16TypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableDecimalTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.ByteTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Configuration.Cache.Memory.MemoryCacheControler+StrongReference 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.UInt32TypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.SByteTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableDoubleTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Int32TypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.DoubleTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.ObjectTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.Nullables.NullableInt64TypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.GuidTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.DecimalTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.TypeHandlers.DateTimeTypeHandler 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\IBatisNet.DataMapper.fakes : warning : 无法为 IBatisNet.DataMapper.Commands.PreparedCommandFactory 生成填充码: 类型对 exported or assembly(IBatisNet.DataMapper.1.5.1.0.Fakes) 不可见。

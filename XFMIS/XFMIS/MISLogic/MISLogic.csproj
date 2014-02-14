@@ -31,47 +31,38 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Castle.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\Castle.Core.dll</HintPath>
+    <Reference Include="Castle.Core">
+      <HintPath>C:\Users\Yang\Desktop\新建文件夹\Castle.Core.dll</HintPath>
     </Reference>
     <Reference Include="Castle.DynamicProxy">
-      <HintPath>..\..\..\Ibatis\Ibatis.DataMapper.1.6.2.bin\Castle.DynamicProxy.dll</HintPath>
+      <HintPath>C:\Users\Yang\Desktop\新建文件夹\Castle.DynamicProxy.dll</HintPath>
     </Reference>
-    <Reference Include="Castle.Facilities.AutomaticTransactionManagement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\Castle.Facilities.AutomaticTransactionManagement.dll</HintPath>
+    <Reference Include="Castle.Facilities.AutomaticTransactionManagement">
+      <HintPath>C:\Users\Yang\Desktop\新建文件夹\Castle.Facilities.AutomaticTransactionManagement.dll</HintPath>
     </Reference>
-    <Reference Include="Castle.Facilities.IBatisNetIntegration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\Castle.Facilities.IBatisNetIntegration.dll</HintPath>
+    <Reference Include="Castle.Facilities.IBatisNetIntegration">
+      <HintPath>C:\Users\Yang\Desktop\新建文件夹\Castle.Facilities.IBatisNetIntegration.dll</HintPath>
     </Reference>
-    <Reference Include="Castle.MicroKernel, Version=1.0.0.2, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\Castle.MicroKernel.dll</HintPath>
+    <Reference Include="Castle.MicroKernel">
+      <HintPath>C:\Users\Yang\Desktop\新建文件夹\Castle.MicroKernel.dll</HintPath>
     </Reference>
-    <Reference Include="Castle.Services.Transaction, Version=0.1.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\Castle.Services.Transaction.dll</HintPath>
+    <Reference Include="Castle.Services.Transaction">
+      <HintPath>C:\Users\Yang\Desktop\新建文件夹\Castle.Services.Transaction.dll</HintPath>
     </Reference>
-    <Reference Include="Castle.Windsor, Version=1.0.0.2, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\Castle.Windsor.dll</HintPath>
+    <Reference Include="Castle.Windsor">
+      <HintPath>C:\Users\Yang\Desktop\新建文件夹\Castle.Windsor.dll</HintPath>
     </Reference>
-    <Reference Include="IBatisNet.Common, Version=1.6.2.0, Culture=neutral, PublicKeyToken=ed781d9fc396c6ca, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Ibatis\IBatisCastleSln(Web)\Castle.Web\Bin\IBatisNet.Common.dll</HintPath>
+    <Reference Include="IBatisNet.Common">
+      <HintPath>C:\Users\Yang\Desktop\新建文件夹\IBatisNet.Common.dll</HintPath>
     </Reference>
-    <Reference Include="IBatisNet.DataAccess, Version=1.8.1.0, Culture=neutral, PublicKeyToken=ed781d9fc396c6ca, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Ibatis\IBatisCastleSln(Web)\Castle.Web\Bin\IBatisNet.DataAccess.dll</HintPath>
+    <Reference Include="IBatisNet.DataAccess">
+      <HintPath>C:\Users\Yang\Desktop\新建文件夹\IBatisNet.DataAccess.dll</HintPath>
     </Reference>
-    <Reference Include="IBatisNet.DataMapper, Version=1.6.2.0, Culture=neutral, PublicKeyToken=ed781d9fc396c6ca, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Ibatis\IBatisCastleSln(Web)\Castle.Web\Bin\IBatisNet.DataMapper.dll</HintPath>
+    <Reference Include="IBatisNet.DataMapper">
+      <HintPath>C:\Users\Yang\Desktop\新建文件夹\IBatisNet.DataMapper.dll</HintPath>
     </Reference>
     <Reference Include="log4net">
-      <HintPath>..\..\..\Ibatis\Ibatis.DataMapper.1.6.2.bin\log4net.dll</HintPath>
+      <HintPath>C:\Users\Yang\Desktop\新建文件夹\log4net.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Private>True</Private>

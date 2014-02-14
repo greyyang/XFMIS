@@ -1,0 +1,14 @@
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Services.Transaction.fakes : warning : 无法为 Castle.Services.Transaction.TransactionMode 生成存根: 类型是一个值类型。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Services.Transaction.fakes : warning : 无法为 Castle.Services.Transaction.IsolationMode 生成存根: 类型是一个值类型。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Services.Transaction.fakes : warning : 无法为 Castle.Services.Transaction.TransactionStatus 生成存根: 类型是一个值类型。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Services.Transaction.fakes : warning : 无法为 Castle.Services.Transaction.TransactionCreationInfoDelegate 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Services.Transaction.fakes : warning : 无法为 Castle.Services.Transaction.TransactionDelegate 生成存根: 类型已密封。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Services.Transaction.fakes : warning : 无法为 Castle.Services.Transaction.ITransaction 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Services.Transaction.fakes : warning : 无法为 Castle.Services.Transaction.TransactionMode 生成填充码: 类型是一个枚举。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Services.Transaction.fakes : warning : 无法为 Castle.Services.Transaction.IsolationMode 生成填充码: 类型是一个枚举。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Services.Transaction.fakes : warning : 无法为 Castle.Services.Transaction.ITransactionManager 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Services.Transaction.fakes : warning : 无法为 Castle.Services.Transaction.IResource 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Services.Transaction.fakes : warning : 无法为 Castle.Services.Transaction.ISynchronization 生成填充码: 类型是一个接口。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Services.Transaction.fakes : warning : 无法为 Castle.Services.Transaction.TransactionStatus 生成填充码: 类型是一个枚举。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Services.Transaction.fakes : warning : 无法为 Castle.Services.Transaction.TransactionCreationInfoDelegate 生成填充码: 类型是一个委托。
+E:\项目文件夹\XFMIS\XFMIS\XFMIS\MISWebService\Fakes\Castle.Services.Transaction.fakes : warning : 无法为 Castle.Services.Transaction.TransactionDelegate 生成填充码: 类型是一个委托。
