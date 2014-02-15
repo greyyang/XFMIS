@@ -118,6 +118,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="default.aspx" />
+    <Content Include="DLL\Castle.Core.dll" />
+    <Content Include="DLL\Castle.DynamicProxy.dll" />
+    <Content Include="DLL\Castle.Facilities.AutomaticTransactionManagement.dll" />
+    <Content Include="DLL\Castle.Facilities.IBatisNetIntegration.dll" />
+    <Content Include="DLL\Castle.MicroKernel.dll" />
+    <Content Include="DLL\Castle.Services.Transaction.dll" />
+    <Content Include="DLL\Castle.Windsor.dll" />
+    <Content Include="DLL\IBatisNet.Common.dll" />
+    <Content Include="DLL\IBatisNet.DataAccess.dll" />
+    <Content Include="DLL\IBatisNet.DataMapper.dll" />
+    <Content Include="DLL\log4net.dll" />
     <Content Include="Global.asax" />
     <Content Include="ProjectResource\PDSQL13-11-26.sql" />
     <Content Include="ProjectResource\PDSQL13-12-1.sql" />

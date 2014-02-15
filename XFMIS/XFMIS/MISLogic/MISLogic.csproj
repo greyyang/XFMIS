@@ -32,37 +32,37 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Castle.Core">
-      <HintPath>C:\Users\Yang\Desktop\新建文件夹\Castle.Core.dll</HintPath>
+      <HintPath>..\MISWebService\DLL\Castle.Core.dll</HintPath>
     </Reference>
     <Reference Include="Castle.DynamicProxy">
-      <HintPath>C:\Users\Yang\Desktop\新建文件夹\Castle.DynamicProxy.dll</HintPath>
+      <HintPath>..\MISWebService\DLL\Castle.DynamicProxy.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Facilities.AutomaticTransactionManagement">
-      <HintPath>C:\Users\Yang\Desktop\新建文件夹\Castle.Facilities.AutomaticTransactionManagement.dll</HintPath>
+      <HintPath>..\MISWebService\DLL\Castle.Facilities.AutomaticTransactionManagement.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Facilities.IBatisNetIntegration">
-      <HintPath>C:\Users\Yang\Desktop\新建文件夹\Castle.Facilities.IBatisNetIntegration.dll</HintPath>
+      <HintPath>..\MISWebService\DLL\Castle.Facilities.IBatisNetIntegration.dll</HintPath>
     </Reference>
     <Reference Include="Castle.MicroKernel">
-      <HintPath>C:\Users\Yang\Desktop\新建文件夹\Castle.MicroKernel.dll</HintPath>
+      <HintPath>..\MISWebService\DLL\Castle.MicroKernel.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Services.Transaction">
-      <HintPath>C:\Users\Yang\Desktop\新建文件夹\Castle.Services.Transaction.dll</HintPath>
+      <HintPath>..\MISWebService\DLL\Castle.Services.Transaction.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Windsor">
-      <HintPath>C:\Users\Yang\Desktop\新建文件夹\Castle.Windsor.dll</HintPath>
+      <HintPath>..\MISWebService\DLL\Castle.Windsor.dll</HintPath>
     </Reference>
     <Reference Include="IBatisNet.Common">
-      <HintPath>C:\Users\Yang\Desktop\新建文件夹\IBatisNet.Common.dll</HintPath>
+      <HintPath>..\MISWebService\DLL\IBatisNet.Common.dll</HintPath>
     </Reference>
     <Reference Include="IBatisNet.DataAccess">
-      <HintPath>C:\Users\Yang\Desktop\新建文件夹\IBatisNet.DataAccess.dll</HintPath>
+      <HintPath>..\MISWebService\DLL\IBatisNet.DataAccess.dll</HintPath>
     </Reference>
     <Reference Include="IBatisNet.DataMapper">
-      <HintPath>C:\Users\Yang\Desktop\新建文件夹\IBatisNet.DataMapper.dll</HintPath>
+      <HintPath>..\MISWebService\DLL\IBatisNet.DataMapper.dll</HintPath>
     </Reference>
     <Reference Include="log4net">
-      <HintPath>C:\Users\Yang\Desktop\新建文件夹\log4net.dll</HintPath>
+      <HintPath>..\MISWebService\DLL\log4net.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Private>True</Private>
