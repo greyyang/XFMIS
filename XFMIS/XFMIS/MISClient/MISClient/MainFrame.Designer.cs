@@ -187,7 +187,7 @@
             this.ribbonControl.ShowCategoryInCaption = false;
             this.ribbonControl.ShowExpandCollapseButton = DevExpress.Utils.DefaultBoolean.True;
             this.ribbonControl.ShowToolbarCustomizeItem = false;
-            this.ribbonControl.Size = new System.Drawing.Size(1100, 147);
+            this.ribbonControl.Size = new System.Drawing.Size(1100, 144);
             this.ribbonControl.StatusBar = this.ribbonStatusBar;
             this.ribbonControl.Toolbar.ShowCustomizeItem = false;
             this.ribbonControl.ToolbarLocation = DevExpress.XtraBars.Ribbon.RibbonQuickAccessToolbarLocation.Hidden;
@@ -420,7 +420,7 @@
             // 
             // btn_NewQuery
             // 
-            this.btn_NewQuery.Caption = "立项查询";
+            this.btn_NewQuery.Caption = "项目查询";
             this.btn_NewQuery.CategoryGuid = new System.Guid("6ffddb2b-9015-4d97-a4c1-91613e0ef537");
             this.btn_NewQuery.Glyph = ((System.Drawing.Image)(resources.GetObject("btn_NewQuery.Glyph")));
             this.btn_NewQuery.Id = 64;

@@ -15,6 +15,8 @@ namespace MISClient.UI.NewProject
 {
     public partial class UI_NewPlaning : DevExpress.XtraEditors.XtraForm
     {
+
+        decimal gb_money = 0;
         public UI_NewPlaning()
         {
             InitializeComponent();
@@ -84,6 +86,20 @@ namespace MISClient.UI.NewProject
                 selectRow = view.GetSelectedRows()[0];
                 labelControl2.Text = view.GetRowCellValue(selectRow, "PNO").ToString();
                 labelControl4.Text = view.GetRowCellValue(selectRow, "PName").ToString();
+                gb_money = decimal.Parse(view.GetRowCellValue(selectRow, "PAuditors").ToString());
+                if (view.GetRowCellValue(selectRow, "PAuditors") != null && view.GetRowCellValue(selectRow, "PAllocation") != null)
+                {
+                    decimal auditors = decimal.Parse(view.GetRowCellValue(selectRow, "PAuditors").ToString());
+                    decimal allocation = decimal.Parse(view.GetRowCellValue(selectRow, "PAllocation").ToString());
+                    decimal percentage = (allocation / auditors * 100);
+                    textEdit1.Text = allocation.ToString();
+                    textEdit2.Text = percentage.ToString();
+                }
+                else
+                {
+                    textEdit1.Text = "";
+                    textEdit2.Text = "";
+                }
             }
         }
         /// <summary>
@@ -104,22 +120,23 @@ namespace MISClient.UI.NewProject
                     try
                     {
                         projectInfo.PAllocation = decimal.Parse(textEdit1.Text);
-                        
+
                     }
                     catch
                     {
-                        MessageBox.Show("请输入数字！","提示");
+                        MessageBox.Show("请输入数字！", "提示");
                         textEdit1.Text = "";
                     }
                     try
                     {
                         service.update_Plan(projectInfo);
+                        int row = view.FocusedRowHandle;
                         InitGrid();
-                        this.textEdit1.Text = "";
+                        view.FocusedRowHandle = row;
                     }
                     catch
                     {
-                        MessageBox.Show("服务器出错！","提示");
+                        MessageBox.Show("服务器出错！", "提示");
                     }
                 }
                 else
@@ -130,6 +147,50 @@ namespace MISClient.UI.NewProject
             else
             {
                 MessageBox.Show("请输入值！", "提示");
+            }
+        }
+
+        /// <summary>
+        /// 分包金额文本框失去焦点时的事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void textEdit1_Leave(object sender, EventArgs e)
+        {
+            if (!String.IsNullOrEmpty(textEdit1.Text))
+            {
+                try
+                {
+                    decimal plan = decimal.Parse(textEdit1.Text.ToString());
+                    textEdit2.Text = (plan / gb_money * 100).ToString();
+                }
+                catch
+                {
+                    MessageBox.Show("请输入正确格式的数据。", "提示");
+                    textEdit1.Text = "";
+                }
+            }
+        }
+
+        /// <summary>
+        /// 比例文本框失去焦点时的事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void textEdit2_Leave(object sender, EventArgs e)
+        {
+            if (!String.IsNullOrEmpty(textEdit2.Text))
+            {
+                try
+                {
+                    decimal percentage = decimal.Parse(textEdit2.Text.ToString()) / 100;
+                    textEdit1.Text = (gb_money * percentage).ToString();
+                }
+                catch
+                {
+                    MessageBox.Show("请输入正确格式的数据。", "提示");
+                    textEdit2.Text = "";
+                }
             }
         }
     }

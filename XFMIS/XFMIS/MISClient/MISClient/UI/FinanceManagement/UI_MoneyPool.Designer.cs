@@ -56,65 +56,65 @@
             this.groupControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupControl1.Location = new System.Drawing.Point(0, 0);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(490, 145);
+            this.groupControl1.Size = new System.Drawing.Size(420, 135);
             this.groupControl1.TabIndex = 1;
             this.groupControl1.Text = "资金池管理";
             // 
             // labelControl2
             // 
-            this.labelControl2.Location = new System.Drawing.Point(12, 48);
+            this.labelControl2.Location = new System.Drawing.Point(10, 45);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(60, 14);
+            this.labelControl2.Size = new System.Drawing.Size(54, 13);
             this.labelControl2.TabIndex = 5;
             this.labelControl2.Text = "备      注：";
             // 
             // memoEdit1
             // 
-            this.memoEdit1.Location = new System.Drawing.Point(78, 51);
+            this.memoEdit1.Location = new System.Drawing.Point(67, 47);
             this.memoEdit1.Name = "memoEdit1";
-            this.memoEdit1.Size = new System.Drawing.Size(276, 74);
+            this.memoEdit1.Size = new System.Drawing.Size(237, 69);
             this.memoEdit1.TabIndex = 4;
             // 
             // textEdit1
             // 
-            this.textEdit1.Location = new System.Drawing.Point(78, 25);
+            this.textEdit1.Location = new System.Drawing.Point(67, 23);
             this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(100, 20);
+            this.textEdit1.Size = new System.Drawing.Size(86, 20);
             this.textEdit1.TabIndex = 3;
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(12, 28);
+            this.labelControl1.Location = new System.Drawing.Point(10, 26);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(60, 14);
+            this.labelControl1.Size = new System.Drawing.Size(60, 13);
             this.labelControl1.TabIndex = 2;
             this.labelControl1.Text = "资金数目：";
             // 
             // simpleButton2
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(279, 22);
+            this.simpleButton2.Location = new System.Drawing.Point(239, 20);
             this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(75, 23);
+            this.simpleButton2.Size = new System.Drawing.Size(64, 21);
             this.simpleButton2.TabIndex = 1;
-            this.simpleButton2.Text = "资金出池";
+            this.simpleButton2.Text = "支出";
             this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
             // 
             // simpleButton1
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(189, 22);
+            this.simpleButton1.Location = new System.Drawing.Point(162, 20);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(75, 23);
+            this.simpleButton1.Size = new System.Drawing.Size(64, 21);
             this.simpleButton1.TabIndex = 0;
-            this.simpleButton1.Text = "资金入池";
+            this.simpleButton1.Text = "收入";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // gridControl1
             // 
             this.gridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridControl1.Location = new System.Drawing.Point(0, 145);
+            this.gridControl1.Location = new System.Drawing.Point(0, 135);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(490, 287);
+            this.gridControl1.Size = new System.Drawing.Size(420, 266);
             this.gridControl1.TabIndex = 2;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -129,9 +129,9 @@
             // 
             // UI_MoneyPool
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(490, 432);
+            this.ClientSize = new System.Drawing.Size(420, 401);
             this.Controls.Add(this.gridControl1);
             this.Controls.Add(this.groupControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;

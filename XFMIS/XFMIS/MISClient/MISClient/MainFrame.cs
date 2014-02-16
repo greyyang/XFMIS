@@ -75,7 +75,7 @@ namespace MISClient
             ui_NewProject.ShowDialog();
         }
         /// <summary>
-        /// 立项查询按钮
+        /// 项目查询按钮
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
