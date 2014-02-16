@@ -201,13 +201,6 @@ namespace MISClient.UI.NewProject
         }
         #endregion
 
-        private void simpleButton5_Click(object sender, EventArgs e)
-        {
-            UI_NewImage ui_Image = new UI_NewImage();
-            if (ui_Image.ShowDialog() == System.Windows.Forms.DialogResult.OK)
-            {
-
-            }
-        }
+        
     }
 }

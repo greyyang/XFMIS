@@ -15,17 +15,17 @@ namespace MISClient.UI.NewProject
 {
     public partial class UI_NewImage : DevExpress.XtraEditors.XtraForm
     {
-        public UI_NewImage()
+        public UI_NewImage(int PID)
         {
             InitializeComponent();
-            InitFrame();
+            InitFrame(PID);
         }
 
         MISClient.Service_NewProject.Service_NewProject service_NP = new Service_NewProject.Service_NewProject();
         MISClient.Service_NewProject.TabProjectInfo[] tabProjectInfos = null;
         MISClient.Service_NewProject.TabImage tabImage = null;
 
-        private void InitFrame()
+        private void InitFrame(int PID)
         {
             tabProjectInfos = service_NP.select_ProjectInfo();
             lookUpEdit1.Properties.DataSource = tabProjectInfos;
@@ -42,7 +42,9 @@ namespace MISClient.UI.NewProject
             tabImage = new Service_NewProject.TabImage();
 
             //使lookUpEdit1默认不显示字
-            lookUpEdit1.EditValue = "";
+            lookUpEdit1.Properties.NullText = "";
+
+            lookUpEdit1.EditValue = PID;
             lookUpEdit1.Properties.TextEditStyle = TextEditStyles.DisableTextEditor;
             //使pictureEdit1默认不显示字
             pictureEdit1.Properties.NullText = "预览";

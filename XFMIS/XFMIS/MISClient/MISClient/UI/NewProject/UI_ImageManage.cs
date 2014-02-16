@@ -14,12 +14,15 @@ namespace MISClient.UI.NewProject
 {
     public partial class UI_ImageManage : DevExpress.XtraEditors.XtraForm
     {
-        public UI_ImageManage()
+        MISClient.Service_ProjectManagement.TabProjectInfo projectInfo = null;
+        int gb_PID = -1;
+        public UI_ImageManage(MISClient.Service_ProjectManagement.TabProjectInfo projectInfo)
         {
             InitializeComponent();
             InitGrid();
-            InitOther();
             InitLookupEdit();
+            InitOther(projectInfo);
+            this.projectInfo = projectInfo;
         }
 
         private void InitLookupEdit()
@@ -41,8 +44,12 @@ namespace MISClient.UI.NewProject
             lookUpEdit1.Properties.TextEditStyle = TextEditStyles.DisableTextEditor;
         }
 
-        private void InitOther()
+        private void InitOther(MISClient.Service_ProjectManagement.TabProjectInfo projectInfo)
         {
+            this.lookUpEdit1.EditValue = projectInfo.PID;
+            layoutView1.OptionsView.ShowFilterPanelMode = DevExpress.XtraGrid.Views.Base.ShowFilterPanelMode.Never;
+            layoutView1.Columns["TIProjectID"].FilterInfo = new DevExpress.XtraGrid.Columns.ColumnFilterInfo("[TIProjectID] =" + lookUpEdit1.EditValue.ToString());
+            gb_PID = projectInfo.PID;
         }
 
         MISClient.Service_NewProject.Service_NewProject service_NP = new Service_NewProject.Service_NewProject();
@@ -66,7 +73,7 @@ namespace MISClient.UI.NewProject
         /// <param name="e"></param>
         private void simpleButton2_Click(object sender, EventArgs e)
         {
-            UI_NewImage ui_Image = new UI_NewImage();
+            UI_NewImage ui_Image = new UI_NewImage(gb_PID);
             if (ui_Image.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 InitGrid();
@@ -84,7 +91,7 @@ namespace MISClient.UI.NewProject
             if (focusOb != null)
             {
                 int? id = (focusOb as MISClient.Service_ProjectManagement.TabImage).TIID;
-                // TODO:删除方法
+                // TODO:删除方法        
             }
         }
 
@@ -92,7 +99,8 @@ namespace MISClient.UI.NewProject
         {
             if (!string.IsNullOrEmpty(lookUpEdit1.EditValue.ToString()))
             {
-
+                gb_PID = int.Parse(lookUpEdit1.EditValue.ToString());
+                layoutView1.Columns["TIProjectID"].FilterInfo = new DevExpress.XtraGrid.Columns.ColumnFilterInfo("[TIProjectID] =" + lookUpEdit1.EditValue.ToString());
             }
         }
 

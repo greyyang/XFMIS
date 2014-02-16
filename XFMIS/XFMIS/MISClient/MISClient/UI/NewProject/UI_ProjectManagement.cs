@@ -231,8 +231,20 @@ namespace MISClient.UI.NewProject
         /// <param name="e"></param>
         private void simpleButton8_Click(object sender, EventArgs e)
         {
-            UI_ImageManage ui_imageManage = new UI_ImageManage();
-            ui_imageManage.ShowDialog();
+            if (gridView1.GetSelectedRows().Length <= 0)
+            {
+                MessageBox.Show("请选定指定的一行!", "提示");
+                return;
+            }
+
+            int projectInfoId = int.Parse((gridControl1.MainView as GridView).GetRowCellValue((gridControl1.MainView as GridView).GetSelectedRows()[0], "PID").ToString());
+            Service_ProjectManagement.TabProjectInfo project = pm.Select_ProjectInfoByID(projectInfoId);
+            UI_ImageManage ui_imageManage = new UI_ImageManage(project);
+            if (DialogResult.OK == ui_imageManage.ShowDialog())
+            {
+                InitSplitGrid();
+                MessageBox.Show("主项目信息修改成功!", "提示");
+            }
         }
     }
 }
