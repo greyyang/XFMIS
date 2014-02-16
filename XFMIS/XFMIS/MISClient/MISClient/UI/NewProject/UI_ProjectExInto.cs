@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using MISClient.Service_NewProject;
+using System.Data.SqlTypes;
 
 namespace MISClient.UI.NewProject
 {
@@ -77,7 +78,8 @@ namespace MISClient.UI.NewProject
         /// <param name="e"></param>
         private void simpleButton1_Click(object sender, EventArgs e)
         {
-            if (checkInput())
+            //if (checkInput())
+            if(true)
             {
                 TabProjectInfo projectExInfo = new TabProjectInfo();
                 try
@@ -88,7 +90,14 @@ namespace MISClient.UI.NewProject
                     projectExInfo.PDesignChange = textEdit2.Text;
                     projectExInfo.PDataIn = textEdit5.Text;
                     projectExInfo.PStartDate = textEdit3.DateTime;
-                    projectExInfo.PEndDate = textEdit6.DateTime;
+                    if (!String.IsNullOrEmpty(textEdit6.Text))
+                    {
+                        projectExInfo.PEndDate = textEdit6.DateTime;
+                    }
+                    else
+                    {
+                        projectExInfo.PEndDate = SqlDateTime.MinValue.Value;
+                    }
                 }
                 catch
                 {
